@@ -24,7 +24,7 @@ class Curso:
         return self.ideal_duration
     
     def get_min_duration(self):
-        self.min_duration
+         return self.min_duration
 
     def get_max_duration(self):
         return self.max_duration
@@ -37,3 +37,34 @@ class Curso:
     
     def get_elective_optional_subjects(self):
         return self.elective_optional_subjects
+    
+    # ----------------- Setters ----------------- #
+
+    def set_code(self, value):
+        self.code = value
+    
+    def set_name(self, value):
+        self.name = value
+    
+    def set_unit(self, value):
+        self.unit = value
+    
+    def set_ideal_duration(self, value):
+        self.ideal_duration = value
+    
+    def set_min_duration(self, value):
+        self.min_duration = value
+
+    def set_max_duration(self, value):
+        self.max_duration = value
+    
+    def set_mandatory_subjects(self, value):
+        self.mandatory_subjects = value
+    
+    def set_free_elective_subjects(self, value):
+        self.free_elective_subjects = value
+    
+    def set_elective_optional_subjects(self, value):
+        self.elective_optional_subjects = value
+
+    # ----------------- Funcs ----------------- #

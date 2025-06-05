@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 import time
 import os
 
+disciplinas = {} #dicionario de disciplinas
+
 driver = webdriver.Chrome()
 wait = WebDriverWait(driver, 20)
 URL_INICIAL = "https://uspdigital.usp.br/jupiterweb/jupCarreira.jsp?codmnu=8275"
