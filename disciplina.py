@@ -65,8 +65,6 @@ class Disciplina:
 
     # ----------------- Funcs ----------------- #
 
-    
-
     def __str__(self):
         return (
             f"Código: {self.code}\n"
@@ -78,3 +76,16 @@ class Disciplina:
             f"Carga prática (CP): {self.cp}\n"
             f"ATPA: {self.atpa}\n"
         )
+    
+def belongs_to_dict(cod_disciplina):
+    for chave, disciplina_obj in disciplinas.items():
+        if disciplina_obj.code == cod_disciplina:
+            return chave
+    
+    return None 
+
+def add_subject_dict(code, name, class_credits, work_credits, ch, ce, cp, atpa):
+    newdisci =  Disciplina(code, name, class_credits, work_credits, ch, ce, cp, atpa)
+    disciplinas[code] = newdisci
+    
+

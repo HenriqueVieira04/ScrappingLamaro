@@ -1,3 +1,5 @@
+from webdriver_busca import disciplinas
+
 class Curso:
     def __init__(self, name, unit, ideal_duration, min_duration, max_duration, mandatory_subjects, free_elective_subjects, elective_optional_subjects):
         self.name = name
@@ -8,6 +10,7 @@ class Curso:
         self.mandatory_subjects = mandatory_subjects
         self.free_elective_subjects = free_elective_subjects
         self.elective_optional_subjects = elective_optional_subjects
+
 
     # ----------------- Getters ----------------- #
 
@@ -24,7 +27,7 @@ class Curso:
         return self.ideal_duration
     
     def get_min_duration(self):
-         return self.min_duration
+        return self.min_duration
 
     def get_max_duration(self):
         return self.max_duration
@@ -69,14 +72,33 @@ class Curso:
 
     # ----------------- Funcs ----------------- #
 
+    def format_subject_list(self, title, subject_codes_list):
+
+        if not subject_codes_list:
+            return f"{title}\n  Nenhuma\n"
+
+        subject_names = []
+        for code in subject_codes_list:
+            disciplina_obj = disciplinas.get(code)
+            if disciplina_obj:
+                subject_names.append(f"  {disciplina_obj.name} ({code})")
+            else:
+                subject_names.append(f"  Código não encontrado: {code}")
+
+        return f"{title}\n" + "\n".join(subject_names) + "\n"
+
     def __str__(self):
+        obrigatorias_str = self.format_subject_list("Disciplinas obrigatórias:", self.mandatory_subjects)
+        eletivas_livres_str = self.format_subject_list("Disciplinas eletivas livres:", self.free_elective_subjects)
+        optativas_eletivas_str = self.format_subject_list("Disciplinas optativas eletivas:", self.elective_optional_subjects)
+
         return (
             f"Nome: {self.name}\n"
             f"Unidade: {self.unit}\n"
             f"Duração ideal: {self.ideal_duration}\n"
             f"Duração mínima: {self.min_duration}\n"
             f"Duração máxima: {self.max_duration}\n"
-            f"Disciplinas obrigatórias: {self.mandatory_subjects}\n"
-            f"Disciplinas eletivas livres: {self.free_elective_subjects}\n"
-            f"Disciplinas optativas eletivas: {self.elective_optional_subjects}\n"
+            + obrigatorias_str
+            + eletivas_livres_str
+            + optativas_eletivas_str
         )
