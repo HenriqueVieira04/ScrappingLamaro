@@ -2,18 +2,16 @@ from bs4 import BeautifulSoup
 from disciplina import Disciplina
 from curso import Curso
 
-def get_disciplinas_e_curso(path):
+def get_disciplinas_e_curso(path, disciplinas):
     """
         Função que realiza a busca dos dados necessários em um arquivo .html
 
         Parâmetros: 
             path: Caminho do arquivo
+            disciplinas: Dicionário de objetos do tipo Disciplina (chave é o código da Disciplina)
         
         Retorno:
-            curso: Objeto do tipo Curso 
-            disciplinas_obrigatorias: Array de objetos do tipo Disciplina (disciplinas obrigatórias) 
-            disciplinas_livres: Array de objetos do tipo Disciplina (disciplinas livres) 
-            disciplinas_eletivas: Array de objetos do tipo Disciplina (disciplinas eletivas) 
+            curso: Objeto do tipo Curso
     """
 
     # Abertura do arquivo html
@@ -35,8 +33,8 @@ def get_disciplinas_e_curso(path):
     })
 
     # Busca das disciplinas
-    disciplinas = soup.find('div', id="gradeCurricular")
-    tabelas_disciplinas = disciplinas.find_all('table')
+    grade_disciplinas = soup.find('div', id="gradeCurricular")
+    tabelas_disciplinas = grade_disciplinas.find_all('table')
 
     # Inicializa os arrays das disciplinas
     disciplinas_obrigatorias = []
@@ -48,14 +46,15 @@ def get_disciplinas_e_curso(path):
         nome_tipo = tipo.text.strip()
         linhas = tabela.find_all('tr', style="height: 20px;")
 
-        # Cria um array de objetos do tipo Disciplina com todas as disciplinas encontradas
         lista_disciplinas = [
-            # Encontra todas as células (<td>) dentro de uma linha de tabela
-            # Para cada célula da linha, pega o texto com td.text e remove os espaços extras
-            # O conteúdo da lista será passado como argumentos individuais para o construtor da classe Disciplina
             Disciplina(*[td.text.strip() for td in linha.find_all('td')])
             for linha in linhas
         ]
+
+        # Adiciona as disciplinas no dicionário
+        for disciplina in lista_disciplinas:
+            if disciplina.code not in disciplinas:
+                disciplinas[disciplina.code] = disciplina
 
         if nome_tipo == "Disciplinas Obrigatórias":
             disciplinas_obrigatorias = lista_disciplinas
@@ -64,10 +63,13 @@ def get_disciplinas_e_curso(path):
         elif nome_tipo == "Disciplinas Optativas Eletivas":
             disciplinas_eletivas = lista_disciplinas
 
-    curso = Curso(nome_curso, unidade, ideal_dur, min_dur, max_dur, disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas)
+    curso = Curso(nome_curso, unidade, ideal_dur, min_dur, max_dur,
+                  disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas)
 
-    return curso, disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas
+    return curso
+
 
 # Testes
-curso, disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas = get_disciplinas_e_curso("html/bcc.html")
-print(curso)
+disciplinas = {} 
+curso = get_disciplinas_e_curso("html/biotec-each.html", disciplinas)
+print(disciplinas)
