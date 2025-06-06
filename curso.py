@@ -37,3 +37,15 @@ class Curso:
     
     def get_elective_optional_subjects(self):
         return self.elective_optional_subjects
+    
+    def __str__(self):
+        return (
+            f"Curso: {self.name}\n"
+            f"Unidade: {self.unit}\n"
+            f"Duração ideal: {self.ideal_duration} semestres\n"
+            f"Duração mínima: {self.min_duration} semestres\n"
+            f"Duração máxima: {self.max_duration} semestres\n"
+            f"Disciplinas obrigatórias: {len(self.mandatory_subjects)}\n"
+            f"Disciplinas eletivas livres: {len(self.free_elective_subjects)}\n"
+            f"Disciplinas optativas eletivas: {len(self.elective_optional_subjects)}"
+        )
