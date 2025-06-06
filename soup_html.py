@@ -1,23 +1,70 @@
 from bs4 import BeautifulSoup
+from disciplina import Disciplina
 
-with open("html/bcc.html") as fp:
-    soup = BeautifulSoup(fp, 'html.parser')
+def get_disciplinas_e_curso(path):
+    """
+        Função que realiza a busca dos dados necessários em um arquivo .html
 
-unit = soup.find('span', class_="unidade")
+        Parâmetros: 
+            path: Caminho do arquivo
+        
+        Retorno:
+            ideal_dur: Duração ideal do curso
+            min_dur: Duração mínima do curso
+            max_dur: Duração máxima do curso 
+            disciplinas_obrigatorias: Array de objetos do tipo Disciplina (disciplinas obrigatórias) 
+            disciplinas_livres: Array de objetos do tipo Disciplina (disciplinas livres) 
+            disciplinas_eletivas: Array de objetos do tipo Disciplina (disciplinas eletivas) 
+    """
 
-name_course = soup.find('span', class_="curso")
+    # Abertura do arquivo html
+    with open(path) as fp:
+        soup = BeautifulSoup(fp, 'html.parser')
 
-ideal_dur = soup.find('span', class_="duridlhab")
+    # Duração do curso
+    ideal_dur = soup.find('span', class_="duridlhab")
+    min_dur = soup.find('span', class_="durminhab")
+    max_dur = soup.find('span', class_="durmaxhab")
 
-min_dur = soup.find('span', class_="durminhab")
+    # Onde estão os tipos e tabelas de disciplinas
+    tipos_disciplinas = soup.find_all('td', attrs={
+        'style': 'padding: 5px; font-weight: bold;',
+        'colspan': '8'
+    })
 
-max_dur = soup.find('span', class_="durmaxhab")
+    # Busca das disciplinas
+    disciplinas = soup.find('div', id="gradeCurricular")
+    tabelas_disciplinas = disciplinas.find_all('table')
 
-disciplinas = soup.find('div', id="gradeCurricular")
-tabelas = disciplinas.find_all('table')
-for tabela in tabelas:
-    for corpo_tabela in tabela.find_all('tbody'):
-        for linha in corpo_tabela.find_all('tr'):
-            for dados in linha.find_all('td'):
-                print(dados.contents)
+    # Inicializa os arrays das disciplinas
+    disciplinas_obrigatorias = []
+    disciplinas_livres = []
+    disciplinas_eletivas = []
 
+    # Associa cada tipo de disciplina à sua tabela correspondente
+    for tipo, tabela in zip(tipos_disciplinas, tabelas_disciplinas):
+        nome_tipo = tipo.text.strip()
+        linhas = tabela.find_all('tr', style="height: 20px;")
+
+        # Cria um array de objetos do tipo Disciplina com todas as disciplinas encontradas
+        lista_disciplinas = [
+            # Encontra todas as células (<td>) dentro de uma linha de tabela
+            # Para cada célula da linha, pega o texto com td.text e remove os espaços extras
+            # O conteúdo da lista será passado como argumentos individuais para o construtor da classe Disciplina
+            Disciplina(*[td.text.strip() for td in linha.find_all('td')])
+            for linha in linhas
+        ]
+
+        if nome_tipo == "Disciplinas Obrigatórias":
+            disciplinas_obrigatorias = lista_disciplinas
+        elif nome_tipo == "Disciplinas Optativas Livres":
+            disciplinas_livres = lista_disciplinas
+        elif nome_tipo == "Disciplinas Optativas Eletivas":
+            disciplinas_eletivas = lista_disciplinas
+
+    return ideal_dur, min_dur, max_dur, disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas
+
+# Testes
+ideal_dur, min_dur, max_dur, disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas = get_disciplinas_e_curso("html/bcc.html")
+for disciplina in disciplinas_obrigatorias:
+    print(disciplina)
