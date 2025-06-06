@@ -46,6 +46,7 @@ def get_disciplinas_e_curso(path, disciplinas):
         nome_tipo = tipo.text.strip()
         linhas = tabela.find_all('tr', style="height: 20px;")
 
+        # Busca os dados das disciplinas e cria um array de objetos do tipo Disciplina
         lista_disciplinas = [
             Disciplina(*[td.text.strip() for td in linha.find_all('td')])
             for linha in linhas
@@ -56,6 +57,7 @@ def get_disciplinas_e_curso(path, disciplinas):
             if disciplina.code not in disciplinas:
                 disciplinas[disciplina.code] = disciplina
 
+        # Compara o tipo de disciplina e atualiza o array correspondente
         if nome_tipo == "Disciplinas Obrigatórias":
             disciplinas_obrigatorias = lista_disciplinas
         elif nome_tipo == "Disciplinas Optativas Livres":
@@ -63,13 +65,15 @@ def get_disciplinas_e_curso(path, disciplinas):
         elif nome_tipo == "Disciplinas Optativas Eletivas":
             disciplinas_eletivas = lista_disciplinas
 
+    # Cria um objeto do tipo curso com os dados buscados
     curso = Curso(nome_curso, unidade, ideal_dur, min_dur, max_dur,
                   disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas)
 
+    # Retorno do objeto Curso
     return curso
 
 
 # Testes
 disciplinas = {} 
 curso = get_disciplinas_e_curso("html/biotec-each.html", disciplinas)
-print(disciplinas)
+print(curso)
