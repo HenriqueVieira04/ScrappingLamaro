@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 from disciplina import Disciplina
+from curso import Curso
 
 def get_disciplinas_e_curso(path):
     """
@@ -9,9 +10,7 @@ def get_disciplinas_e_curso(path):
             path: Caminho do arquivo
         
         Retorno:
-            ideal_dur: Duração ideal do curso
-            min_dur: Duração mínima do curso
-            max_dur: Duração máxima do curso 
+            curso: Objeto do tipo Curso 
             disciplinas_obrigatorias: Array de objetos do tipo Disciplina (disciplinas obrigatórias) 
             disciplinas_livres: Array de objetos do tipo Disciplina (disciplinas livres) 
             disciplinas_eletivas: Array de objetos do tipo Disciplina (disciplinas eletivas) 
@@ -21,10 +20,13 @@ def get_disciplinas_e_curso(path):
     with open(path) as fp:
         soup = BeautifulSoup(fp, 'html.parser')
 
+    unidade = soup.find('span', class_="unidade").contents[0]
+    nome_curso = soup.find('span', class_="curso").contents[0]
+
     # Duração do curso
-    ideal_dur = soup.find('span', class_="duridlhab")
-    min_dur = soup.find('span', class_="durminhab")
-    max_dur = soup.find('span', class_="durmaxhab")
+    ideal_dur = soup.find('span', class_="duridlhab").contents[0]
+    min_dur = soup.find('span', class_="durminhab").contents[0]
+    max_dur = soup.find('span', class_="durmaxhab").contents[0]
 
     # Onde estão os tipos e tabelas de disciplinas
     tipos_disciplinas = soup.find_all('td', attrs={
@@ -62,9 +64,10 @@ def get_disciplinas_e_curso(path):
         elif nome_tipo == "Disciplinas Optativas Eletivas":
             disciplinas_eletivas = lista_disciplinas
 
-    return ideal_dur, min_dur, max_dur, disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas
+    curso = Curso(nome_curso, unidade, ideal_dur, min_dur, max_dur, disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas)
+
+    return curso, disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas
 
 # Testes
-ideal_dur, min_dur, max_dur, disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas = get_disciplinas_e_curso("html/bcc.html")
-for disciplina in disciplinas_obrigatorias:
-    print(disciplina)
+curso, disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas = get_disciplinas_e_curso("html/bcc.html")
+print(curso)
