@@ -1,0 +1,921 @@
+<html><head>
+<title>Jupiterweb</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Expires" content="-1">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="icon" type="image/x-icon">
+<link href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/menuweb.css" type="text/css" rel="stylesheet">
+<style>
+#layout_principal {
+	width: 100%;
+}
+
+#layout_cabecalho {
+
+}
+
+#layout_menu {
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+}
+
+#layout_conteudo {
+	padding-left: 181px;
+	padding-top: 10px;
+}
+</style><style>.cke{visibility:hidden;}</style></head>
+
+<!--[if IE]>
+	<style>
+		#layout_conteudo {
+			padding-left: 10px;
+			padding-right: 2px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			overflow:auto;
+		}
+	</style>
+	<![endif]-->
+<body>
+
+	<div id="layout_principal">
+		<div id="layout_cabecalho">
+			
+
+<style>
+	a.cabecalho_sair:active  {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:link    {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:visited {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:hover   {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:underline;}
+
+	td.font_cabecalho1 {
+		font:bold 26px Tahoma;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho2 {
+		font:bold 10px Arial;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho3 {
+		font:normal 9px Verdana;
+		color: #FFFFFF;
+	}
+</style>
+
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td width="180" rowspan="3" align="center">
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo.png" width="122" height="49" alt="" border="0" style="position: relative; top: -3px;"></a>
+		</td>
+		<td>
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo-texto.png" alt="" width="260" height="44" border="0" style="position: relative; top: 5px;"></a>
+		</td>
+	</tr>
+</tbody></table>
+<div style="width: 100%; height: 14px; background-image: url('https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/bg-headtop.gif'); margin-bottom: 5px; text-align: right; color: white; padding-top: 12px; padding-right: 3px; font-family: Verdana; font-size: 10px;">
+	
+</div>
+
+		</div>
+
+		<div id="layout_menu">
+			
+
+
+
+
+<!-- FreeStyle Menu v1.0RC by Angus Turnbull http://www.twinhelix.com -->
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/fsmenu.js"></script>
+
+<!-- Demo CSS layouts for the list menu. Pick your favourite one and customise! -->
+<!-- Remove all but one and change "alternate stylesheet" to "stylesheet" to enable -->
+<link rel="stylesheet" type="text/css" id="listmenu-v" href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_v.css" title="Vertical 'Earth'">
+
+<!-- Fallback CSS menu file allows list menu operation when JS is disabled. -->
+<!-- This is automatically disabled via its ID when the script kicks in. -->
+<link rel="alternate stylesheet" type="text/css" id="fsmenu-fallback" href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_fallback.css" disabled="">
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+	var arrow = null;
+	if (document.createElement && document.documentElement) {
+		//arrow = document.createElement('span');
+		//arrow.appendChild(document.createTextNode('>'));
+		// Feel free to replace the above two lines with these for a small arrow image...
+		arrow = document.createElement('img');
+		arrow.src = 'https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif';
+		arrow.style.borderWidth = '0';
+		arrow.className = 'subind';
+	}
+
+	if ("[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2023-2024, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != null && "[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2023-2024, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != '') {
+		// Here's a menu object to control the above list of menu data:
+		var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+		listMenu.hideDelay = 800;
+		//listMenu.showDelay = 0;
+		//listMenu.switchDelay = 125;
+		//listMenu.cssLitClass = 'highlighted';
+		//listMenu.showOnClick = 0;
+		listMenu.hideOnClick = true;
+		listMenu.animInSpeed = 0.5;
+		listMenu.animOutSpeed = 0.5;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu.activateMenu("listMenuRoot", arrow)'));
+	}
+
+	if ("false" != "false") {
+		var listMenu2 = new FSMenu('listMenu2', true, 'display', 'block',
+				'none');
+		listMenu2.hideDelay = 800;
+		listMenu2.hideOnClick = true;
+		listMenu2.animInSpeed = 0.5;
+		listMenu2.animOutSpeed = 0.5;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animFade;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu2.activateMenu("listMenuRoot2", arrow)'));
+	} else {
+		var listMenu3 = new FSMenu('listMenu3', true, 'display', 'block',
+				'none');
+		listMenu3.hideDelay = 800;
+		listMenu3.hideOnClick = true;
+		listMenu3.animInSpeed = 0.5;
+		listMenu3.animOutSpeed = 0.5;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animFade;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu3.activateMenu("listMenuRoot3", arrow)'));
+	}
+	//]]>
+</script>
+
+<!-- PUBLICO -->
+
+	
+	<ul class="menulist" id="listMenuRoot">
+		
+			
+				<li class="menuHeader">Público</li>
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Calendário Escolar</span></a>
+		<ul id="listMenu-id-1">
+
+
+
+
+			
+			
+
+	<li><a href="jupArquivosPublicos.jsp?tiparq=8&amp;anoprg=2025&amp;codmnu=7920" title="">2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="jupArquivosPublicos.jsp?tiparq=9&amp;anoprg=2026&amp;codmnu=6863" title="">2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="jupCarreira.jsp?codmnu=8275" title="">Cursos de ingresso</a></li>
+
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Disciplina</span></a>
+		<ul id="listMenu-id-2">
+
+
+
+
+			
+			
+
+	<li><a href="jupDisciplinaBusca?tipo=D&amp;codmnu=6755" title="">Busca por Disciplinas</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="jupDisciplinaBusca?tipo=T&amp;codmnu=6756" title="">Busca por Turmas</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Editais</span></a>
+		<ul id="listMenu-id-3">
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Programa Unificado de Bolsas(PUB)</span></a>
+		<ul id="listMenu-id-4">
+
+
+
+
+			
+			
+
+	<li><a href="https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2023&amp;codm?codmnu=10872" title="">Edital 2023-2024</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2024&amp;codm?codmnu=11502" title="">Edital 2024-2025</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="http://www.prg.usp.br/?page_id=399?codmnu=6762" title="">PEEG</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="https://prg.usp.br/programas-e-bolsas/?codmnu=10838" title="">PAP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>FAQ</span></a>
+		<ul id="listMenu-id-5">
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Matrícula Interativa</span></a>
+		<ul id="listMenu-id-6">
+
+
+
+
+			
+			
+
+	<li><a href="FAQ.jsp?codmnu=9326" title="">FAQ</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="grdMatriculainterativaInformacoes.jsp?codmnu=9327" title="">Informações gerais</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="graduacaoAjudaNovaMatricula?codmnu=8946" title="Liberar próximo da matricula">TUTORIAL - NOVA MATRÍCULA</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="http://www.prg.usp.br/?p=20746&amp;codmnu=6749" title="">Jupiterweb em Vídeos</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="http://www.prg.usp.br/?p=20741&amp;codmnu=8063" title="">Informações gerais sobre a Graduação</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		
+	
+
+
+
+
+<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- NAO AUTENTICADO -->
+
+	<ul class="menulist" id="listMenuRoot3">
+		<li class="menuHeader">Acesso Restrito</li>
+		<li><a href="webLogin.jsp">Entrar</a></li>
+		<li><a href="esqueciSenha">Esqueci a Senha</a></li>
+		<li><a href="primeiroAcesso">Primeiro Acesso</a></li>
+	</ul>
+	<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- AUTENTICADO -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		</div>
+
+		<div id="layout_conteudo">
+			
+
+			
+
+			
+			
+				
+			
+
+			
+				
+
+
+
+
+<link href="css/apolo.css" type="text/css" rel="stylesheet">
+
+	
+
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/temas/ui-lightness/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/ui.jqgrid.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.css">
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/jupiterweb.css">
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/comum.css">
+
+
+<!-- HTML 5 Tags para IE8 -->
+<!--[if lt IE 9]>
+	   <script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+	   </script>
+	<![endif]-->
+	
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery.ui.datepicker-pt-BR.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/blockUI/2.36/jquery.blockUI.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine-pt.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/jquery.jqGrid.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/grid.locale-pt-br.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/simplemodal/1.4.4/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/exists/0.1/jquery.exists.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maskedInput/1.2.2/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/ckeditor.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/adapters/jquery.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/messages/1.3.0-0/messages.min.js"></script>
+<script type="text/javascript" src="/jupiterweb/dwr/engine.js"></script>
+<script type="text/javascript" src="/jupiterweb/dwr/util.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/usp-exception-dwr.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/comum.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/jupiterweb.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K1Y204Q919"></script>
+<script src="usp-ga4.js"></script>
+
+<style>
+#simplemodal-container a.modalCloseImg {
+	background:
+		url(images/jquery/jquery.simple.modal/x.png)
+		no-repeat; /* adjust url as required */
+}
+</style>
+
+
+
+<style>
+a.link_cabecalho:active {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:link {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:visited {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:hover {
+	font-family: verdana;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline
+}
+
+#my_web_cabecalho {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666666;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+#my_web_cabecalho_descricao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+</style>
+
+
+
+	
+
+
+<div id="my_web_cabecalho">
+	Carreira
+</div>
+
+	
+
+
+
+
+
+
+
+	<br>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="dwr/interface/ControlePublicoDWR.js"></script>
+<script type="text/javascript" src="dwr/interface/CursoControlePublicoDWR.js"></script>
+<script type="text/Javascript" src="javascript/carreira/jupCarreira.js" charset="UTF-8"></script>
+
+
+
+
+	<div id="tabs-local" style="margin-left: 20px; margin-bottom: 20px;">
+		<table width="99%">
+			<tbody><tr>
+				<td>
+					<div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+						<ul class="tabNavigation ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+							<li class="ui-state-default ui-corner-top"><a href="#step1" id="step1-tab">Buscar</a></li>
+							<li class="ui-state-default ui-corner-top"><a href="#step2" id="step2-tab">Informações do curso</a></li>
+							<li class="ui-state-default ui-corner-top"><a href="#step3" id="step3-tab">Projeto pedagógico</a></li>
+							<li class="ui-state-default ui-corner-top ui-state-focus ui-tabs-selected ui-state-active"><a href="#step4" id="step4-tab">Grade curricular</a></li>
+						</ul>
+						<div id="step1" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<div id="formulario" class="dialog-box">
+								<p><font color="#990000">Os campos marcados com * são de preenchimento obrigatório.</font></p>
+								<form id="form1" name="form1" style="padding-top: 3px;" data-gtm-form-interact-id="0" class="">
+								<label><b>Unidade:*</b></label>&nbsp;
+								<select id="comboUnidade" style="margin-bottom: 10px;" class="validate[required]" data-gtm-form-interact-field-id="0">
+									<option value=""></option>
+								<option value="86">Escola de Artes, Ciências e Humanidades - ( EACH )</option><option value="27">Escola de Comunicações e Artes - ( ECA )</option><option value="39">Escola de Educação Física e Esporte - ( EEFE )</option><option value="98">Escola de Educação Física e Esporte de Ribeirão Preto - ( EEFERP )</option><option value="7">Escola de Enfermagem - ( EE )</option><option value="22">Escola de Enfermagem de Ribeirão Preto - ( EERP )</option><option value="88">Escola de Engenharia de Lorena - ( EEL )</option><option value="18">Escola de Engenharia de São Carlos - ( EESC )</option><option value="97">Escola de Engenharia de São Carlos e Instituto de Ciências Matemáticas e de Computação - ( EESC e ICMC )</option><option value="3">Escola Politécnica - ( EP )</option><option value="11">Escola Superior de Agricultura "Luiz de Queiroz" - ( ESALQ )</option><option value="16">Faculdade de Arquitetura e Urbanismo e de Design - ( FAU )</option><option value="9">Faculdade de Ciências Farmacêuticas - ( FCF )</option><option value="60">Faculdade de Ciências Farmacêuticas de Ribeirão Preto - ( FCFRP )</option><option value="2">Faculdade de Direito - ( FD )</option><option value="89">Faculdade de Direito de Ribeirão Preto - ( FDRP )</option><option value="81">Faculdade de Economia, Administração e Contabilidade de Ribeirão Preto - ( FEARP )</option><option value="12">Faculdade de Economia, Administração, Contabilidade e Atuária - ( FEA )</option><option value="48">Faculdade de Educação - ( FE )</option><option value="59">Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto - ( FFCLRP )</option><option value="8">Faculdade de Filosofia, Letras e Ciências Humanas - ( FFLCH )</option><option value="5">Faculdade de Medicina - ( FM )</option><option value="24">Faculdade de Medicina de Bauru - ( FMBRU )</option><option value="17">Faculdade de Medicina de Ribeirão Preto - ( FMRP )</option><option value="10">Faculdade de Medicina Veterinária e Zootecnia - ( FMVZ )</option><option value="23">Faculdade de Odontologia - ( FO )</option><option value="25">Faculdade de Odontologia de Bauru - ( FOB )</option><option value="58">Faculdade de Odontologia de Ribeirão Preto - ( FORP )</option><option value="6">Faculdade de Saúde Pública - ( FSP )</option><option value="74">Faculdade de Zootecnia e Engenharia de Alimentos - ( FZEA )</option><option value="66">Física Médica - Instituto de Física e Faculdade de Medicina - ( Física Méd - IF e FM )</option><option value="99">Instituto de Arquitetura e Urbanismo de São Carlos - ( IAU )</option><option value="14">Instituto de Astronomia, Geofísica e Ciências Atmosféricas - ( IAG )</option><option value="41">Instituto de Biociências - ( IB )</option><option value="42">Instituto de Ciências Biomédicas - ( ICB )</option><option value="55">Instituto de Ciências Matemáticas e de Computação - ( ICMC )</option><option value="43">Instituto de Física - ( IF )</option><option value="76">Instituto de Física de São Carlos - ( IFSC )</option><option value="44">Instituto de Geociências - ( IGc )</option><option value="45">Instituto de Matemática e Estatística - ( IME )</option><option value="47">Instituto de Psicologia - ( IP )</option><option value="46">Instituto de Química - ( IQ )</option><option value="75">Instituto de Química de São Carlos - ( IQSC )</option><option value="87">Instituto de Relações Internacionais - ( IRI )</option><option value="21">Instituto Oceanográfico - ( IO )</option><option value="90">Interunidades de Licenciatura IFSC/IQSC/ICMC - ( Inter IFSC/IQSC/ICMC )</option><option value="1">Pró-Reitoria de Graduação - ( Pró-G )</option></select>
+								<br>
+								<label><b>Curso:*</b></label>&nbsp;
+								<select id="comboCurso" style="margin-bottom: 15px;" class="validate[required]" data-gtm-form-interact-field-id="1">
+								<option value=""></option><option value="43021|100">Física - Bacharelado - integral</option><option value="43021|104">Física - Bacharelado - noturno</option><option value="43031|0">Física - Licenciatura - integral</option><option value="43031|4">Física - Licenciatura - noturno</option></select>
+								<br>
+                                </form>
+								<button id="enviar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Buscar</span></button>&nbsp;&nbsp;
+								<button id="limpar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Limpar</span></button>
+								<br>
+							</div>
+						</div>
+						<div id="step2" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Instituto de Física - ( IF )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Física - Licenciatura - noturno</span></div>
+										<div style="margin-bottom: 5px;"><b>Duração:</b>&nbsp;<span class="duridlhab">10</span>&nbsp;semestres</div><br>
+										<b style="font-size: 12px;">Descrição de perfil de aluno</b><br>
+										<p style="text-align: justify;" class="descricaoPerfilAluno"><p>Na USP cerca de 30% dos alunos são oriundos da escola pública, no caso da Licenciatura em Física esse número é de cerca de 50%. A aprovação das cotas pelo Conselho Universitário da USP em 2017 pouco altera o perfil dos ingressantes no curso em termos de perfil econômico-social, mas avançará em termos de diversidade étnico-racial.</p>
+
+<p>Outros elementos relacionados ao perfil do ingressante foram já sistematizados, a partir de dados coletados ao longo de vários anos e de algumas pesquisas de mestrado e doutorado sobre o curso. O conhecimento do perfil se torna fundamental para que não apenas medidas auxiliares possam ajudar na progressão dos estudantes ao longo do curso, mas para que toda grade curricular seja pensada em função das características dos alunos ingressantes.</p>
+
+<p>O curso tem uma procura não muito alta no que diz respeito à relação candidato/vaga, o que faz com que as notas de corte no vestibular sejam relativamente baixas. Isso indica, de certa forma, a necessidade de uma maior ênfase, nas disciplinas iniciais, tanto para criar hábitos de estudo como para superar possíveis lacunas da formação desenvolvida no Ensino Médio. Por outro lado, estudos indicam que a correlação entre o desempenho no vestibular e o desempenho ao longo do curso não é muito significativa. Em muitos casos, prevalece a determinação de um conjunto de jovens que está tendo a oportunidade de ingressar em uma universidade pública, algo para eles muito significativo. Além disso, bons programas de permanência estudantil são elementos fundamentais para que estudantes de renda mais baixa possam passar mais tempo na universidade e desenvolver seus estudos com qualidade.</p>
+
+<p>Quanto às expectativas que os movem na opção pela licenciatura, pesquisas indicam que nem todos os ingressantes optaram por esse curso com o objetivo de serem professores, em especial estudantes do noturno. Contudo, o principal fator externo de desmotivação à realização do curso é a baixa valorização social e econômica da carreira docente. Isso faz com que estudantes procurem outros cursos, muitas vezes após completar boa parte dos créditos da licenciatura.</p>
+
+<p>Esse aspecto requer atenção ao longo de todo o curso. Foi possível constatar que essas opções iniciais não permanecem constantes. Nesse sentido, é importante que haja frequentes discussões, em diferentes momentos, sobre a identidade profissional do professor e sua relevância social, no sentido de esclarecer e cooptar os alunos para um trabalho futuro na área. É preciso, também, enfrentar e discutir abertamente o preconceito em relação aos licenciandos, tanto por parte de alunos do bacharelado como de alguns professores. A partir do depoimento de alguns egressos, foi possível constatar a importância da valorização da educação para suas opções e carreiras.</p>
+
+<p>De uma maneira geral, muitos alunos trabalham, especialmente aqueles do curso noturno, o que dificulta o tempo de dedicação ao curso. O nível de reprovação em determinadas e específicas disciplinas é, muitas vezes, alto, requerendo atenção especial. Além disso, os estudos de evasão mostraram que ela é alta tanto no início do curso (o que é, de certa forma, esperado) como no final. Um número significativo de alunos desiste com mais da metade dos créditos completados.</p>
+
+<p>A diminuição da evasão é uma das preocupações da CoC. Para isso buscou-se um levantamento do perfil dos alunos ingressantes e das dificuldades encontradas por eles nesse primeiro ano e organizou-se algumas ações de complementação na formação dos estudantes, tais como cursos extras de matemática básica, monitorias especiais, atividades extras via <em>moodle</em> etc.</p>
+
+<p>Levar em conta as condições reais é um aspecto fundamental para a organização curricular. Assim, com base nessas considerações, os objetivos desejados e as condições de realização do curso são elementos centrais para constituição de um curso que promova todos os alunos interessados em finalizá-lo.</p></p><br>
+										<b style="font-size: 12px;">Objetivos do curso</b><br>
+										<p style="text-align: justify;" class="objetivos"><p>Diante das expectativas oriundas das prioridades e saberes fundamentais que se espera para a formação do aluno da educação básica e, dessa forma, do perfil necessário ao professor de Física, espera-se, portanto, que este profissional:</p>
+
+<p>- Tenha consciência da função social do ser professor de Física, compreendendo sua atividade como a de educador, e assim promovendo uma formação em física capaz de integrar os jovens, de maneira consciente e ativa, à sociedade atual.</p>
+
+<p>- Tenha um domínio dos caminhos do conhecimento, tanto científico como educacional, de tal forma que possa deles fazer uso, no sentido de promover a educação científica em diferentes contextos, através da elaboração de diferentes meios e com diferentes objetivos.</p>
+
+<p>- Compreenda o conhecimento de forma dinâmica, reconhecendo o processo histórico de construção da ciência e os espaços sociais, institucionais e culturais que ela atualmente ocupa, assim como as responsabilidades decorrentes dessa compreensão.</p>
+
+<p>- Tenha conhecimento das teorias pedagógicas, de sua base fenomenológica e prática, de modo a assegurar sua ação docente; conhecimento prático da docência, o qual transcende os conhecimentos teóricos, e que são adquiridos na vivência das situações educacionais.</p>
+
+<p>Espera-se que esse profissional seja capaz de integrar os dois conhecimentos, o físico e o pedagógico, em toda sua prática, de forma articulada e produtiva. E que, para isso, reconheça a necessidade de atualização contínua, em relação às novas investigações desenvolvidas em ambas essas áreas do conhecimento. Além disso, espera-se que ele seja capaz de refletir sobre sua própria prática, tornando-a um objeto constante de estudo, no sentido de se auto-avaliar e propor novas respostas às contínuas mudanças das situações e desafios escolares e educacionais.</p>
+
+<p>Do ponto de vista dos conhecimentos desejados, de uma maneira geral, o currículo de um curso de formação inicial deve promover uma formação científica sólida e ampla, que capacite os futuros professores a compreender a Física, o universo tecnológico e os avanços atuais da ciência, utilizando com desenvoltura a linguagem matemática que lhe é característica. Paralelamente, deve propiciar a formação pedagógica, que os habilite à prática docente competente e compromissada com os ideais maiores da educação, na perspectiva do contexto social, político e cultural brasileiro.</p>
+
+<p>Para isso, será essencial incorporar conteúdos atualizados e os resultados recentes das pesquisas na área de educação. Neste sentido será também essencial superar a dicotomia entre conhecimentos científicos e conhecimentos pedagógicos, buscando uma articulação mais profunda entre essas dimensões, em todos os momentos do curso.</p>
+
+<p>A partir dos resultados de investigações desenvolvidas no âmbito das pesquisas em Ensino de Física e formação de professores, podem ser identificados alguns objetivos formativos específicos, com potencial para orientar a organização e estrutura curricular e promover tal formação.</p>
+
+<p>Assim, o curso deve priorizar, como objetivos específicos, os meios para promover:</p>
+
+<ol>
+	<li>O domínio dos conhecimentos científicos e das teorias físicas de forma atualizada, de seus procedimentos, experimentos, linguagem matemática, métodos e modelos. Compreender esse conhecimento como instrumento para promover a interpretação física do mundo natural e tecnológico, desde as teorias cosmológicas sobre a formação do universo, até fenômenos, processos e objetos tecnológicos do mundo contemporâneo.</li>
+	<li>O domínio da natureza e forma de abordagem desses conhecimentos, necessária para reconhecer e estimular a contribuição do conhecimento físico na compreensão de diferentes temas, em espaços interdisciplinares e contextualizados.</li>
+	<li>O reconhecimento da natureza da ciência como um processo de construção histórica, em contínua transformação, e profunda interação com o desenvolvimento social e, por extensão desse reconhecimento, desenvolver uma compreensão crítica do papel social da ciência e tecnologia no cenário contemporâneo, o que inclui questões como sustentabilidade e inserção cultural.</li>
+	<li>O domínio dos conhecimentos em educação e teorias pedagógicas, assim como do cenário educacional brasileiro, das propostas curriculares e das políticas educacionais vigentes e, ainda, dominar os meios para acompanhar as contribuições das pesquisas mais recentes para a compreensão dos processos de ensino-aprendizagem e das ferramentas didáticas.</li>
+	<li>O conhecimento das experiências, propostas e projetos já desenvolvidos no campo do Ensino de Física, assim como do uso de diferentes meios, com atenção especial ao papel das tecnologias de informação e comunicação contemporâneas com o desenvolvimento de práticas que articulem os conhecimentos físicos com situações de ensino-aprendizagem.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p>Certamente esses objetivos são por demais amplos, mas ter em mente tais perspectivas é essencial para superar as tendências institucionais que, de forma muitas vezes inconsciente e implícita, procuram reproduzir, na formação de professores, os papéis e concepções profissionais.</p></p><br>
+										<b style="font-size: 12px;">Competências / Habilidades</b><br>
+										<p style="text-align: justify;" class="competencias"><p><strong>Perfil do Professor de Física.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>Considerando as prioridades definidas para os alunos do Ensino Médio, as atuais Diretrizes para a Formação de Professores da Educação Básica (CNE, 2002) e as propostas e discussões que têm derivado dos estudos do campo da formação de professores, em especial, as que se referem aos saberes fundamentais para o exercício profissional de professores de ciências, estabelece-se neste projeto um conjunto de saberes que deverão, prioritariamente, compor o seu perfil profissional do professor de física.</p>
+
+<p><strong>Saberes do domínio conceitual.</strong></p>
+
+<p>1)&nbsp;&nbsp; Compreender o papel do professor, da escola e do Ensino de Física no processo educativo do cidadão brasileiro, considerando as dimensões cultural, social, política e econômica da educação (finalidades e contexto);</p>
+
+<p>2)&nbsp;&nbsp; Compreender o papel da ciência na sociedade contemporânea;</p>
+
+<p>3)&nbsp;&nbsp; Conhecer os principais processos educativos formais e não-formais que potencializam a aprendizagem dos estudantes nesta fase de escolarização, o que significa saber articular conhecimentos sobre:</p>
+
+<p>- A matéria a ser ensinada: conhecimento substantivo - conteúdos da Física e Ciências afins (teoria e prática) e conhecimento sintático – História e Filosofia da Ciência; conhecimentos sobre orientações e propostas curriculares;</p>
+
+<p>- As relações da Física com outros campos do conhecimento, em especial as que se referem à Ciência, à Tecnologia, à Sociedade e ao Meio Ambiente, como a Física Ambiental e as questões de sustentabilidade;</p>
+
+<p>- Os processos de aprendizagem derivados de diferentes contextos educativos: elementos cognitivos, afetivos e sociais que envolvem as características de estudantes (jovens e adultos) e de seus processos de desenvolvimento relativos a diferentes grupos sociais, culturais e a pessoas com necessidades especiais;</p>
+
+<p>&nbsp;- As alternativas para o ensino dos conteúdos das várias áreas da Física e de modos de articulação com outras áreas nos diferentes contextos - sala de aula, escola, instituições de educação não formal, educação à distância- o que envolve diferentes práticas educativas, recursos didáticos; gestão de classe e uso de Tecnologias da Informação e Comunicação;</p>
+
+<p>- As características sobre os contextos: escola, comunidade, cidade, país, mundo;</p>
+
+<p>- Os processos e resultados da pesquisa na área da física e de ensino de física.</p>
+
+<p><strong>Saberes do Domínio Procedimental</strong></p>
+
+<p>4)&nbsp;&nbsp; Desenvolver uma atuação colaborativa na escola: participação nas atividades educativas compartilhadas pelos professores, como a organização curricular e de espaços educativos;</p>
+
+<p>5)&nbsp;&nbsp; Elaborar apropriação crítica sobre os avanços das Ciências, da Física, da Educação e do Ensino de Física, integrando-os ao seu trabalho com base criteriosa nas análises sobre sua própria prática profissional;</p>
+
+<p>6)&nbsp;&nbsp; Conduzir de forma apropriada diferentes procedimentos de ensino de modo a promover a aprendizagem dos estudantes, tais como: realização de planos de trabalho adequados aos diferentes contextos, desenvolvimento e gestão de atividades em sala de aula que desenvolvam as relações entre as dimensões teóricas e as dimensões práticas da física e de suas relações com outros campos do saber;</p>
+
+<p>7)&nbsp;&nbsp; Realizar avaliações de caráter diagnóstico com a identificação de problemas na aprendizagem dos estudantes e propor alternativas para sua superação;</p>
+
+<p><strong>Saberes do Domínio Atitudinal</strong></p>
+
+<p>8)&nbsp;&nbsp; Desenvolver afetividade positiva para com os estudantes; com os pares e com a comunidade escolar;</p>
+
+<p>9)&nbsp;&nbsp; Posicionar-se de forma democrática, participativa e comprometida com a aprendizagem dos alunos, com a melhoria da escola e da sociedade;</p>
+
+<p>10) Manter uma atitude reflexiva, investigativa e crítica sobre sua prática profissional, buscando a elaboração dos saberes necessários à melhoria da atuação docente e de seu desenvolvimento profissional permanente;</p>
+
+<p>11) Posicionar-se de forma autônoma e criativa diante de problemas de caráter educativo.</p>
+
+<p>Dada a amplitude e complexidade do conjunto de saberes necessários ao professor de física, a expectativa nesta proposta é que a formação desenvolvida no curso de licenciatura possa estabelecer as principais bases para o início da elaboração dos saberes mencionados e de seu enraizamento na atuação docente. Espera-se, assim, que a completude e o aprofundamento de tais saberes se deem ao longo do processo de desenvolvimento profissional potencializado por programas de formação continuada.</p>
+
+<p>&nbsp;</p></p><br>
+										<b style="font-size: 12px;">Outras informações</b><br>
+										<p style="text-align: justify;" class="informacoes"><p>ESPAÇOS FORMATIVOS COMPLEMENTARES</p>
+
+<p>A formação do aluno pode ser complementada com diversas atividades ligadas a programas institucionais, tais como Iniciação a Docência, atividades de pesquisa ligados a programas de Iniciação científica, ou atividades de extensão e programas de monitorias em disciplinas da graduação. Essas oportunidades constituem um espaço complementar de formação contemplando distintas dimensões, da pesquisa ou da prática docente.</p>
+
+<p>- PIBID</p>
+
+<p>O Programa Institucional de Bolsas de Iniciação à Docência (PIBID) tem como uma de suas características principais a valorização da parceria entre Universidade e Escola. Um de seus objetivos é possibilitar que novas práticas de ensino possam ser pensadas de acordo com as características e necessidades da escola vivenciada pelos diferentes bolsistas que atuam no projeto. Considerando estes pressupostos, o subprojeto Física-USP busca colocar o reconhecimento do espaço escolar e suas necessidades como base principal do trabalho. A partir disto, diferentes atividades destinadas ao Ensino de Física são elaboradas, implementadas e avaliadas pelos participantes do projeto, que inclui alunos de graduação, professores de Física da escola e orientadores (docentes da universidade). Atualmente o projeto conta com 30 bolsistas de iniciação à docência, 6 professores de Física de diferentes escolas e duas docentes do IFUSP que orientam os trabalhos.</p>
+
+<p>- Programa Unificado de Bolsas - USP</p>
+
+<p>O Programa Unificado de Bolsas é composto pelos Programas Ensinar com Pesquisa e Aprender com Cultura e Extensão.</p>
+
+<p>O Programa Ensinar com Pesquisa é desenvolvido pela Pró-Reitoria de Graduação da USP.&nbsp;De acordo com ela, o programa visa incentivar docentes e alunos a investirem no desenvolvimento de projetos de pesquisa de iniciação científica que tratem de temáticas voltadas ao aperfeiçoamento e à qualificação do estudante o que, consequentemente, resultará na melhoria dos cursos de graduação.</p>
+
+<p>Desta forma, os projetos desenvolvidos pelos alunos têm as características comuns às pesquisas desenvolvidas na universidade. Contudo, busca-se que os resultados das mesmas possam gerar materiais (textos, experiências etc) que possam apoiar os cursos de graduação. Anualmente cerca de 20 alunos de licenciatura em Física participam deste programa, desenvolvendo projetos de pesquisa próprios à formação de professores.</p>
+
+<p>O Programa Aprender com Cultura e Extensão é promovido pela Pró-Reitoria de Cultura e Extensão da USP.&nbsp;De acordo com ela, seu objetivo é <em>fomentar as ações de cultura e extensão por meio da interação das atividades de pesquisa do corpo discente da graduação, em projetos, de forma a contribuir para a sua formação. Propõe-se, assim, a apoiar projetos desta natureza, em temáticas voltadas para os desafios da realidade intra e extrauniversidade</em>.</p>
+
+<p>Neste programa, os alunos participam, em especial, de atividades de divulgação científica desenvolvidas pelo IFUSP. Entre elas, duas atividades recebem a participação de mais alunos: o <em>Show da Física</em> e o <em>Arte e Ciência no Parque</em>. Estas iniciativas buscam apresentar conceitos da Física de forma lúdica, para um público amplo e não especializado. Cerca de 30 alunos participam destes projetos por ano.</p>
+
+<p>- Programa de Estímulo ao Ensino de Graduação</p>
+
+<p>Este programa é desenvolvido pela Pró-Reitoria de Graduação da USP. Seu principal objetivo é permitir que os alunos desenvolvam atividades e atuem como educadores em cursos de Graduação. Assim, o programa é um espaço formativo relevantes, pois permite tanto o aprofundamento na área do conhecimento da disciplina que o estudantes atua, quanto permite uma vivência efetiva de um espaço educacional.</p>
+
+<p>Em cursos nos quais atividades práticas e dinâmicas coletivas são realizadas, os estudantes bolsistas do programa atuam em sala de aula, auxiliando o docente responsável. Atualmente, cerca de 20 alunos participam do programa por semestre, participando de disciplinas das diferentes áreas do conhecimento que compõe o curso.</p>
+
+<p>&nbsp;</p></p><br>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div id="step3" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Instituto de Física - ( IF )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Física - Licenciatura - noturno</span></div><br>
+										<iframe id="documento" name="documento" style="width: 700px; height: 650px;"></iframe>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div id="step4" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Instituto de Física - ( IF )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Física - Licenciatura - noturno</span></div>
+										<div style="margin-bottom: 5px;"><b>Duração</b></div>
+										<div style="margin-bottom: 5px;"><b>Ideal:</b>&nbsp;<span class="duridlhab">10</span>&nbsp;semestres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Mínima:</b>&nbsp;<span class="durminhab">8</span>&nbsp;semestres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Máxima:</b>&nbsp;<span class="durmaxhab">15</span>&nbsp;semestres</div><br>
+										<b style="font-size: 12px;">Informações específicas</b><br>
+										<p style="text-align: justify;" class="informacoesEspecificas">O (a) estudante deve cursar, obrigatoriamente, uma das disciplinas&nbsp;que compõe o bloco de Psicologia da Educação (EDF0292 ou EDF0294 ou&nbsp;EDF0296 ou EDF0298) oferecidas pela FEUSP.<br><br>O estudante deve cursar, obrigatoriamente, uma entre as disciplinas 4300378&nbsp;Introdução à Física Nuclear e de Partículas Elementares - Física Moderna IIA e 4300379&nbsp;Introdução à Física do Estado Sólido - Física Moderna IIB.</p><br>
+										<div style="padding-left: 3px;">
+										<b>Legenda</b>: CH = Carga horária Total; CE = Carga horária de Estágio; CP = Carga horária de Práticas como Componentes Curriculares; ATPA = Atividades Teórico-Práticas de Aprofundamento
+										</div>
+										<div id="gradeCurricular"><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Obrigatórias</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">1º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300151" class="disciplina">4300151</a></td><td>Fundamentos de Mecânica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300157" class="disciplina">4300157</a></td><td>Ciência, Educação e Linguagem</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300160" class="disciplina">4300160</a></td><td>Ótica</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT0105" class="disciplina">MAT0105</a></td><td>Geometria Analítica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT1351" class="disciplina">MAT1351</a></td><td>Cálculo para Funções de Uma Variável Real I</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">2º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300152" class="disciplina">4300152</a></td><td>Introdução às Medidas em Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300153" class="disciplina">4300153</a></td><td>Mecânica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300151 - Fundamentos de Mecânica</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300156" class="disciplina">4300156</a></td><td>Gravitação</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDM0402" class="disciplina">EDM0402</a></td><td>Didática</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT1352" class="disciplina">MAT1352</a></td><td>Cálculo para Funções de Uma Variável Real II</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1351 - Cálculo para Funções de Uma Variável Real I</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">3º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300159" class="disciplina">4300159</a></td><td>Física do Calor</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300151 - Fundamentos de Mecânica</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300254" class="disciplina">4300254</a></td><td>Laboratório de Mecânica</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300152 - Introdução às Medidas em Física</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300153 - Mecânica</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300255" class="disciplina">4300255</a></td><td>Mecânica dos Corpos Rígidos e dos Fluidos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300153 - Mecânica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1351 - Cálculo para Funções de Uma Variável Real I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT2351" class="disciplina">MAT2351</a></td><td>Cálculo para Funções de Várias Variáveis I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1352 - Cálculo para Funções de Uma Variável Real II</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">4º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300259" class="disciplina">4300259</a></td><td>Termo-estatística</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300159 - Física do Calor</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1352 - Cálculo para Funções de Uma Variável Real II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300270" class="disciplina">4300270</a></td><td>Eletricidade e Magnetismo I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1351 - Cálculo para Funções de Uma Variável Real I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300356" class="disciplina">4300356</a></td><td>Elementos e Estratégia para o Ensino de Física e Ciências</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300156 - Gravitação</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300157 - Ciência, Educação e Linguagem</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDA0463" class="disciplina">EDA0463</a></td><td>Política e Organização da Educação Básica no Brasil</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">120</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT2352" class="disciplina">MAT2352</a></td><td>Cálculo para Funções de Várias Variáveis II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT2351 - Cálculo para Funções de Várias Variáveis I</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">5º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300271" class="disciplina">4300271</a></td><td>Eletricidade e Magnetismo II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300270 - Eletricidade e Magnetismo I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300357" class="disciplina">4300357</a></td><td>Oscilações e Ondas</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300255 - Mecânica dos Corpos Rígidos e dos Fluidos</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300358" class="disciplina">4300358</a></td><td>Propostas e Projetos para o Ensino de Física e Ciências</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300356 - Elementos e Estratégia para o Ensino de Física e Ciências</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300373" class="disciplina">4300373</a></td><td>Laboratório de Eletromagnetismo</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300152 - Introdução às Medidas em Física</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300270 - Eletricidade e Magnetismo I</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300390" class="disciplina">4300390</a></td><td>Práticas em Ensino de Física e Ciências</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">120</td><td style="width: 100px; text-align: right; padding-right: 5px;">100</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300356 - Elementos e Estratégia para o Ensino de Física e Ciências</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">6º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300372" class="disciplina">4300372</a></td><td>Eletromagnetismo</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300160 - Ótica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT0105 - Geometria Analítica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT2351 - Cálculo para Funções de Várias Variáveis I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300271 - Eletricidade e Magnetismo II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300374" class="disciplina">4300374</a></td><td>Relatividade</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300156 - Gravitação</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300153 - Mecânica</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300377" class="disciplina">4300377</a></td><td>Evidências Experimentais da Natureza Quântica da Radiação e da Matéria</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300373 - Laboratório de Eletromagnetismo</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300271 - Eletricidade e Magnetismo II</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">7º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300371" class="disciplina">4300371</a></td><td>Introdução à Mecânica Quântica Ondulatória</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300377 - Evidências Experimentais da Natureza Quântica da Radiação e da Matéria</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300458" class="disciplina">4300458</a></td><td>Complementos de Mecânica Clássica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300357 - Oscilações e Ondas</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT2352 - Cálculo para Funções de Várias Variáveis II</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">9º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300415" class="disciplina">4300415</a></td><td>Projetos - ATPA</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">200</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDM0425" class="disciplina">EDM0425</a></td><td>Metodologia do Ensino de Física I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">150</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MFT0964" class="disciplina">MFT0964</a></td><td>Língua de Sinais para Profissionais da Saúde</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">120</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">10º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDM0426" class="disciplina">EDM0426</a></td><td>Metodologia do Ensino de Física II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">150</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">EDM0425 - Metodologia do Ensino de Física I</td><td colspan="6">Requisito</td></tr></tbody></table><br><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Optativas Livres</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">3º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IEE0003" class="disciplina">IEE0003</a></td><td>Aplicações da Energia Solar Térmica</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">4º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IEE0004" class="disciplina">IEE0004</a></td><td>Aplicações da Energia Solar Fotovoltaica</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr></tbody></table><br><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Optativas Eletivas</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">1º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300231" class="disciplina">4300231</a></td><td>Introdução à Epistemologia das Ciências</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="AGA0106" class="disciplina">AGA0106</a></td><td>Astronomia de Posição</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">2º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300218" class="disciplina">4300218</a></td><td>Introdução à Física Computacional I</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300151 - Fundamentos de Mecânica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1351 - Cálculo para Funções de Uma Variável Real I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300220" class="disciplina">4300220</a></td><td>Processos Criativos em Ciências: da Imaginação à Divulgação Científica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDF0285" class="disciplina">EDF0285</a></td><td>Introdução aos Estudos da Educação: Enfoque Filosófico</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDF0287" class="disciplina">EDF0287</a></td><td>Introdução aos Estudos da Educação: Enfoque Histórico</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDF0289" class="disciplina">EDF0289</a></td><td>Introdução aos Estudos da Educação: Enfoque Sociológico</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAE0116" class="disciplina">MAE0116</a></td><td>Noções de Estatística</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT0122" class="disciplina">MAT0122</a></td><td>Álgebra Linear I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT0105 - Geometria Analítica</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">3º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="0440620" class="disciplina">0440620</a></td><td>Geologia Geral</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300234" class="disciplina">4300234</a></td><td>Física no Ensino Fundamental</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300318" class="disciplina">4300318</a></td><td>Introdução à Física Computacional II</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300153 - Mecânica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300218 - Introdução à Física Computacional I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1352 - Cálculo para Funções de Uma Variável Real II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACA0115" class="disciplina">ACA0115</a></td><td>Introdução às Ciências Atmosféricas</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">120</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="AGA0215" class="disciplina">AGA0215</a></td><td>Fundamentos de Astronomia</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDF0290" class="disciplina">EDF0290</a></td><td>Teorias do desenvolvimento, Práticas Escolares e Processos de Subjetivação</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDF0292" class="disciplina">EDF0292</a></td><td>Psicologia Histórico-Cultural e Educação</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDF0294" class="disciplina">EDF0294</a></td><td>Psicologia da educação: constituição do sujeito, desenvolvimento e aprendizagem na escola,cultura e sociedade</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDF0296" class="disciplina">EDF0296</a></td><td>Psicologia da Educação : Uma Abordagem Psicossocial do Cotidiano Escolar</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDF0298" class="disciplina">EDF0298</a></td><td>Psicologia da Educação, Desenvolvimento e Práticas Escolares</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAC0115" class="disciplina">MAC0115</a></td><td>Introdução à Computação para Ciências Exatas e Tecnologia</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">4º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300225" class="disciplina">4300225</a></td><td>Métodos da Fisica Teórica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1352 - Cálculo para Funções de Uma Variável Real II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300266" class="disciplina">4300266</a></td><td>Partículas - a Dança da Matéria e dos Campos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300255 - Mecânica dos Corpos Rígidos e dos Fluidos</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="AGA0317" class="disciplina">AGA0317</a></td><td>Experimentos de Astronomia</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">AGA0215 - Fundamentos de Astronomia</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="AGA0502" class="disciplina">AGA0502</a></td><td>Planetas e Sistemas Planetários</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300153 - Mecânica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1352 - Cálculo para Funções de Uma Variável Real II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDA0644" class="disciplina">EDA0644</a></td><td>Educação especial, inclusão escolar e políticas de atendimento a alunos com deficiência, transtornos globais do desenvolvimento e altas habilidades/superdotação</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="EDM0698" class="disciplina">EDM0698</a></td><td>Currículo e Avaliação</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">5º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300351" class="disciplina">4300351</a></td><td>Física do Meio Ambiente</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300159 - Física do Calor</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4302204" class="disciplina">4302204</a></td><td>Física Matemática I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT2352 - Cálculo para Funções de Várias Variáveis II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="QFL0605" class="disciplina">QFL0605</a></td><td>Química Geral</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">6º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300436" class="disciplina">4300436</a></td><td>Efeitos Biológicos das Radiações Ionizantes e Não Ionizantes</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300357 - Oscilações e Ondas</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300271 - Eletricidade e Magnetismo II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4302305" class="disciplina">4302305</a></td><td>Mecânica I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300357 - Oscilações e Ondas</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4302360" class="disciplina">4302360</a></td><td>Aceleradores de Partículas: Fundamentos e Aplicações</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300271 - Eletricidade e Magnetismo II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="AGA0309" class="disciplina">AGA0309</a></td><td>Mecânica Celeste</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT2352 - Cálculo para Funções de Várias Variáveis II</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">7º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300325" class="disciplina">4300325</a></td><td>Física do Corpo Humano</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300357 - Oscilações e Ondas</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300159 - Física do Calor</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300270 - Eletricidade e Magnetismo I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1352 - Cálculo para Funções de Uma Variável Real II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300346" class="disciplina">4300346</a></td><td>Física da Poluição do Ar</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300271 - Eletricidade e Magnetismo II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300441" class="disciplina">4300441</a></td><td>Detectores de Radiação</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300271 - Eletricidade e Magnetismo II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4302303" class="disciplina">4302303</a></td><td>Eletromagnetismo I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300372 - Eletromagnetismo</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4302401" class="disciplina">4302401</a></td><td>Mecânica Estatística</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT2352 - Cálculo para Funções de Várias Variáveis II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300259 - Termo-estatística</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAP0214" class="disciplina">MAP0214</a></td><td>Cálculo Numérico com Aplicações em Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT1352 - Cálculo para Funções de Uma Variável Real II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAC0115 - Introdução à Computação para Ciências Exatas e Tecnologia</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">8º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300320" class="disciplina">4300320</a></td><td>Introdução ao Caos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300357 - Oscilações e Ondas</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300372 - Eletromagnetismo</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAC0115 - Introdução à Computação para Ciências Exatas e Tecnologia</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300353" class="disciplina">4300353</a></td><td>Tópicos de História da Física Clássica</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300372 - Eletromagnetismo</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300378" class="disciplina">4300378</a></td><td>Introdução à Física Nuclear e de Partículas Elementares - Física Moderna IIA</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300371 - Introdução à Mecânica Quântica Ondulatória</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300379" class="disciplina">4300379</a></td><td>Introdução à Física do Estado Sólido -  Física Moderna IIB</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300371 - Introdução à Mecânica Quântica Ondulatória</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300380" class="disciplina">4300380</a></td><td>Ciência e Cultura</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300430" class="disciplina">4300430</a></td><td>Introdução à Cosmologia Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300374 - Relatividade</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300491" class="disciplina">4300491</a></td><td>Introdução à Pesquisa em Ensino de Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300356 - Elementos e Estratégia para o Ensino de Física e Ciências</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4302214" class="disciplina">4302214</a></td><td>Física Experimental IV</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">120</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300373 - Laboratório de Eletromagnetismo</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="AGA0315" class="disciplina">AGA0315</a></td><td>Astrofísica de Altas Energias</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300371 - Introdução à Mecânica Quântica Ondulatória</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">AGA0215 - Fundamentos de Astronomia</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="AGA0416" class="disciplina">AGA0416</a></td><td>Introdução à Cosmologia</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300371 - Introdução à Mecânica Quântica Ondulatória</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">AGA0215 - Fundamentos de Astronomia</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="FLF0472" class="disciplina">FLF0472</a></td><td>Filosofia da Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300375 - Física Moderna I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300270 - Eletricidade e Magnetismo I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT0341" class="disciplina">MAT0341</a></td><td>História da Matemática I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT2352 - Cálculo para Funções de Várias Variáveis II</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">9º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300308" class="disciplina">4300308</a></td><td>Termodinâmica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT2352 - Cálculo para Funções de Várias Variáveis II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300259 - Termo-estatística</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300405" class="disciplina">4300405</a></td><td>Evolução dos Conceitos da Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300156 - Gravitação</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300454" class="disciplina">4300454</a></td><td>Tópicos de História da Física Moderna</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300371 - Introdução à Mecânica Quântica Ondulatória</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300456" class="disciplina">4300456</a></td><td>Produção de Material Didático</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300356 - Elementos e Estratégia para o Ensino de Física e Ciências</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300459" class="disciplina">4300459</a></td><td>Tecnologias da Informação e Comunicação no Ensino de Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300356 - Elementos e Estratégia para o Ensino de Física e Ciências</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300461" class="disciplina">4300461</a></td><td>Tecnologia de Ensino de Física I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300372 - Eletromagnetismo</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300490" class="disciplina">4300490</a></td><td>Monografia para Licenciatura em Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">180</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300491 - Introdução à Pesquisa em Ensino de Física</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4302403" class="disciplina">4302403</a></td><td>Mecânica Quântica I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300371 - Introdução à Mecânica Quântica Ondulatória</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="FLF0487" class="disciplina">FLF0487</a></td><td>Tópicos de Filosofia da Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">10º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300462" class="disciplina">4300462</a></td><td>Tecnologia de Ensino de Física II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300461 - Tecnologia de Ensino de Física I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4300463" class="disciplina">4300463</a></td><td>Física Aplicada</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4300371 - Introdução à Mecânica Quântica Ondulatória</td><td colspan="6">Requisito</td></tr></tbody></table></div>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</tbody></table>
+	</div>
+
+	
+
+	
+
+
+
+
+
+	
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/home.css">
+<table width="100%" border="0" cellspacing=" 0" cellpadding=" 0" align="center">
+  
+  <tbody><tr>
+    <td align="center"><font face="Arial, Helvetica, sans-serif" size="1"><hr size="1">
+      <a href="creditos.jsp" class="link_olive" target="_self">Créditos</a>
+      | <a href="jupColegiadoEmailLista" class="link_olive">Fale conosco</a><br>
+      © 1999 - 2025 - Superintendência de Tecnologia da Informação/USP</font>
+    </td>
+  </tr>
+</tbody></table>
+
+
+
+
+			
+
+			
+		</div>
+	</div>
+
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-disciplinaDialog" style="display: none; z-index: 1000; outline: 0px; position: absolute;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-disciplinaDialog">&nbsp;</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="disciplinaDialog" class="ui-dialog-content ui-widget-content">
+		<table class="normal">
+			<tbody><tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px; width: 200px;"><b>Créditos aula:</b></td>
+				<td class="creditosAula"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Créditos trabalho:</b></td>
+				<td class="creditosTrabalho"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Carga horária total:</b></td>
+				<td class="cargaHorariaTotal"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Tipo:</b></td>
+				<td class="tipo"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Ativação:</b></td>
+				<td class="ativacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Objetivos:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="objetivos"><p>Diante das expectativas oriundas das prioridades e saberes fundamentais que se espera para a formação do aluno da educação básica e, dessa forma, do perfil necessário ao professor de Física, espera-se, portanto, que este profissional:</p>
+
+<p>- Tenha consciência da função social do ser professor de Física, compreendendo sua atividade como a de educador, e assim promovendo uma formação em física capaz de integrar os jovens, de maneira consciente e ativa, à sociedade atual.</p>
+
+<p>- Tenha um domínio dos caminhos do conhecimento, tanto científico como educacional, de tal forma que possa deles fazer uso, no sentido de promover a educação científica em diferentes contextos, através da elaboração de diferentes meios e com diferentes objetivos.</p>
+
+<p>- Compreenda o conhecimento de forma dinâmica, reconhecendo o processo histórico de construção da ciência e os espaços sociais, institucionais e culturais que ela atualmente ocupa, assim como as responsabilidades decorrentes dessa compreensão.</p>
+
+<p>- Tenha conhecimento das teorias pedagógicas, de sua base fenomenológica e prática, de modo a assegurar sua ação docente; conhecimento prático da docência, o qual transcende os conhecimentos teóricos, e que são adquiridos na vivência das situações educacionais.</p>
+
+<p>Espera-se que esse profissional seja capaz de integrar os dois conhecimentos, o físico e o pedagógico, em toda sua prática, de forma articulada e produtiva. E que, para isso, reconheça a necessidade de atualização contínua, em relação às novas investigações desenvolvidas em ambas essas áreas do conhecimento. Além disso, espera-se que ele seja capaz de refletir sobre sua própria prática, tornando-a um objeto constante de estudo, no sentido de se auto-avaliar e propor novas respostas às contínuas mudanças das situações e desafios escolares e educacionais.</p>
+
+<p>Do ponto de vista dos conhecimentos desejados, de uma maneira geral, o currículo de um curso de formação inicial deve promover uma formação científica sólida e ampla, que capacite os futuros professores a compreender a Física, o universo tecnológico e os avanços atuais da ciência, utilizando com desenvoltura a linguagem matemática que lhe é característica. Paralelamente, deve propiciar a formação pedagógica, que os habilite à prática docente competente e compromissada com os ideais maiores da educação, na perspectiva do contexto social, político e cultural brasileiro.</p>
+
+<p>Para isso, será essencial incorporar conteúdos atualizados e os resultados recentes das pesquisas na área de educação. Neste sentido será também essencial superar a dicotomia entre conhecimentos científicos e conhecimentos pedagógicos, buscando uma articulação mais profunda entre essas dimensões, em todos os momentos do curso.</p>
+
+<p>A partir dos resultados de investigações desenvolvidas no âmbito das pesquisas em Ensino de Física e formação de professores, podem ser identificados alguns objetivos formativos específicos, com potencial para orientar a organização e estrutura curricular e promover tal formação.</p>
+
+<p>Assim, o curso deve priorizar, como objetivos específicos, os meios para promover:</p>
+
+<ol>
+	<li>O domínio dos conhecimentos científicos e das teorias físicas de forma atualizada, de seus procedimentos, experimentos, linguagem matemática, métodos e modelos. Compreender esse conhecimento como instrumento para promover a interpretação física do mundo natural e tecnológico, desde as teorias cosmológicas sobre a formação do universo, até fenômenos, processos e objetos tecnológicos do mundo contemporâneo.</li>
+	<li>O domínio da natureza e forma de abordagem desses conhecimentos, necessária para reconhecer e estimular a contribuição do conhecimento físico na compreensão de diferentes temas, em espaços interdisciplinares e contextualizados.</li>
+	<li>O reconhecimento da natureza da ciência como um processo de construção histórica, em contínua transformação, e profunda interação com o desenvolvimento social e, por extensão desse reconhecimento, desenvolver uma compreensão crítica do papel social da ciência e tecnologia no cenário contemporâneo, o que inclui questões como sustentabilidade e inserção cultural.</li>
+	<li>O domínio dos conhecimentos em educação e teorias pedagógicas, assim como do cenário educacional brasileiro, das propostas curriculares e das políticas educacionais vigentes e, ainda, dominar os meios para acompanhar as contribuições das pesquisas mais recentes para a compreensão dos processos de ensino-aprendizagem e das ferramentas didáticas.</li>
+	<li>O conhecimento das experiências, propostas e projetos já desenvolvidos no campo do Ensino de Física, assim como do uso de diferentes meios, com atenção especial ao papel das tecnologias de informação e comunicação contemporâneas com o desenvolvimento de práticas que articulem os conhecimentos físicos com situações de ensino-aprendizagem.</li>
+</ol>
+
+<p>&nbsp;</p>
+
+<p>Certamente esses objetivos são por demais amplos, mas ter em mente tais perspectivas é essencial para superar as tendências institucionais que, de forma muitas vezes inconsciente e implícita, procuram reproduzir, na formação de professores, os papéis e concepções profissionais.</p></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Docente(s) Responsável(eis):</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2">
+					<ul class="docentesResponsaveis" style="margin-top: 0; margin-bottom: 0;"></ul>
+				</td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Programa Resumido:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="programaResumido"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Programa:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="programa"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Avaliação:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Método:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="metodoAvaliacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Critério:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="criterioAvaliacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Norma de Recuperação:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="normaRecuperacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Bibliografia:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="bibliografia" style="text-align: justify;"></td>
+			</tr>
+		</tbody></table>
+	</div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1000;"></div></div><div class="blockUI" style="display:none"></div><div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.311778; cursor: wait; position: fixed;"></div><div class="blockUI blockMsg blockPage ui-dialog ui-widget ui-corner-all ui-widget-content ui-draggable" style="z-index: 1001; position: fixed; width: 30%; top: 40%; left: 35%; opacity: 0.51963;"><div class="ui-widget-header ui-dialog-titlebar ui-corner-all blockTitle">Aguarde...</div><div class="ui-widget-content ui-dialog-content"><div align="center"><img src="images/ajaxLoaderPeq.gif" border="0"></div></div></div></body></html>

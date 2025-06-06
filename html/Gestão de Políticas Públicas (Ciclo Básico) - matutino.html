@@ -1,0 +1,969 @@
+<html><head>
+<title>Jupiterweb</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Expires" content="-1">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="icon" type="image/x-icon">
+<link href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/menuweb.css" type="text/css" rel="stylesheet">
+<style>
+#layout_principal {
+	width: 100%;
+}
+
+#layout_cabecalho {
+
+}
+
+#layout_menu {
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+}
+
+#layout_conteudo {
+	padding-left: 181px;
+	padding-top: 10px;
+}
+</style><style>.cke{visibility:hidden;}</style></head>
+
+<!--[if IE]>
+	<style>
+		#layout_conteudo {
+			padding-left: 10px;
+			padding-right: 2px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			overflow:auto;
+		}
+	</style>
+	<![endif]-->
+<body>
+
+	<div id="layout_principal">
+		<div id="layout_cabecalho">
+			
+
+<style>
+	a.cabecalho_sair:active  {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:link    {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:visited {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:hover   {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:underline;}
+
+	td.font_cabecalho1 {
+		font:bold 26px Tahoma;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho2 {
+		font:bold 10px Arial;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho3 {
+		font:normal 9px Verdana;
+		color: #FFFFFF;
+	}
+</style>
+
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td width="180" rowspan="3" align="center">
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo.png" width="122" height="49" alt="" border="0" style="position: relative; top: -3px;"></a>
+		</td>
+		<td>
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo-texto.png" alt="" width="260" height="44" border="0" style="position: relative; top: 5px;"></a>
+		</td>
+	</tr>
+</tbody></table>
+<div style="width: 100%; height: 14px; background-image: url('https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/bg-headtop.gif'); margin-bottom: 5px; text-align: right; color: white; padding-top: 12px; padding-right: 3px; font-family: Verdana; font-size: 10px;">
+	
+</div>
+
+		</div>
+
+		<div id="layout_menu">
+			
+
+
+
+
+<!-- FreeStyle Menu v1.0RC by Angus Turnbull http://www.twinhelix.com -->
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/fsmenu.js"></script>
+
+<!-- Demo CSS layouts for the list menu. Pick your favourite one and customise! -->
+<!-- Remove all but one and change "alternate stylesheet" to "stylesheet" to enable -->
+<link rel="stylesheet" type="text/css" id="listmenu-v" href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_v.css" title="Vertical 'Earth'">
+
+<!-- Fallback CSS menu file allows list menu operation when JS is disabled. -->
+<!-- This is automatically disabled via its ID when the script kicks in. -->
+<link rel="alternate stylesheet" type="text/css" id="fsmenu-fallback" href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_fallback.css" disabled="">
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+	var arrow = null;
+	if (document.createElement && document.documentElement) {
+		//arrow = document.createElement('span');
+		//arrow.appendChild(document.createTextNode('>'));
+		// Feel free to replace the above two lines with these for a small arrow image...
+		arrow = document.createElement('img');
+		arrow.src = 'https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif';
+		arrow.style.borderWidth = '0';
+		arrow.className = 'subind';
+	}
+
+	if ("[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2023-2024, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != null && "[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2023-2024, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != '') {
+		// Here's a menu object to control the above list of menu data:
+		var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+		listMenu.hideDelay = 800;
+		//listMenu.showDelay = 0;
+		//listMenu.switchDelay = 125;
+		//listMenu.cssLitClass = 'highlighted';
+		//listMenu.showOnClick = 0;
+		listMenu.hideOnClick = true;
+		listMenu.animInSpeed = 0.5;
+		listMenu.animOutSpeed = 0.5;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu.activateMenu("listMenuRoot", arrow)'));
+	}
+
+	if ("false" != "false") {
+		var listMenu2 = new FSMenu('listMenu2', true, 'display', 'block',
+				'none');
+		listMenu2.hideDelay = 800;
+		listMenu2.hideOnClick = true;
+		listMenu2.animInSpeed = 0.5;
+		listMenu2.animOutSpeed = 0.5;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animFade;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu2.activateMenu("listMenuRoot2", arrow)'));
+	} else {
+		var listMenu3 = new FSMenu('listMenu3', true, 'display', 'block',
+				'none');
+		listMenu3.hideDelay = 800;
+		listMenu3.hideOnClick = true;
+		listMenu3.animInSpeed = 0.5;
+		listMenu3.animOutSpeed = 0.5;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animFade;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu3.activateMenu("listMenuRoot3", arrow)'));
+	}
+	//]]>
+</script>
+
+<!-- PUBLICO -->
+
+	
+	<ul class="menulist" id="listMenuRoot">
+		
+			
+				<li class="menuHeader">Público</li>
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Calendário Escolar</span></a>
+		<ul id="listMenu-id-1">
+
+
+
+
+			
+			
+
+	<li><a href="jupArquivosPublicos.jsp?tiparq=8&amp;anoprg=2025&amp;codmnu=7920" title="">2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="jupArquivosPublicos.jsp?tiparq=9&amp;anoprg=2026&amp;codmnu=6863" title="">2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="jupCarreira.jsp?codmnu=8275" title="">Cursos de ingresso</a></li>
+
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Disciplina</span></a>
+		<ul id="listMenu-id-2">
+
+
+
+
+			
+			
+
+	<li><a href="jupDisciplinaBusca?tipo=D&amp;codmnu=6755" title="">Busca por Disciplinas</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="jupDisciplinaBusca?tipo=T&amp;codmnu=6756" title="">Busca por Turmas</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Editais</span></a>
+		<ul id="listMenu-id-3">
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Programa Unificado de Bolsas(PUB)</span></a>
+		<ul id="listMenu-id-4">
+
+
+
+
+			
+			
+
+	<li><a href="https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2023&amp;codm?codmnu=10872" title="">Edital 2023-2024</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2024&amp;codm?codmnu=11502" title="">Edital 2024-2025</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="http://www.prg.usp.br/?page_id=399?codmnu=6762" title="">PEEG</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="https://prg.usp.br/programas-e-bolsas/?codmnu=10838" title="">PAP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>FAQ</span></a>
+		<ul id="listMenu-id-5">
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Matrícula Interativa</span></a>
+		<ul id="listMenu-id-6">
+
+
+
+
+			
+			
+
+	<li><a href="FAQ.jsp?codmnu=9326" title="">FAQ</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="grdMatriculainterativaInformacoes.jsp?codmnu=9327" title="">Informações gerais</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="graduacaoAjudaNovaMatricula?codmnu=8946" title="Liberar próximo da matricula">TUTORIAL - NOVA MATRÍCULA</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="http://www.prg.usp.br/?p=20746&amp;codmnu=6749" title="">Jupiterweb em Vídeos</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="http://www.prg.usp.br/?p=20741&amp;codmnu=8063" title="">Informações gerais sobre a Graduação</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		
+	
+
+
+
+
+<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- NAO AUTENTICADO -->
+
+	<ul class="menulist" id="listMenuRoot3">
+		<li class="menuHeader">Acesso Restrito</li>
+		<li><a href="webLogin.jsp">Entrar</a></li>
+		<li><a href="esqueciSenha">Esqueci a Senha</a></li>
+		<li><a href="primeiroAcesso">Primeiro Acesso</a></li>
+	</ul>
+	<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- AUTENTICADO -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		</div>
+
+		<div id="layout_conteudo">
+			
+
+			
+
+			
+			
+				
+			
+
+			
+				
+
+
+
+
+<link href="css/apolo.css" type="text/css" rel="stylesheet">
+
+	
+
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/temas/ui-lightness/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/ui.jqgrid.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.css">
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/jupiterweb.css">
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/comum.css">
+
+
+<!-- HTML 5 Tags para IE8 -->
+<!--[if lt IE 9]>
+	   <script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+	   </script>
+	<![endif]-->
+	
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery.ui.datepicker-pt-BR.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/blockUI/2.36/jquery.blockUI.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine-pt.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/jquery.jqGrid.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/grid.locale-pt-br.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/simplemodal/1.4.4/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/exists/0.1/jquery.exists.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maskedInput/1.2.2/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/ckeditor.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/adapters/jquery.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/messages/1.3.0-0/messages.min.js"></script>
+<script type="text/javascript" src="/jupiterweb/dwr/engine.js"></script>
+<script type="text/javascript" src="/jupiterweb/dwr/util.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/usp-exception-dwr.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/comum.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/jupiterweb.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K1Y204Q919"></script>
+<script src="usp-ga4.js"></script>
+
+<style>
+#simplemodal-container a.modalCloseImg {
+	background:
+		url(images/jquery/jquery.simple.modal/x.png)
+		no-repeat; /* adjust url as required */
+}
+</style>
+
+
+
+<style>
+a.link_cabecalho:active {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:link {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:visited {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:hover {
+	font-family: verdana;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline
+}
+
+#my_web_cabecalho {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666666;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+#my_web_cabecalho_descricao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+</style>
+
+
+
+	
+
+
+<div id="my_web_cabecalho">
+	Carreira
+</div>
+
+	
+
+
+
+
+
+
+
+	<br>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="dwr/interface/ControlePublicoDWR.js"></script>
+<script type="text/javascript" src="dwr/interface/CursoControlePublicoDWR.js"></script>
+<script type="text/Javascript" src="javascript/carreira/jupCarreira.js" charset="UTF-8"></script>
+
+
+
+
+	<div id="tabs-local" style="margin-left: 20px; margin-bottom: 20px;">
+		<table width="99%">
+			<tbody><tr>
+				<td>
+					<div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+						<ul class="tabNavigation ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+							<li class="ui-state-default ui-corner-top"><a href="#step1" id="step1-tab">Buscar</a></li>
+							<li class="ui-state-default ui-corner-top"><a href="#step2" id="step2-tab">Informações do curso</a></li>
+							<li class="ui-state-default ui-corner-top"><a href="#step3" id="step3-tab">Projeto pedagógico</a></li>
+							<li class="ui-state-default ui-corner-top ui-state-focus ui-tabs-selected ui-state-active ui-state-hover"><a href="#step4" id="step4-tab">Grade curricular</a></li>
+						</ul>
+						<div id="step1" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<div id="formulario" class="dialog-box">
+								<p><font color="#990000">Os campos marcados com * são de preenchimento obrigatório.</font></p>
+								<form id="form1" name="form1" style="padding-top: 3px;" data-gtm-form-interact-id="0" class="">
+								<label><b>Unidade:*</b></label>&nbsp;
+								<select id="comboUnidade" style="margin-bottom: 10px;" class="validate[required]" data-gtm-form-interact-field-id="0">
+									<option value=""></option>
+								<option value="86">Escola de Artes, Ciências e Humanidades - ( EACH )</option><option value="27">Escola de Comunicações e Artes - ( ECA )</option><option value="39">Escola de Educação Física e Esporte - ( EEFE )</option><option value="98">Escola de Educação Física e Esporte de Ribeirão Preto - ( EEFERP )</option><option value="7">Escola de Enfermagem - ( EE )</option><option value="22">Escola de Enfermagem de Ribeirão Preto - ( EERP )</option><option value="88">Escola de Engenharia de Lorena - ( EEL )</option><option value="18">Escola de Engenharia de São Carlos - ( EESC )</option><option value="97">Escola de Engenharia de São Carlos e Instituto de Ciências Matemáticas e de Computação - ( EESC e ICMC )</option><option value="3">Escola Politécnica - ( EP )</option><option value="11">Escola Superior de Agricultura "Luiz de Queiroz" - ( ESALQ )</option><option value="16">Faculdade de Arquitetura e Urbanismo e de Design - ( FAU )</option><option value="9">Faculdade de Ciências Farmacêuticas - ( FCF )</option><option value="60">Faculdade de Ciências Farmacêuticas de Ribeirão Preto - ( FCFRP )</option><option value="2">Faculdade de Direito - ( FD )</option><option value="89">Faculdade de Direito de Ribeirão Preto - ( FDRP )</option><option value="81">Faculdade de Economia, Administração e Contabilidade de Ribeirão Preto - ( FEARP )</option><option value="12">Faculdade de Economia, Administração, Contabilidade e Atuária - ( FEA )</option><option value="48">Faculdade de Educação - ( FE )</option><option value="59">Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto - ( FFCLRP )</option><option value="8">Faculdade de Filosofia, Letras e Ciências Humanas - ( FFLCH )</option><option value="5">Faculdade de Medicina - ( FM )</option><option value="24">Faculdade de Medicina de Bauru - ( FMBRU )</option><option value="17">Faculdade de Medicina de Ribeirão Preto - ( FMRP )</option><option value="10">Faculdade de Medicina Veterinária e Zootecnia - ( FMVZ )</option><option value="23">Faculdade de Odontologia - ( FO )</option><option value="25">Faculdade de Odontologia de Bauru - ( FOB )</option><option value="58">Faculdade de Odontologia de Ribeirão Preto - ( FORP )</option><option value="6">Faculdade de Saúde Pública - ( FSP )</option><option value="74">Faculdade de Zootecnia e Engenharia de Alimentos - ( FZEA )</option><option value="66">Física Médica - Instituto de Física e Faculdade de Medicina - ( Física Méd - IF e FM )</option><option value="99">Instituto de Arquitetura e Urbanismo de São Carlos - ( IAU )</option><option value="14">Instituto de Astronomia, Geofísica e Ciências Atmosféricas - ( IAG )</option><option value="41">Instituto de Biociências - ( IB )</option><option value="42">Instituto de Ciências Biomédicas - ( ICB )</option><option value="55">Instituto de Ciências Matemáticas e de Computação - ( ICMC )</option><option value="43">Instituto de Física - ( IF )</option><option value="76">Instituto de Física de São Carlos - ( IFSC )</option><option value="44">Instituto de Geociências - ( IGc )</option><option value="45">Instituto de Matemática e Estatística - ( IME )</option><option value="47">Instituto de Psicologia - ( IP )</option><option value="46">Instituto de Química - ( IQ )</option><option value="75">Instituto de Química de São Carlos - ( IQSC )</option><option value="87">Instituto de Relações Internacionais - ( IRI )</option><option value="21">Instituto Oceanográfico - ( IO )</option><option value="90">Interunidades de Licenciatura IFSC/IQSC/ICMC - ( Inter IFSC/IQSC/ICMC )</option><option value="1">Pró-Reitoria de Graduação - ( Pró-G )</option></select>
+								<br>
+								<label><b>Curso:*</b></label>&nbsp;
+								<select id="comboCurso" style="margin-bottom: 15px;" class="validate[required]" data-gtm-form-interact-field-id="1">
+								<option value=""></option><option value="86551|100">Bacharelado em Biotecnologia (Ciclo Básico) - integral</option><option value="86050|100">Bacharelado em Educação Física e Saúde (Ciclo Básico) - integral</option><option value="86100|102">Bacharelado em Gestão Ambiental (Ciclo Básico) - matutino</option><option value="86100|104">Bacharelado em Gestão Ambiental (Ciclo Básico) - noturno</option><option value="86150|103">Bacharelado em Lazer e Turismo (Ciclo Básico) - vespertino</option><option value="86150|104">Bacharelado em Lazer e Turismo (Ciclo Básico) - noturno</option><option value="86200|102">Bacharelado em Sistemas de Informação (Ciclo Básico) - matutino</option><option value="86200|104">Bacharelado em Sistemas de Informação (Ciclo Básico) - noturno</option><option value="86250|102">Bacharelado em Têxtil e Moda (Ciclo Básico) - matutino</option><option value="86300|103">Gerontologia (Ciclo Básico) - vespertino</option><option value="86350|102">Gestão de Políticas Públicas (Ciclo Básico) - matutino</option><option value="86350|104">Gestão de Políticas Públicas (Ciclo Básico) - noturno</option><option value="86400|104">Licenciatura em Ciências da Natureza (Ciclo Básico) - noturno</option><option value="86450|102">Marketing (Ciclo Básico) - matutino</option><option value="86450|104">Marketing (Ciclo Básico) - noturno</option><option value="86501|100">Obstetrícia (Ciclo Básico) - integral</option></select>
+								<br>
+                                </form>
+								<button id="enviar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Buscar</span></button>&nbsp;&nbsp;
+								<button id="limpar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Limpar</span></button>
+								<br>
+							</div>
+						</div>
+						<div id="step2" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Escola de Artes, Ciências e Humanidades - ( EACH )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Gestão de Políticas Públicas (Ciclo Básico) - matutino</span></div>
+										<div style="margin-bottom: 5px;"><b>Duração:</b>&nbsp;<span class="duridlhab">8</span>&nbsp;semestres</div><br>
+										<b style="font-size: 12px;">Descrição de perfil de aluno</b><br>
+										<p style="text-align: justify;" class="descricaoPerfilAluno"><p>O objetivo geral do curso de graduação em Gestão de Políticas Públicas da EACH/USP centra-se na formação de recursos humanos em nível superior capazes de atuarem com competência técnica junto aos diversos entes (estatais e não estatais) da sociedade que atuam diretamente nas várias etapas das Políticas Públicas – Formulação, Implementação e Avaliação – e/ou que se utilizam de processos de Gestão Pública; além de serem capazes de empreenderem análises sobre a realidade política, econômica e social na qual estão inseridos, e com a qual as organizações em que atuam interagem.</p></p><br>
+										<b style="font-size: 12px;">Objetivos do curso</b><br>
+										<p style="text-align: justify;" class="objetivos"><p>Considerando esse objetivo geral, o curso de graduação em GPP apresenta 5 (cinco) objetivos específicos, compreendendo que tais objetivo são formas de atingir o objetivo geral e/ou subprodutos deste. São eles:<br>
+I. Formação humanística e interdisciplinar acentuada, concernente com as diretrizes da EACH/USP, entre as quais tal formação é um dos pilares do seu projeto político pedagógico;<br>
+II. Formação básica e introdutória em áreas do conhecimento fundamentais para a atuação profissional do Gestor de Políticas Públicas; além de colaborar para a consolidação de sua capacidade de análise crítica da realidade social. São estas áreas do conhecimento a Administração (com ênfase em Administração Pública), as Ciências Sociais (com ênfase na Ciência Política), a Economia e o Direito;<br>
+III. Introduzir os alunos aos principais temas e setores com os quais a Gestão Pública e as Políticas Públicas se relacionam e interagem. Com isso, apontar para os discentes as possibilidades de aprofundamento temático e/ou setorial para sua inserção profissional e/ou para o aprofundamento de seus estudos em nível de pós-graduação;<br>
+IV. Colaborar para a construção na educação superior brasileira de um ethos de formação acadêmica e de pesquisa científica que articule os saberes de Modelos de Gestão Pública com a Análise de Políticas Públicas, com valorização tanto de reflexões/investigações teóricas como de estudos para aplicação/intervenção (em prol da inovação no setor público); e<br>
+V. Contribuir com a formação/desenvolvimento de pessoas para a estruturação de uma Gestão Pública cidadã e republicana, no qual os interesses da sociedade democrática são o centro de suas preocupações, e demonstrar o quão ativa e participativa deve ser a sociedade neste tipo de Gestão Pública, para que os valores básicos da igualdade e liberdade entre os cidadãos sejam sempre preservados e colocados como seu objetivo último.</p></p><br>
+										<b style="font-size: 12px;">Competências / Habilidades</b><br>
+										<p style="text-align: justify;" class="competencias"><p>A partir da indissociabilidade entre ensino, pesquisa e extensão no campo do saber da gestão de políticas públicas, o curso visa preparar profissionais com inteligência estratégica comprometidos com a eficiência, eficácia e efetividade das instituições públicas, bem como formar pesquisadores para o debate sobre a gestão de políticas públicas, em um contexto de rearranjos das relações entre Estado e sociedade civil principado pela governança, transparência e a intersetorialidade. Em termos de visão de futuro, o curso – ao completar 10 anos em 2015 – aspira ser um dos bacharelados que referenciam o ensino de graduação em gestão/políticas públicas no Brasil. Atualmente, a grade curricular do curso, com sua proposta de diálogo entre as subáreas de análise de políticas públicas e os estudos de gestão pública, é apontada como um exemplo/modelo pelas IES que ofertam cursos em tal campo do saber.</p>
+
+<p>No que se refere ao campo de atuação profissional dos formandos, é crescente o mercado de trabalho para os gestores de políticas públicas, no setor público-estatal, nas organizações sem fins lucrativos e na iniciativa privada. No Estado, as oportunidades de trabalho têm se avolumado com a implantação de carreiras estratégicas de gestão governamental e de políticas públicas na União e em muitos estados e municípios. Entre as organizações sem fins lucrativos, o boom institucional e a diversificação de objetivos do terceiro setor – movimentos sociais, ong´s, entes associativistas, fundações etc. – fazem com que novas organizações despontem, enquanto as já existentes buscam maior profissionalização. Configuram-se assim, a partir do número significativo dessas entidades no país que realizam importantes atividades de interesse público, um novo mercado de trabalho para o gestor de políticas públicas. Igualmente, o setor privado torna-se, progressivamente, um lócus profissional para este gestor. Além das ações de responsabilidade social levadas a cabo pelas empresas, crescem as áreas/departamentos de relações governamentais nas grandes empresas que atuam em atividades que são reguladas pelo Estado (energia, telecomunicações etc.) e que se dedicam à prestação de serviços públicos (concessão, terceirização e consultorias). Ainda, a internacionalização da gestão de políticas públicas com a formação de espaços supranacionais (ex. blocos econômicos) e o aumento da governança em nível mundial (ex. organismos &nbsp;ultilaterais), no bojo do processo de globalização, criam novas oportunidades de trabalho na área de international public affairs.</p></p><br>
+										<b style="font-size: 12px;">Outras informações</b><br>
+										<p style="text-align: justify;" class="informacoes"><p>Procurando contemplar o caráter interdisciplinar da produção científica desejada na unidade e as exigências profissionais contemporâneas, o Ciclo Básico da EACH foi idealizado para promover a iniciação acadêmica dos novos alunos, em propostas interdisciplinares, voltadas à realidade da sociedade e da região em que a unidade está inserida. Fazem parte do Ciclo Básico da EACH seis disciplinas gerais (DG), que oferecem formação ampla em temas fundamentais do conhecimento, duas disciplinas de Resolução de Problemas (RP I e II) e duas disciplinas Estudos Diversificados (ED I e II), além de quatro disciplinas específicas (introdutórias) do curso. No curso de GPP, todas essas disciplinas ocorrem ao longo dos dois semestres iniciais.</p>
+
+<p>Nas disciplinas específicas ocorre a introdução do aluno em seu curso de escolha, de forma a propiciar o contato destes com suas bases teóricas e epistemológicas. São oferecidas disciplinas de fundamentação e princípios básicos em cada curso. No curso de GPP, neste âmbito, são oferecidas as disciplinas: Introdução ao Estudo de Políticas Públicas, Introdução à Administração, Introdução à Economia, Introdução à Sociologia e Introdução ao Estudo da Política.</p>
+
+<p><br>
+Na disciplina de RP, adotou-se a proposta de estruturar as atividades realizadas em pequenos grupos (12-15 estudantes) em torno de estudos embasados em problemas. A cada semestre há um tema geral como referência, alinhado com os princípios do Ciclo Básico, sugerido por um comitê gestor, mas que pode ser alterado pelos tutores e estudantes. Os problemas de pesquisa escolhidos pelos grupos devem ser de natureza interdisciplinar e relacionados a temáticas como a<br>
+formação da cidadania, reflexão sobre temas sociais atuais, a resolução de problemas sociais e a articulação entre os conhecimentos científicos e os problemas cotidianos. Com isso, busca-se desenvolver estudos de natureza coletiva e interdisciplinar, ao articular conteúdos de várias áreas de conhecimento. Além disso, espera-se estimular os trabalhos de grupo, promovendo a integração entre os diferentes cursos em RP I. Em RP II, os estudantes de um único curso, subdivididos em turmas de 12-15 estudantes, elaboram uma pergunta de pesquisa que guiará as atividades do grupo durante o<br>
+semestre. Pretende-se oferecer aos alunos uma formação rigorosa e uma visão ampla da vida humana, da natureza, e das artes, além da formação da sua cidadania.</p>
+
+<p><br>
+Nas DGs são abordados temas das ciências naturais, das humanidades e das artes, com ênfase nos aspectos teóricos e metodológicos. São exploradas as bases filosóficas do conhecimento científico, as relações sociedade-natureza, aspectos socioculturais da sociedade contemporânea, noções sobre direitos humanos e cidadania, dentre outros. As Disciplinas Gerais (DGs) encontram-se subdivididas em temas específicos e são reunidas em seis módulos temáticos (vide a Tabela abaixo) que correspondem a grandes áreas do conhecimento. Três módulos temáticos serão oferecidos nos semestres pares e outros três módulos nos semestres ímpares. Todos os estudantes da EACH devem cursar seis DGs, sendo uma disciplina de cada módulo temático. O corpo docente se esforça para oferecer pelo menos duas opções de temas dentro de cada módulo temático, nos horários destinados às DGs, para que o estudante tenha a possibilidade de escolher o tema que mais lhe interesse. No curso de GPP, como &nbsp;upramencionado, os estudantes devem cursar essas disciplinas, assim como as<br>
+demais do CB, no primeiro ano do curso.</p>
+
+<p>&nbsp;</p>
+
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="width:89px">
+			<ul>
+				<li>&nbsp;</li>
+			</ul>
+			</td>
+			<td style="width:194px">
+			<ul>
+				<li>&nbsp;</li>
+			</ul>
+			</td>
+			<td style="width:378px">
+			<ol>
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="4" style="width:89px">
+			<ol>
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td rowspan="4" style="width:194px">
+			<p>Ciências da Natureza</p>
+			</td>
+			<td style="width:378px">
+			<p>ACH0101 – Ciências da Natureza - Ciências da Terra</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0111 – Ciências da Natureza – Ciências da Vida</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0121 – Ciências da Natureza – Ciências do Universo</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0131 – Ciências da Natureza – História da Ciência</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:89px">
+			<ol>
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td style="width:194px">
+			<p>Tratamento e Análise de Dados / Informações</p>
+			</td>
+			<td style="width:378px">
+			<p>ACH0021 - Tratamento e Análise de Dados / Informações</p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3" style="width:89px">
+			<ol>
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td rowspan="3" style="width:194px">
+			<p>Sociedade, Multiculturalismo e Direitos</p>
+			</td>
+			<td style="width:378px">
+			<p>ACH0141 – Sociedade, Multiculturalismo e Direitos</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0151 – Sociedade, Multiculturalismo e Direitos – Cultura Digital</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0161 – Sociedade, Multiculturalismo e Direitos –</p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="4" style="width:89px">
+			<ol>
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td rowspan="4" style="width:194px">
+			<p>Psicologia, Educação e Temas Contemporâneos</p>
+			</td>
+			<td style="width:378px">
+			<p>ACH0102 – Psicologia, Educação e Temas Contemporâneos</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0112 – Psicologia, Educação e Temas Contemporâneos -</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0122 – Psicologia, Educação e Temas Contemporâneos - Processos Sociais de Formação dos Indivíduos</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0132 – Psicologia, Educação e Temas Contemporâneos - Uma Abordagem Crítica</p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2" style="width:89px">
+			<ol>
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td rowspan="2" style="width:194px">
+			<p>Sociedade, Meio Ambiente e Cidadania</p>
+			</td>
+			<td style="width:378px">
+			<p>ACH0142 – Sociedade, Meio Ambiente e Cidadania - Desenvolvimento e Meio Ambiente</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0152 – Sociedade, Meio Ambiente e Cidadania - Sociedade, Ambiente e Cidadania</p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="4" style="width:89px">
+			<ol>
+				<li>&nbsp;</li>
+			</ol>
+			</td>
+			<td rowspan="4" style="width:194px">
+			<p>Arte, Literatura e Cultura no Brasil</p>
+			</td>
+			<td style="width:378px">
+			<p>ACH0162 – Arte, Literatura e Cultura no Brasil</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0172 – Arte, Literatura e Cultura - Arte Contemporânea</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0182 – Arte, Literatura e Cultura - Fantasia e Ficção Científica na Cultura Pop</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:378px">
+			<p>ACH0192 – Arte, Literatura e Cultura - Literatura Contemporânea</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>Nas EDs os docentes oferecem aos estudantes um elenco temas com o objetivo de enriquecimento cultural, acadêmico e científico. Os docentes da unidade têm oferecido disciplinas que versam sobre temas contemporâneos importantes para a formação básica do aluno, que não estão contemplados nas estruturas curriculares dos cursos.</p>
+
+<p><br>
+Em suma, a proposta do Ciclo Básico da EACH está baseada essencialmente nos seguintes princípios:<br>
+1. Protagonismo do estudante na compreensão da complexidade dos fenômenos;<br>
+2. Troca e cooperação entre os docentes e estudantes envolvidos no desenvolvimento do problema proposto pelo corpo docente;<br>
+3. Busca da verdadeira interação e compartilhamento de idéias, opiniões e explicações entre os membros envolvidos no estudo; e<br>
+4. Aproximação da universidade com a comunidade em que se insere.</p></p><br>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div id="step3" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Escola de Artes, Ciências e Humanidades - ( EACH )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Gestão de Políticas Públicas (Ciclo Básico) - matutino</span></div><br>
+										<iframe id="documento" name="documento" style="width: 700px; height: 650px;"></iframe>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div id="step4" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Escola de Artes, Ciências e Humanidades - ( EACH )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Gestão de Políticas Públicas (Ciclo Básico) - matutino</span></div>
+										<div style="margin-bottom: 5px;"><b>Duração</b></div>
+										<div style="margin-bottom: 5px;"><b>Ideal:</b>&nbsp;<span class="duridlhab">8</span>&nbsp;semestres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Mínima:</b>&nbsp;<span class="durminhab">8</span>&nbsp;semestres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Máxima:</b>&nbsp;<span class="durmaxhab">12</span>&nbsp;semestres</div><br>
+										<b style="font-size: 12px;">Informações específicas</b><br>
+										<p style="text-align: justify;" class="informacoesEspecificas">Após oito anos da implementação do Ciclo Básico na Escola de Artes, Ciências e Humanidades, a experiência pedagógica e diversos processos de avaliação e discussão que envolveram docentes e discentes indicaram a necessidade de alterações curriculares visando o seu aperfeiçoamento. Em Maio de 2012, a Comissão de Graduação aprovou alterações no Ciclo Básico da EACH USP que contemplaram as necessidades e especificidades dos cursos de graduação da unidade.<br><br>As seguintes reformulações entrarão em vigor a partir do 1º semestre de 2013, para o curso de Gestão de Políticas Públicas:<br><br>1. O Ciclo Básico não precisará ficar restrito aos dois primeiros semestres do curso. As disciplinas RP I e II, Estudos Diversificados I e II e as Disciplinas Gerais poderão ser oferecidas entre o 1º e 6º semestres do curso. No curso de Gestão de Políticas Públicas, a Comissão de Coordenação do curso indicou que o Ciclo Básico deve permanecer no primeiro e segundo semestres do curso.<br><br>2. As disciplinas ACH0051 - Estudos Diversificados I e ACH0052 - Estudos Diversificados II permanecerão compondo as disciplinas de natureza interdisciplinar do Ciclo Básico.<br><br>3. As Disciplinas Gerais (DGs) foram subdivididas em temas mais específicos e encontram-se reunidas em seis módulos temáticos (vide tabela 1) que correspondem a grandes áreas do conhecimento. Três módulos temáticos serão oferecidos nos semestres pares e outros três módulos nos semestres ímpares. Sempre que possível, haverá pelo menos duas opções de temas dentro de cada módulo temático, nos horários destinados às DGs, para que o estudante tenha a possibilidade de escolher o tema que mais lhe interesse. As DGs serão consideradas disciplinas optativas eletivas do Ciclo Básico da EACH-USP.<br><br>4. Todos os estudantes da EACH deverão cursar seis DGs, SENDO SOMENTE uma disciplina de cada módulo temático. Não será permitido cursar mais de uma disciplina por módulo.<br><br>Módulo 1 - Ciências da Natureza<br><br>- ACH0101 - Ciências da Natureza - Ciências da Terra<br><br>- ACH0111 - Ciências da Natureza – Ciências da Vida<br><br>- ACH0121 - Ciências da Natureza – Ciências do Universo<br><br>- ACH0131 - Ciências da Natureza – Ciência, Cultura e Sociedade<br><br>Módulo 2 - Tratamento e Análise de Dados / Informações<br><br>- ACH0021 - Tratamento e Análise de Dados / Informações<br><br>Módulo 3 - Sociedade, Multiculturalismo e Direitos<br><br>- ACH0141 -– Sociedade, Multiculturalismo e Direitos<br><br>- ACH0151 - Sociedade, Multiculturalismo e Direitos – Cultura Digital<br><br>- ACH0161 - Sociedade, Multiculturalismo e Direitos – Direitos Humanos e Multiculturalismo<br><br>Módulo 4 - Psicologia, Educação e Temas Contemporâneos<br><br>- ACH0102 - Psicologia, Educação e Temas Contemporâneos<br><br>- ACH0112- Psicologia, Educação e Temas Contemporâneos - Uma Visão Psicanalítica<br><br>- ACH0122 - Psicologia, Educação e Temas Contemporâneos - Processos Sociais de Formação dos Indivíduos<br><br>- ACH0132 - Psicologia, Educação e Temas Contemporâneos - Uma Abordagem Crítica<br><br>Módulo 5 - Sociedade, Meio Ambiente e Cidadania<br><br>- ACH0142 - Sociedade, Meio Ambiente e Cidadania - Desenvolvimento e Meio Ambiente<br><br>- ACH0152 - Sociedade, Meio Ambiente e Cidadania - Sociedade, Ambiente e Cidadania<br><br>Módulo 6 - Arte, Literatura e Cultura no Brasil<br><br>- ACH0162 - Arte, Literatura e Cultura no Brasil<br><br>- ACH0172 - Arte, Literatura e Cultura - Arte Contemporânea<br><br>- ACH0182 - Arte, Literatura e Cultura - Fantasia e Ficção Científica na Cultura Pop<br><br>- ACH0192 - Arte, Literatura e Cultura - Literatura Contemporânea<br><br>JUSTIFICATIVA PEDAGÓGICA PARA AS ALTERAÇÕES CURRICULARES DO CICLO BÁSICO A mudança na forma de apresentação das disciplinas gerais do Ciclo Básico da EACH preserva e aprofunda seus objetivos iniciais. Em primeiro lugar, encontra-se preservada a formação multidisciplinar e interdisciplinar que é oferecida aos alunos dos dez cursos de graduação da unidade. A principal novidade introduzida foi a subdivisão das disciplinas gerais, que ganharam focos mais precisos de forma a aproveitar a formação de nosso corpo docente e oferecer aos alunos um leque maior de disciplinas com as quais poderão compor sua grade de Ciclo Básico. Apenas para dar um exemplo, a disciplina de Ciências da Natureza, nas quais atuam biólogos, físicos, químicos e geólogos, foram criadas as seguintes subdivisões: Ciências da Vida, Ciências do Universo, Epistemologia e História da Ciência, Ciências da Terra. Com esta subdivisão foi possível ajustar a formação do corpo docente às novas disciplinas. Para os estudantes, tal subdivisão significará que eles terão maior variedade de temas para compor sua grade do CB, favorecendo o protagonismo do aluno, um princípio do projeto pedagógico da EACH. Nas alterações curriculares propostas preservaram-se o princípio de um núcleo de disciplinas comuns e multidisciplinares que é oferecido a todos os ingressantes da EACH. Foram mantidos os seus objetivos iniciais, isto é, a formação de cidadãos capazes de compreender e de agir em uma sociedade complexa e multifacetada, para a qual a especialização disciplinar precoce não contribui. A reformulação contemplou uma demanda consistente da maior parte dos cursos da unidade. O período para cursar as disciplinas do Ciclo Básico se estendeu o que permite prolongar o período no qual ele fica exposto à formação multidisciplinar, na presença de estudantes de diversos cursos da EACH.&nbsp;<br><br>ALTERAÇÕES VÁLIDAS A PARTIR DE 1°/2025 -&nbsp;As orientações aos alunos&nbsp;ingressantes até 2024&nbsp; referente a nova grade reformulada&nbsp;estarão disponíveis na&nbsp;página do curso juntamente como novo PPP.</p><br>
+										<div style="padding-left: 3px;">
+										<b>Legenda</b>: CH = Carga horária Total; CE = Carga horária de Estágio; CP = Carga horária de Práticas como Componentes Curriculares; ATPA = Atividades Teórico-Práticas de Aprofundamento
+										</div>
+										<div id="gradeCurricular"><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Obrigatórias</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">1º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0021" class="disciplina">ACH0021</a></td><td>Tratamento e Análise de Dados / Informações</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0041" class="disciplina">ACH0041</a></td><td>Resolução de Problemas I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH3511" class="disciplina">ACH3511</a></td><td>Introdução à Política</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH3541" class="disciplina">ACH3541</a></td><td>Análise de Organizações Públicas: Administração e Pessoas</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH3561" class="disciplina">ACH3561</a></td><td>Análise de Políticas Públicas I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">2º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH3531" class="disciplina">ACH3531</a></td><td>Introdução à Economia</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH3551" class="disciplina">ACH3551</a></td><td>Introdução à Sociologia</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">6º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0042" class="disciplina">ACH0042</a></td><td>Resolução de Problemas II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr></tbody></table><br><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Optativas Livres</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">1º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0051" class="disciplina">ACH0051</a></td><td>Estudos Diversificados I</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">2º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0052" class="disciplina">ACH0052</a></td><td>Estudos Diversificados II</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr></tbody></table><br><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Optativas Eletivas</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">2º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0102" class="disciplina">ACH0102</a></td><td>Psicologia, Educação e Temas Contemporâneos</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0112" class="disciplina">ACH0112</a></td><td>Psicologia, Educação e Temas Contemporâneos - Uma Visão Psicanalítica</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0122" class="disciplina">ACH0122</a></td><td>Psicologia, Educação e Temas Contemporâneos  Processos Sociais de Formação dos Indivíduos</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0132" class="disciplina">ACH0132</a></td><td>Psicologia, Educação e Temas Contemporâneos - Uma Abordagem Crítica</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0142" class="disciplina">ACH0142</a></td><td>Sociedade, Meio Ambiente e Cidadania  Desenvolvimento e Meio Ambiente</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0152" class="disciplina">ACH0152</a></td><td>Sociedade, Meio Ambiente e Cidadania - Sociedade, Ambiente e Cidadania</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0162" class="disciplina">ACH0162</a></td><td>Arte, Literatura e Cultura</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0172" class="disciplina">ACH0172</a></td><td>Arte, Literatura e Cultura - Arte Contemporânea</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0182" class="disciplina">ACH0182</a></td><td>Arte, Literatura e Cultura  Fantasia e Ficção Científica na Cultura Pop</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0192" class="disciplina">ACH0192</a></td><td>Arte, Literatura e Cultura - Literatura Contemporânea</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">3º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0141" class="disciplina">ACH0141</a></td><td>Sociedade, Multiculturalismo e Direitos  Estado e Sociedade</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0151" class="disciplina">ACH0151</a></td><td>Sociedade, Multiculturalismo e Direitos - Cultura Digital</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0161" class="disciplina">ACH0161</a></td><td>Sociedade, Multiculturalismo e Direitos  Direitos Humanos e Multiculturalismo</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">7º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0101" class="disciplina">ACH0101</a></td><td>Ciências da Natureza - Ciências da Terra</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0111" class="disciplina">ACH0111</a></td><td>Ciências da Natureza - Ciências da Vida</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0121" class="disciplina">ACH0121</a></td><td>Ciências da Natureza - Ciências do Universo</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;">20</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACH0131" class="disciplina">ACH0131</a></td><td>Ciências da Natureza - Ciência, Cultura e Sociedade</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr></tbody></table></div>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</tbody></table>
+	</div>
+
+	
+
+	
+
+
+
+
+
+	
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/home.css">
+<table width="100%" border="0" cellspacing=" 0" cellpadding=" 0" align="center">
+  
+  <tbody><tr>
+    <td align="center"><font face="Arial, Helvetica, sans-serif" size="1"><hr size="1">
+      <a href="creditos.jsp" class="link_olive" target="_self">Créditos</a>
+      | <a href="jupColegiadoEmailLista" class="link_olive">Fale conosco</a><br>
+      © 1999 - 2025 - Superintendência de Tecnologia da Informação/USP</font>
+    </td>
+  </tr>
+</tbody></table>
+
+
+
+
+			
+
+			
+		</div>
+	</div>
+
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-disciplinaDialog" style="display: none; z-index: 1000; outline: 0px; position: absolute;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-disciplinaDialog">&nbsp;</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="disciplinaDialog" class="ui-dialog-content ui-widget-content">
+		<table class="normal">
+			<tbody><tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px; width: 200px;"><b>Créditos aula:</b></td>
+				<td class="creditosAula"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Créditos trabalho:</b></td>
+				<td class="creditosTrabalho"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Carga horária total:</b></td>
+				<td class="cargaHorariaTotal"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Tipo:</b></td>
+				<td class="tipo"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Ativação:</b></td>
+				<td class="ativacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Objetivos:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="objetivos"><p>Considerando esse objetivo geral, o curso de graduação em GPP apresenta 5 (cinco) objetivos específicos, compreendendo que tais objetivo são formas de atingir o objetivo geral e/ou subprodutos deste. São eles:<br>
+I. Formação humanística e interdisciplinar acentuada, concernente com as diretrizes da EACH/USP, entre as quais tal formação é um dos pilares do seu projeto político pedagógico;<br>
+II. Formação básica e introdutória em áreas do conhecimento fundamentais para a atuação profissional do Gestor de Políticas Públicas; além de colaborar para a consolidação de sua capacidade de análise crítica da realidade social. São estas áreas do conhecimento a Administração (com ênfase em Administração Pública), as Ciências Sociais (com ênfase na Ciência Política), a Economia e o Direito;<br>
+III. Introduzir os alunos aos principais temas e setores com os quais a Gestão Pública e as Políticas Públicas se relacionam e interagem. Com isso, apontar para os discentes as possibilidades de aprofundamento temático e/ou setorial para sua inserção profissional e/ou para o aprofundamento de seus estudos em nível de pós-graduação;<br>
+IV. Colaborar para a construção na educação superior brasileira de um ethos de formação acadêmica e de pesquisa científica que articule os saberes de Modelos de Gestão Pública com a Análise de Políticas Públicas, com valorização tanto de reflexões/investigações teóricas como de estudos para aplicação/intervenção (em prol da inovação no setor público); e<br>
+V. Contribuir com a formação/desenvolvimento de pessoas para a estruturação de uma Gestão Pública cidadã e republicana, no qual os interesses da sociedade democrática são o centro de suas preocupações, e demonstrar o quão ativa e participativa deve ser a sociedade neste tipo de Gestão Pública, para que os valores básicos da igualdade e liberdade entre os cidadãos sejam sempre preservados e colocados como seu objetivo último.</p></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Docente(s) Responsável(eis):</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2">
+					<ul class="docentesResponsaveis" style="margin-top: 0; margin-bottom: 0;"></ul>
+				</td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Programa Resumido:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="programaResumido"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Programa:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="programa"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Avaliação:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Método:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="metodoAvaliacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Critério:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="criterioAvaliacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Norma de Recuperação:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="normaRecuperacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Bibliografia:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="bibliografia" style="text-align: justify;"></td>
+			</tr>
+		</tbody></table>
+	</div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1000;"></div></div></body></html>

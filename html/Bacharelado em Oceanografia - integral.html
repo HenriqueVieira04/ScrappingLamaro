@@ -1,0 +1,825 @@
+<html><head>
+<title>Jupiterweb</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Expires" content="-1">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="icon" type="image/x-icon">
+<link href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/menuweb.css" type="text/css" rel="stylesheet">
+<style>
+#layout_principal {
+	width: 100%;
+}
+
+#layout_cabecalho {
+
+}
+
+#layout_menu {
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+}
+
+#layout_conteudo {
+	padding-left: 181px;
+	padding-top: 10px;
+}
+</style><style>.cke{visibility:hidden;}</style></head>
+
+<!--[if IE]>
+	<style>
+		#layout_conteudo {
+			padding-left: 10px;
+			padding-right: 2px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			overflow:auto;
+		}
+	</style>
+	<![endif]-->
+<body>
+
+	<div id="layout_principal">
+		<div id="layout_cabecalho">
+			
+
+<style>
+	a.cabecalho_sair:active  {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:link    {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:visited {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:hover   {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:underline;}
+
+	td.font_cabecalho1 {
+		font:bold 26px Tahoma;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho2 {
+		font:bold 10px Arial;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho3 {
+		font:normal 9px Verdana;
+		color: #FFFFFF;
+	}
+</style>
+
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td width="180" rowspan="3" align="center">
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo.png" width="122" height="49" alt="" border="0" style="position: relative; top: -3px;"></a>
+		</td>
+		<td>
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo-texto.png" alt="" width="260" height="44" border="0" style="position: relative; top: 5px;"></a>
+		</td>
+	</tr>
+</tbody></table>
+<div style="width: 100%; height: 14px; background-image: url('https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/bg-headtop.gif'); margin-bottom: 5px; text-align: right; color: white; padding-top: 12px; padding-right: 3px; font-family: Verdana; font-size: 10px;">
+	
+</div>
+
+		</div>
+
+		<div id="layout_menu">
+			
+
+
+
+
+<!-- FreeStyle Menu v1.0RC by Angus Turnbull http://www.twinhelix.com -->
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/fsmenu.js"></script>
+
+<!-- Demo CSS layouts for the list menu. Pick your favourite one and customise! -->
+<!-- Remove all but one and change "alternate stylesheet" to "stylesheet" to enable -->
+<link rel="stylesheet" type="text/css" id="listmenu-v" href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_v.css" title="Vertical 'Earth'">
+
+<!-- Fallback CSS menu file allows list menu operation when JS is disabled. -->
+<!-- This is automatically disabled via its ID when the script kicks in. -->
+<link rel="alternate stylesheet" type="text/css" id="fsmenu-fallback" href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_fallback.css" disabled="">
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+	var arrow = null;
+	if (document.createElement && document.documentElement) {
+		//arrow = document.createElement('span');
+		//arrow.appendChild(document.createTextNode('>'));
+		// Feel free to replace the above two lines with these for a small arrow image...
+		arrow = document.createElement('img');
+		arrow.src = 'https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif';
+		arrow.style.borderWidth = '0';
+		arrow.className = 'subind';
+	}
+
+	if ("[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2023-2024, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != null && "[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2023-2024, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != '') {
+		// Here's a menu object to control the above list of menu data:
+		var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+		listMenu.hideDelay = 800;
+		//listMenu.showDelay = 0;
+		//listMenu.switchDelay = 125;
+		//listMenu.cssLitClass = 'highlighted';
+		//listMenu.showOnClick = 0;
+		listMenu.hideOnClick = true;
+		listMenu.animInSpeed = 0.5;
+		listMenu.animOutSpeed = 0.5;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu.activateMenu("listMenuRoot", arrow)'));
+	}
+
+	if ("false" != "false") {
+		var listMenu2 = new FSMenu('listMenu2', true, 'display', 'block',
+				'none');
+		listMenu2.hideDelay = 800;
+		listMenu2.hideOnClick = true;
+		listMenu2.animInSpeed = 0.5;
+		listMenu2.animOutSpeed = 0.5;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animFade;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu2.activateMenu("listMenuRoot2", arrow)'));
+	} else {
+		var listMenu3 = new FSMenu('listMenu3', true, 'display', 'block',
+				'none');
+		listMenu3.hideDelay = 800;
+		listMenu3.hideOnClick = true;
+		listMenu3.animInSpeed = 0.5;
+		listMenu3.animOutSpeed = 0.5;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animFade;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu3.activateMenu("listMenuRoot3", arrow)'));
+	}
+	//]]>
+</script>
+
+<!-- PUBLICO -->
+
+	
+	<ul class="menulist" id="listMenuRoot">
+		
+			
+				<li class="menuHeader">Público</li>
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Calendário Escolar</span></a>
+		<ul id="listMenu-id-1">
+
+
+
+
+			
+			
+
+	<li><a href="jupArquivosPublicos.jsp?tiparq=8&amp;anoprg=2025&amp;codmnu=7920" title="">2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="jupArquivosPublicos.jsp?tiparq=9&amp;anoprg=2026&amp;codmnu=6863" title="">2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="jupCarreira.jsp?codmnu=8275" title="">Cursos de ingresso</a></li>
+
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Disciplina</span></a>
+		<ul id="listMenu-id-2">
+
+
+
+
+			
+			
+
+	<li><a href="jupDisciplinaBusca?tipo=D&amp;codmnu=6755" title="">Busca por Disciplinas</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="jupDisciplinaBusca?tipo=T&amp;codmnu=6756" title="">Busca por Turmas</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Editais</span></a>
+		<ul id="listMenu-id-3">
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Programa Unificado de Bolsas(PUB)</span></a>
+		<ul id="listMenu-id-4">
+
+
+
+
+			
+			
+
+	<li><a href="https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2023&amp;codm?codmnu=10872" title="">Edital 2023-2024</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2024&amp;codm?codmnu=11502" title="">Edital 2024-2025</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="http://www.prg.usp.br/?page_id=399?codmnu=6762" title="">PEEG</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="https://prg.usp.br/programas-e-bolsas/?codmnu=10838" title="">PAP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>FAQ</span></a>
+		<ul id="listMenu-id-5">
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Matrícula Interativa</span></a>
+		<ul id="listMenu-id-6">
+
+
+
+
+			
+			
+
+	<li><a href="FAQ.jsp?codmnu=9326" title="">FAQ</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="grdMatriculainterativaInformacoes.jsp?codmnu=9327" title="">Informações gerais</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="graduacaoAjudaNovaMatricula?codmnu=8946" title="Liberar próximo da matricula">TUTORIAL - NOVA MATRÍCULA</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="http://www.prg.usp.br/?p=20746&amp;codmnu=6749" title="">Jupiterweb em Vídeos</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="http://www.prg.usp.br/?p=20741&amp;codmnu=8063" title="">Informações gerais sobre a Graduação</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		
+	
+
+
+
+
+<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- NAO AUTENTICADO -->
+
+	<ul class="menulist" id="listMenuRoot3">
+		<li class="menuHeader">Acesso Restrito</li>
+		<li><a href="webLogin.jsp">Entrar</a></li>
+		<li><a href="esqueciSenha">Esqueci a Senha</a></li>
+		<li><a href="primeiroAcesso">Primeiro Acesso</a></li>
+	</ul>
+	<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- AUTENTICADO -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		</div>
+
+		<div id="layout_conteudo">
+			
+
+			
+
+			
+			
+				
+			
+
+			
+				
+
+
+
+
+<link href="css/apolo.css" type="text/css" rel="stylesheet">
+
+	
+
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/temas/ui-lightness/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/ui.jqgrid.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.css">
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/jupiterweb.css">
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/comum.css">
+
+
+<!-- HTML 5 Tags para IE8 -->
+<!--[if lt IE 9]>
+	   <script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+	   </script>
+	<![endif]-->
+	
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery.ui.datepicker-pt-BR.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/blockUI/2.36/jquery.blockUI.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine-pt.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/jquery.jqGrid.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/grid.locale-pt-br.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/simplemodal/1.4.4/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/exists/0.1/jquery.exists.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maskedInput/1.2.2/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/ckeditor.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/adapters/jquery.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/messages/1.3.0-0/messages.min.js"></script>
+<script type="text/javascript" src="/jupiterweb/dwr/engine.js"></script>
+<script type="text/javascript" src="/jupiterweb/dwr/util.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/usp-exception-dwr.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/comum.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/jupiterweb.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K1Y204Q919"></script>
+<script src="usp-ga4.js"></script>
+
+<style>
+#simplemodal-container a.modalCloseImg {
+	background:
+		url(images/jquery/jquery.simple.modal/x.png)
+		no-repeat; /* adjust url as required */
+}
+</style>
+
+
+
+<style>
+a.link_cabecalho:active {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:link {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:visited {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:hover {
+	font-family: verdana;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline
+}
+
+#my_web_cabecalho {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666666;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+#my_web_cabecalho_descricao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+</style>
+
+
+
+	
+
+
+<div id="my_web_cabecalho">
+	Carreira
+</div>
+
+	
+
+
+
+
+
+
+
+	<br>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="dwr/interface/ControlePublicoDWR.js"></script>
+<script type="text/javascript" src="dwr/interface/CursoControlePublicoDWR.js"></script>
+<script type="text/Javascript" src="javascript/carreira/jupCarreira.js" charset="UTF-8"></script>
+
+
+
+
+	<div id="tabs-local" style="margin-left: 20px; margin-bottom: 20px;">
+		<table width="99%">
+			<tbody><tr>
+				<td>
+					<div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+						<ul class="tabNavigation ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+							<li class="ui-state-default ui-corner-top"><a href="#step1" id="step1-tab">Buscar</a></li>
+							<li class="ui-state-default ui-corner-top"><a href="#step2" id="step2-tab">Informações do curso</a></li>
+							<li class="ui-state-default ui-corner-top"><a href="#step3" id="step3-tab">Projeto pedagógico</a></li>
+							<li class="ui-state-default ui-corner-top ui-state-focus ui-tabs-selected ui-state-active"><a href="#step4" id="step4-tab">Grade curricular</a></li>
+						</ul>
+						<div id="step1" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<div id="formulario" class="dialog-box">
+								<p><font color="#990000">Os campos marcados com * são de preenchimento obrigatório.</font></p>
+								<form id="form1" name="form1" style="padding-top: 3px;" data-gtm-form-interact-id="0" class="">
+								<label><b>Unidade:*</b></label>&nbsp;
+								<select id="comboUnidade" style="margin-bottom: 10px;" class="validate[required]" data-gtm-form-interact-field-id="0">
+									<option value=""></option>
+								<option value="86">Escola de Artes, Ciências e Humanidades - ( EACH )</option><option value="27">Escola de Comunicações e Artes - ( ECA )</option><option value="39">Escola de Educação Física e Esporte - ( EEFE )</option><option value="98">Escola de Educação Física e Esporte de Ribeirão Preto - ( EEFERP )</option><option value="7">Escola de Enfermagem - ( EE )</option><option value="22">Escola de Enfermagem de Ribeirão Preto - ( EERP )</option><option value="88">Escola de Engenharia de Lorena - ( EEL )</option><option value="18">Escola de Engenharia de São Carlos - ( EESC )</option><option value="97">Escola de Engenharia de São Carlos e Instituto de Ciências Matemáticas e de Computação - ( EESC e ICMC )</option><option value="3">Escola Politécnica - ( EP )</option><option value="11">Escola Superior de Agricultura "Luiz de Queiroz" - ( ESALQ )</option><option value="16">Faculdade de Arquitetura e Urbanismo e de Design - ( FAU )</option><option value="9">Faculdade de Ciências Farmacêuticas - ( FCF )</option><option value="60">Faculdade de Ciências Farmacêuticas de Ribeirão Preto - ( FCFRP )</option><option value="2">Faculdade de Direito - ( FD )</option><option value="89">Faculdade de Direito de Ribeirão Preto - ( FDRP )</option><option value="81">Faculdade de Economia, Administração e Contabilidade de Ribeirão Preto - ( FEARP )</option><option value="12">Faculdade de Economia, Administração, Contabilidade e Atuária - ( FEA )</option><option value="48">Faculdade de Educação - ( FE )</option><option value="59">Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto - ( FFCLRP )</option><option value="8">Faculdade de Filosofia, Letras e Ciências Humanas - ( FFLCH )</option><option value="5">Faculdade de Medicina - ( FM )</option><option value="24">Faculdade de Medicina de Bauru - ( FMBRU )</option><option value="17">Faculdade de Medicina de Ribeirão Preto - ( FMRP )</option><option value="10">Faculdade de Medicina Veterinária e Zootecnia - ( FMVZ )</option><option value="23">Faculdade de Odontologia - ( FO )</option><option value="25">Faculdade de Odontologia de Bauru - ( FOB )</option><option value="58">Faculdade de Odontologia de Ribeirão Preto - ( FORP )</option><option value="6">Faculdade de Saúde Pública - ( FSP )</option><option value="74">Faculdade de Zootecnia e Engenharia de Alimentos - ( FZEA )</option><option value="66">Física Médica - Instituto de Física e Faculdade de Medicina - ( Física Méd - IF e FM )</option><option value="99">Instituto de Arquitetura e Urbanismo de São Carlos - ( IAU )</option><option value="14">Instituto de Astronomia, Geofísica e Ciências Atmosféricas - ( IAG )</option><option value="41">Instituto de Biociências - ( IB )</option><option value="42">Instituto de Ciências Biomédicas - ( ICB )</option><option value="55">Instituto de Ciências Matemáticas e de Computação - ( ICMC )</option><option value="43">Instituto de Física - ( IF )</option><option value="76">Instituto de Física de São Carlos - ( IFSC )</option><option value="44">Instituto de Geociências - ( IGc )</option><option value="45">Instituto de Matemática e Estatística - ( IME )</option><option value="47">Instituto de Psicologia - ( IP )</option><option value="46">Instituto de Química - ( IQ )</option><option value="75">Instituto de Química de São Carlos - ( IQSC )</option><option value="87">Instituto de Relações Internacionais - ( IRI )</option><option value="21">Instituto Oceanográfico - ( IO )</option><option value="90">Interunidades de Licenciatura IFSC/IQSC/ICMC - ( Inter IFSC/IQSC/ICMC )</option><option value="1">Pró-Reitoria de Graduação - ( Pró-G )</option></select>
+								<br>
+								<label><b>Curso:*</b></label>&nbsp;
+								<select id="comboCurso" style="margin-bottom: 15px;" class="validate[required]" data-gtm-form-interact-field-id="1">
+								<option value=""></option><option value="21011|0">Bacharelado em Oceanografia - integral</option></select>
+								<br>
+                                </form>
+								<button id="enviar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Buscar</span></button>&nbsp;&nbsp;
+								<button id="limpar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Limpar</span></button>
+								<br>
+							</div>
+						</div>
+						<div id="step2" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Instituto Oceanográfico - ( IO )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Bacharelado em Oceanografia - integral</span></div>
+										<div style="margin-bottom: 5px;"><b>Duração:</b>&nbsp;<span class="duridlhab">8</span>&nbsp;semestres</div><br>
+										<b style="font-size: 12px;">Descrição de perfil de aluno</b><br>
+										<p style="text-align: justify;" class="descricaoPerfilAluno"><p>O curso de Bacharelado em Oceanografia do IOUSP se alinhou aos movimentos da Universidade no sentido de ampliar o acesso, por meio do ingresso adicional pelo Sistema de Seleção Unificada do Ministério da Educação (SISU) e das cotas para egressos de escolas públicas e para pretos, pardos e indígenas, bem como a permanência estudantil, combatendo a evasão.</p>
+
+<p>O curso de Bacharelado em Oceanografia já graduou 315 oceanógrafos que têm atuado em diferentes áreas tais como serviço público, empresas privadas e o terceiro setor. O IOUSP também possibilitou a criação de, pelo menos, 5 empresas gestadas a partir de seu corpo discente. Em 20 anos de ensino de graduação, a maioria desses profissionais está atuando em sua área de formação em instituições nacionais e internacionais. O Bacharelado em Oceanografia da USP é reconhecido como um dos melhores do país e, com o presente PPP pretende ampliar sua capacidade de formar cidadãos e profissionais éticos, competentes, engajados e sensíveis às necessidades do mercado.</p></p><br>
+										<b style="font-size: 12px;">Objetivos do curso</b><br>
+										<p style="text-align: justify;" class="objetivos"><p>O objetivo do curso de Bacharelado em Oceanografia do IOUSP é formar profissionais com conhecimento generalista e abrangente, porém com a sólida formação de um especialista no estudo integrado dos processos do meio marinho. No curso é considerada a diversidade de enfoques e conteúdos das diferentes áreas da Oceanografia, com ênfase nas áreas de oceanografia Física, Química, Geológica e Biológica, direcionadas ao entendimento dos processos e à interpretação e previsão de fenômenos que ocorrem no oceano e ambientes transicionais, visando subsidiar a aplicação do conhecimento, a governança e a utilização racional de seus recursos renováveis e não renováveis, observando a posição e a influência do ser humano neste contexto.</p></p><br>
+										<b style="font-size: 12px;">Competências / Habilidades</b><br>
+										<p style="text-align: justify;" class="competencias"><p>O ensino de Oceanografia, em nível de Graduação, estrutura-se de modo a possibilitar ao aluno a identificação e compreensão dos processos oceanográficos, as inter-relações entre o oceano e seus principais compartimentos de contorno, quais sejam, a atmosfera, as áreas emersas e os fundos marinhos atuais, e as atividades socioeconômicas que influenciam o ambiente marinho e são influenciadas por ele.</p>
+
+<p>Os mecanismos pedagógicos para alcançar essa compreensão necessitam estar assentados em práticas que favoreçam a opção de formação de profissionais com visão crítica e integrada dos processos oceanográficos, em oposição ao profissional formado a partir da simples acumulação de informações de conteúdo técnico/científico. No processo de formação profissional do bacharel em Oceanografia privilegia-se a análise integrada dos aspectos biológicos, físicos, geológicos e químicos dos processos oceanográficos, bem como práticas voltadas para resolução de problemas de interesse da sociedade.</p>
+
+<p>Além dos arcabouços teórico, disciplinar e interdisciplinar atualizados para a formação de um oceanógrafo competente, que serão detalhados adiante, a articulação entre os aspectos teóricos e práticos corresponde a uma característica marcante do curso, permitindo ao egresso compreender e realizar diversas atividades de investigação do ambiente marinho, importantes para execução de trabalhos tanto científicos quanto técnicos. Esses conhecimentos permitem aos egressos uma compreensão ampla das limitações e potencialidades das diversas técnicas de estudo e de sua aplicação dentro de contextos ou demandas específicas. Ao domínio dos conhecimentos teóricos e práticos específicos somam-se habilidades profissionais relevantes para uma atuação frente a temas ou problemas complexos.</p>
+
+<p>Destacam-se, portanto, as habilidades relacionadas ao trabalho de campo, embarcado ou não, e de laboratório. Além da importância da experiência embarcada, os alunos também receberão treinamento para atividades de campo em ambiente costeiro, incluindo estudos em praias, costões rochosos e manguezais e atividades de pesquisa com seres humanos com uso de questionários, roteiros e oficinas. Aspectos legais, como licença ambiental, e éticos serão considerados nessas atividades. A formação prática dos alunos será complementada com as oportunidades de atividades nos laboratórios didáticos da USP, mas também junto aos laboratórios de pesquisa vinculados aos docentes do curso (ver adiante). As atividades práticas também consideram as experiências que os alunos terão nas Atividades Acadêmicas Complementares e no Estágio Obrigatório, definidas com base em seu interesse de formação profissional, dentro ou fora da universidade, junto à iniciativa privada, órgãos públicos e ao terceiro setor.</p>
+
+<p>Com base nos problemas ou demandas com as quais o profissional pode se deparar e nas tarefas e atividades para as quais ele precisa estar capacitado, são trabalhadas ferramentas, técnicas e procedimentos de levantamento, processamento, controle de qualidade, análise e interpretação de dados oceanográficos, suas interações, bem como a previsão do comportamento desses parâmetros e dos fenômenos a eles relacionados.</p>
+
+<p>A estratégia de formação do curso pressupõe o estímulo à formação de um profissional apto a trabalhar com demandas diversas, eclético e polivalente, resolvendo problemas com pró-atividade, versatilidade e criatividade. Considera um egresso que exiba capacidade de observação e de elaboração de pensamento complexo e crítico, capaz de integrar, de forma lógica, diferentes conceitos e informações, organizando ideias, estabelecendo relações de causa-efeito e produzindo conhecimento, materializando, portanto, o método científico. O curso visa formar um profissional responsável, consciente e com visão de futuro, abrangente e internacionalizada, e que tenha habilidade de trabalhar em equipe de forma colaborativa.</p>
+
+<p>Como habilidades gerais, o oceanógrafo necessita ainda ser capacitado para expressar-se adequadamente de forma oral e escrita, sendo competente para buscar informações, ler objetiva e criticamente e encadear argumentos de forma lógica e estruturada. Essas habilidades são fundamentais para qualquer caminho de atuação profissional, mas são especialmente importantes na perspectiva de uma maior aproximação do Oceanógrafo com a sociedade.</p>
+
+<p>Para oportunizar essas habilidades, o curso considera duas estratégias complementares: uma envolvendo um elenco de habilidades que serão exercitadas, em maior ou menor grau, nas diferentes disciplinas obrigatórias e optativas do curso; outra considerando as Atividades Acadêmicas Complementares e o Estágio Obrigatório que os alunos deverão realizar. Dentre as habilidades trabalhadas nas diferentes disciplinas de formas variadas e complementares, temos:</p>
+
+<p><strong>Valorização do conhecimento</strong>. Valorizar e utilizar os conhecimentos historicamente construídos sobre o mundo para entender, explicar a realidade e colaborar com a construção de uma sociedade mais justa.</p>
+
+<p><strong>Busca e avaliação crítica de informações</strong>. O aluno deve ser capacitado a buscar e avaliar diferentes fontes de informação como bancos de dados, ferramentas/instrumentos (<em>e.g.</em> vídeo aula, fóruns <em>etc.</em>), especialistas (<em>e.g.</em> Currículo Lattes) e eventos ou outras possibilidades de <em>networking</em> ou oportunidades de formação complementar. Os alunos devem desenvolver habilidades para busca e gerenciamento de referências bibliográficas, bem como maneiras de lidar com a informação obtida, aprimorando a leitura em língua inglesa, e evitando o plágio, buscando a correta menção de fontes.</p>
+
+<p><strong>Comunicação oral</strong>. Os alunos serão estimulados a desenvolver habilidades de comunicação oral, desde falas mais simples e rápidas em atividades em grupo em sala de aula até a apresentação de seminários, pôsteres e Trabalho de Graduação.</p>
+
+<p><strong>Comunicação escrita</strong>. Os alunos serão estimulados a desenvolver habilidades de comunicação escrita, elaborando materiais como resumos, relatórios, laudos, pareceres, pôsteres, ensaios (<em>e.g.</em> texto de divulgação científica), plano de campanha de campo, <em>flyers</em>, folhetos, infográficos, <em>factsheets</em>, monografia e, eventualmente, artigo científico. Habilidades para interação com mídias sociais serão estimuladas, como textos para blogs, posts ou vídeos.</p>
+
+<p><strong>Comunicação oral e escrita em língua inglesa</strong>. Os alunos serão estimulados a desenvolver habilidades de comunicação oral e escrita em língua inglesa, desde a leitura de referências até a elaboração de materiais e/ou apresentações.</p>
+
+<p><strong>Cultura digital</strong>. Compreender, utilizar e criar tecnologias digitais de informação e comunicação, de forma crítica, significativa, reflexiva e ética, para se comunicar, acessar e disseminar informações, produzir conhecimentos, resolver problemas e exercer protagonismo e autoria na vida pessoal e coletiva.</p>
+
+<p><strong>Organização do raciocínio e visão sistêmica</strong>. O papel do oceanógrafo necessita ser contextualizado, compreendendo as forçantes e as pressões sobre o ambiente marinho, considerando ameaças e oportunidades, e seus efeitos nos componentes, processos, parâmetros e fenômenos oceanográficos, bem como bens e serviços ecossistêmicos, considerando a compreensão das ações para combate aos problemas enfrentados, incluindo políticas públicas. Para tanto, necessita compreender e aplicar sistemas analíticos e ferramentas, como mapas mentais e conceituais, que levem à clareza e à linearidade do raciocínio, além de compreender e incorporar a abordagem ecossistêmica no trato dos complexos temas oceanográficos. O aluno deve desenvolver o pensamento crítico, com lógica e capacidade de argumentação. A compreensão e a aplicação do método científico é um ponto central como estratégia de busca, geração, análise e interpretação de informação com vistas à geração de conhecimento. Necessita exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências visando investigar causas, elaborar e testar hipóteses, formular e resolver problemas e criar soluções, inclusive tecnológicas. Precisa aprender a argumentar com base em fatos, dados e informações confiáveis, buscando formular e defender ideias.</p>
+
+<p><strong>Coleta e a</strong><strong>nálise de dados e raciocínio numérico abstrato</strong>. A análise de dados é outra habilidade transversal que o egresso do curso deve possuir. Assim, com base em uma situação problema, o aluno deve ser capaz de planejar o trabalho de campo, verificar e calibrar os equipamentos, realizar a coleta, triar e processar as amostras, realizar o controle de qualidade dos dados e executar as análises apropriadas, gerando gráficos e tabelas que permitem a elaboração de produtos adequados para a comunicação dos resultados. A análise de dados é transversal e deve dialogar com outras disciplinas específicas usando e exercitando conceitos e instrumentos próprios. No contexto da análise de dados, a programação e lógica abstrata são habilidades centrais que dão autonomia aos alunos no trato com os dados oceanográficos, em especial os chamados <em>big data</em>. A modelagem é também uma ferramenta importante para previsão do comportamento dos parâmetros e fenômenos oceanográficos e deve ser trabalhada no curso, aumentando sua complexidade ao longo do tempo. Nesse contexto, destaca-se que a habilidade numérica ou uso da matemática como linguagem é uma competência fundamental para o oceanógrafo. O raciocínio numérico abstrato, como interpretação de dados e figuras, é também considerado como relevante para a formação do oceanógrafo e será exercitado a partir dos elementos construídos nas disciplinas obrigatórias e optativas.</p>
+
+<p><strong>Raciocínio geoespacial</strong>. O raciocínio geoespacial, considerando três dimensões espaciais e o tempo, será trabalhado no curso desenvolvendo habilidades de sensoriamento remoto, georeferenciamento, sistemas de informação geográfica e confecção e interpretação de mapas e cartas naúticas.</p>
+
+<p><strong>Profissionalismo</strong>. O oceanógrafo deve ser um forte defensor do uso da ciência e do conhecimento, ter capacidade de trabalhar na interseção de várias disciplinas científicas, e sintetizar e conectar informações de campos aparentemente díspares. Deve ser capaz de produzir relatórios e documentos sobre questões técnicas e de revisar e editar o trabalho de terceiros. Deve demonstrar competência profissional, domínio do assunto e ser eficiente no cumprimento de compromissos e de prazos e obtenção de resultados, sendo orientado para soluções e resultados e para pensar de maneira criativa, ao mesmo tempo que mostra persistência perante problemas ou desafios difíceis.</p>
+
+<p><strong>Planejamento e organização</strong>. O egresso deve saber planejar e organizar seu trabalho e o de sua equipe, com objetivos claros, que sejam consistentes com estratégias, visão e tarefas acordados. Deve identificar atividades e atribuições prioritárias e ajustar as prioridades conforme necessário, alocando a quantidade adequada de tempo e recursos para concluir o trabalho. Deve também prever riscos e permitir contingências no planejamento, monitorando e ajustando planos e ações conforme necessário.</p>
+
+<p><strong>Trabalho em grupo</strong>. O oceanógrafo deve desenvolver a capacidade de estabelecer e manter relações de trabalho eficazes em um ambiente multicultural e multiétnico com sensibilidade e respeito pela diversidade, incluindo equilíbrio de gênero. Deve trabalhar de forma colaborativa com colegas para atingir as metas estabelecidas e solicitar contribuições ao valorizar genuinamente as ideias e conhecimentos de outras pessoas, estando disposto a aprender com os outros. Ao colocar a agenda da equipe antes da agenda pessoal, apoia e age de acordo com a decisão final do grupo, mesmo quando tais decisões podem não refletir inteiramente a própria posição. Compartilha o crédito pelas realizações da equipe e aceita a responsabilidade conjunta pelas deficiências da equipe, liderando a equipe e promovendo um ambiente de trabalho motivador e colaborativo que visa o desempenho. O profissional deve exercitar a empatia, o diálogo, a resolução de conflitos e a cooperação, fazendo-se respeitar e promovendo o respeito ao outro e aos direitos humanos, com acolhimento e valorização da diversidade.</p>
+
+<p><strong>Liderança</strong>. A atuação do oceanógrafo deve capacitar outros a traduzir a visão em resultados, sendo pró-ativo no desenvolvimento de estratégias para atingir os objetivos. Estabelece e mantém relacionamentos com uma ampla gama de pessoas para entender as necessidades e obter suporte. Antecipa e resolve conflitos buscando soluções mutuamente aceitáveis e fornece liderança e assume a responsabilidade de incorporar a diversidade em todas as áreas de trabalho.</p>
+
+<p><strong>Avaliação de desempenho</strong>. O oceanógrafo deve monitorar o progresso em relação aos marcos e prazos estabelecidos e garantir que as funções e responsabilidades sejam claras para cada membro da equipe. Discute regularmente o desempenho e fornece feedback para seus pares, encorajando a assunção de riscos e apoiando a criatividade e a iniciativa, avaliando o desempenho de forma justa.</p>
+
+<p><strong>Método científico</strong>. Os diferentes elementos necessários para uma compreensão abrangente e profunda do método científico serão tratados de forma sequencial e complementar nas disciplinas obrigatórias e optativas do curso, incluindo as disciplinas de Trabalho de Graduação I e II, considerando: contextualização e fundamentação teórica, estruturação de objetivos e hipóteses, métodos (planejamento e execução em campo e laboratório) e análise de dados.</p></p><br>
+										<b style="font-size: 12px;">Outras informações</b><br>
+										<p style="text-align: justify;" class="informacoes"><p><strong>Conteúdos</strong></p>
+
+<p>Os conteúdos possuem caráter incremental, aumentando em complexidade na medida em que o aluno avança no curso. Além dos conteúdos básicos, que serão descritos adiante, serão considerados temas emergentes motivadores que permitem a formação de um profissional atualizado e que amparam a compreensão de princípios, leis e teorias que sustentam a capacidade de compreensão e previsão do comportamento do oceano, considerando seus componentes, processos, importâncias potenciais e ameaças. Considera também os componentes e processos do ambiente marinho e suas interfaces com o ambiente terrestre e com a atmosfera, nos aspectos físico, químico, geológico, biológico e humano. Os processos referem-se às interações entre esses componentes e ao funcionamento do ambiente marinho e do sistema socioecológico. As importâncias, entendidas como bens e serviços providos pelos ecossistemas marinhos e costeiros, derivam dos processos. As ameaças, por sua vez, comprometem a qualidade ambiental e afetam os benefícios derivados do oceano para a sociedade por influenciarem seus componentes e processos. Os potenciais dependem da identificação de oportunidades profissionais e da linguagem praticada no setor de atuação.</p>
+
+<p>Assim, compreende-se que os conteúdos tratados ao longo do curso devam permitir um aprimoramento da visão que os alunos têm do oceano, com vistas a uma abordagem cada vez mais holística e integrada. Ao passo que um aluno de início de curso deve ser capaz de compreender e comunicar os elementos acima apresentados, as disciplinas mais tardias capacitarão os alunos a descreverem e fazerem previsões sobre o comportamento do oceano, bem como proporem ações para garantir seu uso sustentável. As disciplinas permitirão, portanto, ao aluno compreender, transmitir, investigar, analisar, aplicar e prever o oceano. Com base em conhecimentos sólidos, poderão realizar o planejamento e a execução de atividades em campo ou laboratório (amostragem/experimentos), seguidas da análise e da interpretação dos resultados, com estímulo à visão crítica no processo de produção do conhecimento (científico ou não).</p>
+
+<p>Os conteúdos são organizados considerando disciplinas obrigatórias e optativas. Disciplinas obrigatórias trazem conteúdos básicos e mais gerais para motivar e orientar os estudantes a identificarem caminhos profissionais e passos acadêmicos, por meio de disciplinas optativas e atividades complementares ao longo do curso. Disciplinas optativas permitem a complementação da formação em temas emergentes, profissionalizantes, aplicados e integradores, trabalhando com número reduzido de alunos porém motivados pelo fato de terem escolhido esse caminho de formação. As disciplinas optativas possuem disciplinas obrigatórias e, eventualmente, optativas como pré-requisitos. Idealmente as disciplinas optativas devem ter 2 a 3 créditos para permitir que os alunos cursem mais disciplinas e tenham oportunidades de aprendizagem mais diversificadas nos semestres finais do curso. Disciplinas de outras unidades serão consideradas para a formação do oceanógrafo, além de serem importantes para ampliar a vivência dos alunos na universidade, interagindo com outros professores, alunos, unidades e propostas pedagógicas. Considerando que os conteúdos de optativas do IOUSP podem ser do interesse de outras unidades, vagas serão abertas para alunos dos demais cursos, aumentando a integração do IOUSP com a Universidade e dando visibilidade ao tema da Oceanografia e oportunidades para formação mais interdisciplinar na Universidade de São Paulo.</p></p><br>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div id="step3" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Instituto Oceanográfico - ( IO )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Bacharelado em Oceanografia - integral</span></div><br>
+										<iframe id="documento" name="documento" style="width: 700px; height: 650px;"></iframe>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div id="step4" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Instituto Oceanográfico - ( IO )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Bacharelado em Oceanografia - integral</span></div>
+										<div style="margin-bottom: 5px;"><b>Duração</b></div>
+										<div style="margin-bottom: 5px;"><b>Ideal:</b>&nbsp;<span class="duridlhab">8</span>&nbsp;semestres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Mínima:</b>&nbsp;<span class="durminhab">8</span>&nbsp;semestres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Máxima:</b>&nbsp;<span class="durmaxhab">12</span>&nbsp;semestres</div><br>
+										<b style="font-size: 12px;">Informações específicas</b><br>
+										<p style="text-align: justify;" class="informacoesEspecificas">1. O aluno deverá cursar um mínimo de 60 créditos em disciplinas optativas eletivas e 10 créditos em disciplinas optativas livres;<br>2. O aluno deverá cumprir um mínimo de 100 horas de Atividades de Embarque;<br>3. O aluno deverá realizar um mínimo de 390 horas em Atividades Acadêmicas Complementares;<br>4. O aluno deverá realizar um mínimo de 360 horas de Estágio Obrigatório.</p><br>
+										<div style="padding-left: 3px;">
+										<b>Legenda</b>: CH = Carga horária Total; CE = Carga horária de Estágio; CP = Carga horária de Práticas como Componentes Curriculares; ATPA = Atividades Teórico-Práticas de Aprofundamento
+										</div>
+										<div id="gradeCurricular"><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Obrigatórias</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">1º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100101" class="disciplina">2100101</a></td><td>Sistema Oceano I</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0167" class="disciplina">IOB0167</a></td><td>Oceanografia Biológica I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT0111" class="disciplina">MAT0111</a></td><td>Cálculo Diferencial e Integral I</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MCG0669" class="disciplina">MCG0669</a></td><td>Primeiros Socorros e Sobrevivência em Alto Mar</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="QFL1150" class="disciplina">QFL1150</a></td><td>Química Básica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">2º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100102" class="disciplina">2100102</a></td><td>Sistema Oceano II</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100101 - Sistema Oceano I</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4310111" class="disciplina">4310111</a></td><td>Física I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0168" class="disciplina">IOB0168</a></td><td>Oceanografia Biológica II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0167 - Oceanografia Biológica I</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0283" class="disciplina">IOF0283</a></td><td>Oceanografia Geológica I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100101 - Sistema Oceano I</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT0121" class="disciplina">MAT0121</a></td><td>Cálculo Diferencial e Integral II</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT0111 - Cálculo Diferencial e Integral I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="QFL1250" class="disciplina">QFL1250</a></td><td>Química Analítica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QFL1150 - Química Básica</td><td colspan="6">Requisito fraco</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">3º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100114" class="disciplina">2100114</a></td><td>Atividade Embarcada I</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100102 - Sistema Oceano II</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="4310114" class="disciplina">4310114</a></td><td>Física II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4310111 - Física I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0169" class="disciplina">IOB0169</a></td><td>Oceanografia Biológica III</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0168 - Oceanografia Biológica II</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0280" class="disciplina">IOF0280</a></td><td>Oceanografia Química I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QFL1250 - Química Analítica</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0284" class="disciplina">IOF0284</a></td><td>Oceanografia Geológica II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOF0283 - Oceanografia Geológica I</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0287" class="disciplina">IOF0287</a></td><td>Oceanografia Física I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4310111 - Física I</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT0111 - Cálculo Diferencial e Integral I</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT0121 - Cálculo Diferencial e Integral II</td><td colspan="6">Requisito fraco</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">4º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100119" class="disciplina">2100119</a></td><td>Oceano e Sociedade</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100101 - Sistema Oceano I</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100102 - Sistema Oceano II</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100114 - Atividade Embarcada I</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100101 - Sistema Oceano I</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100102 - Sistema Oceano II</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0170" class="disciplina">IOB0170</a></td><td>Oceanografia Biológica IV</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0168 - Oceanografia Biológica II</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0281" class="disciplina">IOF0281</a></td><td>Oceanografia Química II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOF0280 - Oceanografia Química I</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0285" class="disciplina">IOF0285</a></td><td>Oceanografia Geológica III</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOF0284 - Oceanografia Geológica II</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0288" class="disciplina">IOF0288</a></td><td>Oceanografia Física II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">4310114 - Física II</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOF0287 - Oceanografia Física I</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT0121 - Cálculo Diferencial e Integral II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOF0287 - Oceanografia Física I</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">MAT0121 - Cálculo Diferencial e Integral II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAE0116" class="disciplina">MAE0116</a></td><td>Noções de Estatística</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">5º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100122" class="disciplina">2100122</a></td><td>Oceanografia Integrativa I</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100101 - Sistema Oceano I</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100102 - Sistema Oceano II</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0282" class="disciplina">IOF0282</a></td><td>Oceanografia Química III</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOF0281 - Oceanografia Química II</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0286" class="disciplina">IOF0286</a></td><td>Oceanografia Geológica IV</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOF0285 - Oceanografia Geológica III</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0289" class="disciplina">IOF0289</a></td><td>Oceanografia Física III</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOF0288 - Oceanografia Física II</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAC0115" class="disciplina">MAC0115</a></td><td>Introdução à Computação para Ciências Exatas e Tecnologia</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">6º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100123" class="disciplina">2100123</a></td><td>Oceanografia Integrativa II</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">2100122 - Oceanografia Integrativa I</td><td colspan="6">Requisito fraco</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">7º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100104" class="disciplina">2100104</a></td><td>Trabalho de Graduação I</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">195</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">8º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100105" class="disciplina">2100105</a></td><td>Trabalho de Graduação II</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">195</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr></tbody></table><br><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Optativas Livres</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">2º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="GSA0602" class="disciplina">GSA0602</a></td><td>Introdução à Geoestatística</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">4º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0292" class="disciplina">IOF0292</a></td><td>Applied Geophysics</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">8º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="GSA0601" class="disciplina">GSA0601</a></td><td>Paleontologia Geral</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr></tbody></table><br><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Optativas Eletivas</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">2º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="GSA0393" class="disciplina">GSA0393</a></td><td>Geologia do Quaternário</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0296" class="disciplina">IOF0296</a></td><td>Seminários de Oceanografia Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">15</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">3º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100124" class="disciplina">2100124</a></td><td>Projetos de Cultura e Extensão em Oceanografia I</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">7</td><td style="width: 100px; text-align: right; padding-right: 5px;">225</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0156" class="disciplina">IOB0156</a></td><td>Microbiologia Marinha</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">4º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100125" class="disciplina">2100125</a></td><td>Projetos de Cultura e Extensão em Oceanografia II</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">7</td><td style="width: 100px; text-align: right; padding-right: 5px;">225</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0179" class="disciplina">IOB0179</a></td><td>Divulgação Científica e Cultura Oceânica</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0114" class="disciplina">IOF0114</a></td><td>Oceanografia Física Costeira e Estuarina</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0204" class="disciplina">IOF0204</a></td><td>Sistemas e Processos Costeiros</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0207" class="disciplina">IOF0207</a></td><td>Recursos Marinhos Não Renováveis</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0291" class="disciplina">IOF0291</a></td><td>Microplásticos no Oceano</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0293" class="disciplina">IOF0293</a></td><td>Ocean and Climate</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0294" class="disciplina">IOF0294</a></td><td>Oceanografia: da Metodologia à Divulgação Científica</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0297" class="disciplina">IOF0297</a></td><td>Poluição Química de Ambientes Marinhos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">5º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="ACA0430" class="disciplina">ACA0430</a></td><td>Meteorologia Sinótica e Aplicações à Oceanografia</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOF0288 - Oceanografia Física II</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0164" class="disciplina">IOB0164</a></td><td>História de vida e conservação de cetáceos</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0167 - Oceanografia Biológica I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0168 - Oceanografia Biológica II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0169 - Oceanografia Biológica III</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0170 - Oceanografia Biológica IV</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0175" class="disciplina">IOB0175</a></td><td>Recifes de corais</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0177" class="disciplina">IOB0177</a></td><td>Biologia dos Invertebrados Marinhos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0290" class="disciplina">IOF0290</a></td><td>Oceano e criosfera em um clima em mudança</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">6º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0174" class="disciplina">IOB0174</a></td><td>Introdução aos Vertebrados Aquáticos</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0170 - Oceanografia Biológica IV</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0178" class="disciplina">IOB0178</a></td><td>Ecologia do Zooplâncton Marinho</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0180" class="disciplina">IOB0180</a></td><td>Genética e Biologia Molecular aplicadas à Oceanografia</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0167 - Oceanografia Biológica I</td><td colspan="6">Requisito fraco</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0298" class="disciplina">IOF0298</a></td><td>Laboratório de Geofísica Marinha Aplicada</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOF0285 - Oceanografia Geológica III</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">7º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100109" class="disciplina">2100109</a></td><td>Métodos de Avaliação de Impacto Ambiental Marinho II</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0125" class="disciplina">IOB0125</a></td><td>Ecologia e Ciclo de Vida de Peixes Marinhos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0137" class="disciplina">IOB0137</a></td><td>Manejo Integrado de Ecossistemas Costeiros e Oceânicos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">120</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0141" class="disciplina">IOB0141</a></td><td>Princípios e Práticas de Extensão em Sistemas Costeiros</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0147" class="disciplina">IOB0147</a></td><td>Ictioplâncton Marinho</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0149" class="disciplina">IOB0149</a></td><td>Ecologia de Mar Profundo</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0150" class="disciplina">IOB0150</a></td><td>Microbiologia Ambiental Marinha</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0154" class="disciplina">IOB0154</a></td><td>Pesca Sustentável</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0160" class="disciplina">IOB0160</a></td><td>Práticas de Aquicultura I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0162" class="disciplina">IOB0162</a></td><td>Biodiversidade de Peixes</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0165" class="disciplina">IOB0165</a></td><td>Biologia da Conservação do Boto-cinza</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0167 - Oceanografia Biológica I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0168 - Oceanografia Biológica II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0169 - Oceanografia Biológica III</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0170 - Oceanografia Biológica IV</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0164 - História de vida e conservação de cetáceos</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0176" class="disciplina">IOB0176</a></td><td>Consequências das mudanças climáticas em ecossistemas marinhos</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0115" class="disciplina">IOF0115</a></td><td>Modelagem Numérica em Oceanografia</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0235" class="disciplina">IOF0235</a></td><td>Micropaleontologia Marinha</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0251" class="disciplina">IOF0251</a></td><td>Bioquímica Marinha e Efeitos da Poluição nos Processos Bioquímicos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0255" class="disciplina">IOF0255</a></td><td>Oceanografia Por Satélites</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0259" class="disciplina">IOF0259</a></td><td>Laboratório de Oceanografia Dinâmica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0264" class="disciplina">IOF0264</a></td><td>Aplicações de Modelos Numéricos em Oceanografia Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0265" class="disciplina">IOF0265</a></td><td>Técnicas de Visualização e Distribuição de Dados Oceanográficos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0266" class="disciplina">IOF0266</a></td><td>Análise de Marés Oceânicas</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0276" class="disciplina">IOF0276</a></td><td>Bioluminescência e Química de Processos Biológicos Marinhos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT0122" class="disciplina">MAT0122</a></td><td>Álgebra Linear I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT0216" class="disciplina">MAT0216</a></td><td>Cálculo Diferencial e Integral III</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">8º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100108" class="disciplina">2100108</a></td><td>Métodos de Avaliação de Impacto Ambiental Marinho I</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100117" class="disciplina">2100117</a></td><td>Atividade Embarcada II</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="2100118" class="disciplina">2100118</a></td><td>Ecossistemas Marinhos Antárticos</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0130" class="disciplina">IOB0130</a></td><td>Ecologia e Poluição de Ecossistemas Estuárinos</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0145" class="disciplina">IOB0145</a></td><td>Fundamentos de Ictiologia Marinha</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0152" class="disciplina">IOB0152</a></td><td>Biologia da Conservação</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0167 - Oceanografia Biológica I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0168 - Oceanografia Biológica II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0169 - Oceanografia Biológica III</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0170 - Oceanografia Biológica IV</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0161" class="disciplina">IOB0161</a></td><td>Princípios de Sistemática e Biogeografia Marinha</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0163" class="disciplina">IOB0163</a></td><td>Noções de Carreira e Mercado para o Oceanógrafo</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0166" class="disciplina">IOB0166</a></td><td>Projetos de Pesquisa e Desenvolvimento em Oceanografia Biológica</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0172" class="disciplina">IOB0172</a></td><td>História de vida e conservação de tartarugas e aves marinhas</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0167 - Oceanografia Biológica I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0168 - Oceanografia Biológica II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0169 - Oceanografia Biológica III</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0170 - Oceanografia Biológica IV</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0173" class="disciplina">IOB0173</a></td><td>Produção Primária Marinha</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB0181" class="disciplina">IOB0181</a></td><td>Práticas de Aquicultura II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">IOB0160 - Práticas de Aquicultura I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOB1120" class="disciplina">IOB1120</a></td><td>Aqüicultura</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0248" class="disciplina">IOF0248</a></td><td>Química dos Estuários</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0250" class="disciplina">IOF0250</a></td><td>Técnicas Analíticas Aplicadas aos Poluentes Orgânicos no Mar</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0258" class="disciplina">IOF0258</a></td><td>Reconstituição Paleoambiental de Ambientes de Sedimentação Marinha</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0267" class="disciplina">IOF0267</a></td><td>Metodologias de Estudo de Testemunhos Marinhos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0268" class="disciplina">IOF0268</a></td><td>Aspectos Geológicos do Litoral e da Plataforma Continental do Estado de São Paulo</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">75</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0269" class="disciplina">IOF0269</a></td><td>Métodos de Apresentação Científica em Oceanografia na Língua Inglesa</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0270" class="disciplina">IOF0270</a></td><td>Massas de Àgua e Frentes Oceânicas</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0272" class="disciplina">IOF0272</a></td><td>Aplicação de Foraminíferos na Avaliação da Qualidade Ambiental em Regiões Costeiras e Oceânicas</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0278" class="disciplina">IOF0278</a></td><td>A Teoria Quase-geostrófica nos Oceanos</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="IOF0279" class="disciplina">IOF0279</a></td><td>Técnicas de Consultoria em Oceanografia Física para a Indústria Offshore</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="MAT0220" class="disciplina">MAT0220</a></td><td>Cálculo Diferencial e Integral IV</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr></tbody></table></div>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</tbody></table>
+	</div>
+
+	
+
+	
+
+
+
+
+
+	
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/home.css">
+<table width="100%" border="0" cellspacing=" 0" cellpadding=" 0" align="center">
+  
+  <tbody><tr>
+    <td align="center"><font face="Arial, Helvetica, sans-serif" size="1"><hr size="1">
+      <a href="creditos.jsp" class="link_olive" target="_self">Créditos</a>
+      | <a href="jupColegiadoEmailLista" class="link_olive">Fale conosco</a><br>
+      © 1999 - 2025 - Superintendência de Tecnologia da Informação/USP</font>
+    </td>
+  </tr>
+</tbody></table>
+
+
+
+
+			
+
+			
+		</div>
+	</div>
+
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-disciplinaDialog" style="display: none; z-index: 1000; outline: 0px; position: absolute;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-disciplinaDialog">&nbsp;</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="disciplinaDialog" class="ui-dialog-content ui-widget-content">
+		<table class="normal">
+			<tbody><tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px; width: 200px;"><b>Créditos aula:</b></td>
+				<td class="creditosAula"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Créditos trabalho:</b></td>
+				<td class="creditosTrabalho"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Carga horária total:</b></td>
+				<td class="cargaHorariaTotal"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Tipo:</b></td>
+				<td class="tipo"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Ativação:</b></td>
+				<td class="ativacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Objetivos:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="objetivos"><p>O objetivo do curso de Bacharelado em Oceanografia do IOUSP é formar profissionais com conhecimento generalista e abrangente, porém com a sólida formação de um especialista no estudo integrado dos processos do meio marinho. No curso é considerada a diversidade de enfoques e conteúdos das diferentes áreas da Oceanografia, com ênfase nas áreas de oceanografia Física, Química, Geológica e Biológica, direcionadas ao entendimento dos processos e à interpretação e previsão de fenômenos que ocorrem no oceano e ambientes transicionais, visando subsidiar a aplicação do conhecimento, a governança e a utilização racional de seus recursos renováveis e não renováveis, observando a posição e a influência do ser humano neste contexto.</p></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Docente(s) Responsável(eis):</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2">
+					<ul class="docentesResponsaveis" style="margin-top: 0; margin-bottom: 0;"></ul>
+				</td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Programa Resumido:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="programaResumido"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Programa:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="programa"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Avaliação:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Método:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="metodoAvaliacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Critério:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="criterioAvaliacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Norma de Recuperação:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="normaRecuperacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Bibliografia:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="bibliografia" style="text-align: justify;"></td>
+			</tr>
+		</tbody></table>
+	</div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1000;"></div></div><div class="blockUI" style="display:none"></div><div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.087868; cursor: wait; position: fixed;"></div><div class="blockUI blockMsg blockPage ui-dialog ui-widget ui-corner-all ui-widget-content ui-draggable" style="z-index: 1001; position: fixed; width: 30%; top: 40%; left: 35%; opacity: 0.146447;"><div class="ui-widget-header ui-dialog-titlebar ui-corner-all blockTitle">Aguarde...</div><div class="ui-widget-content ui-dialog-content"><div align="center"><img src="images/ajaxLoaderPeq.gif" border="0"></div></div></div></body></html>

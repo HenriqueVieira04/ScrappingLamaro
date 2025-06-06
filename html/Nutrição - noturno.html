@@ -1,0 +1,923 @@
+<html><head>
+<title>Jupiterweb</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Expires" content="-1">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="icon" type="image/x-icon">
+<link href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/menuweb.css" type="text/css" rel="stylesheet">
+<style>
+#layout_principal {
+	width: 100%;
+}
+
+#layout_cabecalho {
+
+}
+
+#layout_menu {
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+}
+
+#layout_conteudo {
+	padding-left: 181px;
+	padding-top: 10px;
+}
+</style><style>.cke{visibility:hidden;}</style></head>
+
+<!--[if IE]>
+	<style>
+		#layout_conteudo {
+			padding-left: 10px;
+			padding-right: 2px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			overflow:auto;
+		}
+	</style>
+	<![endif]-->
+<body>
+
+	<div id="layout_principal">
+		<div id="layout_cabecalho">
+			
+
+<style>
+	a.cabecalho_sair:active  {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:link    {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:visited {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:hover   {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:underline;}
+
+	td.font_cabecalho1 {
+		font:bold 26px Tahoma;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho2 {
+		font:bold 10px Arial;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho3 {
+		font:normal 9px Verdana;
+		color: #FFFFFF;
+	}
+</style>
+
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td width="180" rowspan="3" align="center">
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo.png" width="122" height="49" alt="" border="0" style="position: relative; top: -3px;"></a>
+		</td>
+		<td>
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo-texto.png" alt="" width="260" height="44" border="0" style="position: relative; top: 5px;"></a>
+		</td>
+	</tr>
+</tbody></table>
+<div style="width: 100%; height: 14px; background-image: url('https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/bg-headtop.gif'); margin-bottom: 5px; text-align: right; color: white; padding-top: 12px; padding-right: 3px; font-family: Verdana; font-size: 10px;">
+	
+</div>
+
+		</div>
+
+		<div id="layout_menu">
+			
+
+
+
+
+<!-- FreeStyle Menu v1.0RC by Angus Turnbull http://www.twinhelix.com -->
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/fsmenu.js"></script>
+
+<!-- Demo CSS layouts for the list menu. Pick your favourite one and customise! -->
+<!-- Remove all but one and change "alternate stylesheet" to "stylesheet" to enable -->
+<link rel="stylesheet" type="text/css" id="listmenu-v" href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_v.css" title="Vertical 'Earth'">
+
+<!-- Fallback CSS menu file allows list menu operation when JS is disabled. -->
+<!-- This is automatically disabled via its ID when the script kicks in. -->
+<link rel="alternate stylesheet" type="text/css" id="fsmenu-fallback" href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_fallback.css" disabled="">
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+	var arrow = null;
+	if (document.createElement && document.documentElement) {
+		//arrow = document.createElement('span');
+		//arrow.appendChild(document.createTextNode('>'));
+		// Feel free to replace the above two lines with these for a small arrow image...
+		arrow = document.createElement('img');
+		arrow.src = 'https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif';
+		arrow.style.borderWidth = '0';
+		arrow.className = 'subind';
+	}
+
+	if ("[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2023-2024, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != null && "[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2023-2024, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2023&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != '') {
+		// Here's a menu object to control the above list of menu data:
+		var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+		listMenu.hideDelay = 800;
+		//listMenu.showDelay = 0;
+		//listMenu.switchDelay = 125;
+		//listMenu.cssLitClass = 'highlighted';
+		//listMenu.showOnClick = 0;
+		listMenu.hideOnClick = true;
+		listMenu.animInSpeed = 0.5;
+		listMenu.animOutSpeed = 0.5;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu.activateMenu("listMenuRoot", arrow)'));
+	}
+
+	if ("false" != "false") {
+		var listMenu2 = new FSMenu('listMenu2', true, 'display', 'block',
+				'none');
+		listMenu2.hideDelay = 800;
+		listMenu2.hideOnClick = true;
+		listMenu2.animInSpeed = 0.5;
+		listMenu2.animOutSpeed = 0.5;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animFade;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu2.activateMenu("listMenuRoot2", arrow)'));
+	} else {
+		var listMenu3 = new FSMenu('listMenu3', true, 'display', 'block',
+				'none');
+		listMenu3.hideDelay = 800;
+		listMenu3.hideOnClick = true;
+		listMenu3.animInSpeed = 0.5;
+		listMenu3.animOutSpeed = 0.5;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animFade;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu3.activateMenu("listMenuRoot3", arrow)'));
+	}
+	//]]>
+</script>
+
+<!-- PUBLICO -->
+
+	
+	<ul class="menulist" id="listMenuRoot">
+		
+			
+				<li class="menuHeader">Público</li>
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Calendário Escolar</span></a>
+		<ul id="listMenu-id-1">
+
+
+
+
+			
+			
+
+	<li><a href="jupArquivosPublicos.jsp?tiparq=8&amp;anoprg=2025&amp;codmnu=7920" title="">2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="jupArquivosPublicos.jsp?tiparq=9&amp;anoprg=2026&amp;codmnu=6863" title="">2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="jupCarreira.jsp?codmnu=8275" title="">Cursos de ingresso</a></li>
+
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Disciplina</span></a>
+		<ul id="listMenu-id-2">
+
+
+
+
+			
+			
+
+	<li><a href="jupDisciplinaBusca?tipo=D&amp;codmnu=6755" title="">Busca por Disciplinas</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="jupDisciplinaBusca?tipo=T&amp;codmnu=6756" title="">Busca por Turmas</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Editais</span></a>
+		<ul id="listMenu-id-3">
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Programa Unificado de Bolsas(PUB)</span></a>
+		<ul id="listMenu-id-4">
+
+
+
+
+			
+			
+
+	<li><a href="https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2023&amp;codm?codmnu=10872" title="">Edital 2023-2024</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2024&amp;codm?codmnu=11502" title="">Edital 2024-2025</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="http://www.prg.usp.br/?page_id=399?codmnu=6762" title="">PEEG</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="https://prg.usp.br/programas-e-bolsas/?codmnu=10838" title="">PAP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>FAQ</span></a>
+		<ul id="listMenu-id-5">
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Matrícula Interativa</span></a>
+		<ul id="listMenu-id-6">
+
+
+
+
+			
+			
+
+	<li><a href="FAQ.jsp?codmnu=9326" title="">FAQ</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="grdMatriculainterativaInformacoes.jsp?codmnu=9327" title="">Informações gerais</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="graduacaoAjudaNovaMatricula?codmnu=8946" title="Liberar próximo da matricula">TUTORIAL - NOVA MATRÍCULA</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="http://www.prg.usp.br/?p=20746&amp;codmnu=6749" title="">Jupiterweb em Vídeos</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="http://www.prg.usp.br/?p=20741&amp;codmnu=8063" title="">Informações gerais sobre a Graduação</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		
+	
+
+
+
+
+<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- NAO AUTENTICADO -->
+
+	<ul class="menulist" id="listMenuRoot3">
+		<li class="menuHeader">Acesso Restrito</li>
+		<li><a href="webLogin.jsp">Entrar</a></li>
+		<li><a href="esqueciSenha">Esqueci a Senha</a></li>
+		<li><a href="primeiroAcesso">Primeiro Acesso</a></li>
+	</ul>
+	<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- AUTENTICADO -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		</div>
+
+		<div id="layout_conteudo">
+			
+
+			
+
+			
+			
+				
+			
+
+			
+				
+
+
+
+
+<link href="css/apolo.css" type="text/css" rel="stylesheet">
+
+	
+
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/temas/ui-lightness/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/ui.jqgrid.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.css">
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/jupiterweb.css">
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/comum.css">
+
+
+<!-- HTML 5 Tags para IE8 -->
+<!--[if lt IE 9]>
+	   <script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+	   </script>
+	<![endif]-->
+	
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery.ui.datepicker-pt-BR.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/blockUI/2.36/jquery.blockUI.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine-pt.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/jquery.jqGrid.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/grid.locale-pt-br.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/simplemodal/1.4.4/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/exists/0.1/jquery.exists.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maskedInput/1.2.2/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/ckeditor.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/adapters/jquery.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/messages/1.3.0-0/messages.min.js"></script>
+<script type="text/javascript" src="/jupiterweb/dwr/engine.js"></script>
+<script type="text/javascript" src="/jupiterweb/dwr/util.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/usp-exception-dwr.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/comum.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/jupiterweb.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K1Y204Q919"></script>
+<script src="usp-ga4.js"></script>
+
+<style>
+#simplemodal-container a.modalCloseImg {
+	background:
+		url(images/jquery/jquery.simple.modal/x.png)
+		no-repeat; /* adjust url as required */
+}
+</style>
+
+
+
+<style>
+a.link_cabecalho:active {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:link {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:visited {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:hover {
+	font-family: verdana;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline
+}
+
+#my_web_cabecalho {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666666;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+#my_web_cabecalho_descricao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+</style>
+
+
+
+	
+
+
+<div id="my_web_cabecalho">
+	Carreira
+</div>
+
+	
+
+
+
+
+
+
+
+	<br>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript" src="dwr/interface/ControlePublicoDWR.js"></script>
+<script type="text/javascript" src="dwr/interface/CursoControlePublicoDWR.js"></script>
+<script type="text/Javascript" src="javascript/carreira/jupCarreira.js" charset="UTF-8"></script>
+
+
+
+
+	<div id="tabs-local" style="margin-left: 20px; margin-bottom: 20px;">
+		<table width="99%">
+			<tbody><tr>
+				<td>
+					<div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+						<ul class="tabNavigation ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+							<li class="ui-state-default ui-corner-top"><a href="#step1" id="step1-tab">Buscar</a></li>
+							<li class="ui-state-default ui-corner-top"><a href="#step2" id="step2-tab">Informações do curso</a></li>
+							<li class="ui-state-default ui-corner-top"><a href="#step3" id="step3-tab">Projeto pedagógico</a></li>
+							<li class="ui-state-default ui-corner-top ui-state-focus ui-tabs-selected ui-state-active ui-state-hover"><a href="#step4" id="step4-tab">Grade curricular</a></li>
+						</ul>
+						<div id="step1" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<div id="formulario" class="dialog-box">
+								<p><font color="#990000">Os campos marcados com * são de preenchimento obrigatório.</font></p>
+								<form id="form1" name="form1" style="padding-top: 3px;" data-gtm-form-interact-id="0" class="">
+								<label><b>Unidade:*</b></label>&nbsp;
+								<select id="comboUnidade" style="margin-bottom: 10px;" class="validate[required]" data-gtm-form-interact-field-id="0">
+									<option value=""></option>
+								<option value="86">Escola de Artes, Ciências e Humanidades - ( EACH )</option><option value="27">Escola de Comunicações e Artes - ( ECA )</option><option value="39">Escola de Educação Física e Esporte - ( EEFE )</option><option value="98">Escola de Educação Física e Esporte de Ribeirão Preto - ( EEFERP )</option><option value="7">Escola de Enfermagem - ( EE )</option><option value="22">Escola de Enfermagem de Ribeirão Preto - ( EERP )</option><option value="88">Escola de Engenharia de Lorena - ( EEL )</option><option value="18">Escola de Engenharia de São Carlos - ( EESC )</option><option value="97">Escola de Engenharia de São Carlos e Instituto de Ciências Matemáticas e de Computação - ( EESC e ICMC )</option><option value="3">Escola Politécnica - ( EP )</option><option value="11">Escola Superior de Agricultura "Luiz de Queiroz" - ( ESALQ )</option><option value="16">Faculdade de Arquitetura e Urbanismo e de Design - ( FAU )</option><option value="9">Faculdade de Ciências Farmacêuticas - ( FCF )</option><option value="60">Faculdade de Ciências Farmacêuticas de Ribeirão Preto - ( FCFRP )</option><option value="2">Faculdade de Direito - ( FD )</option><option value="89">Faculdade de Direito de Ribeirão Preto - ( FDRP )</option><option value="81">Faculdade de Economia, Administração e Contabilidade de Ribeirão Preto - ( FEARP )</option><option value="12">Faculdade de Economia, Administração, Contabilidade e Atuária - ( FEA )</option><option value="48">Faculdade de Educação - ( FE )</option><option value="59">Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto - ( FFCLRP )</option><option value="8">Faculdade de Filosofia, Letras e Ciências Humanas - ( FFLCH )</option><option value="5">Faculdade de Medicina - ( FM )</option><option value="24">Faculdade de Medicina de Bauru - ( FMBRU )</option><option value="17">Faculdade de Medicina de Ribeirão Preto - ( FMRP )</option><option value="10">Faculdade de Medicina Veterinária e Zootecnia - ( FMVZ )</option><option value="23">Faculdade de Odontologia - ( FO )</option><option value="25">Faculdade de Odontologia de Bauru - ( FOB )</option><option value="58">Faculdade de Odontologia de Ribeirão Preto - ( FORP )</option><option value="6">Faculdade de Saúde Pública - ( FSP )</option><option value="74">Faculdade de Zootecnia e Engenharia de Alimentos - ( FZEA )</option><option value="66">Física Médica - Instituto de Física e Faculdade de Medicina - ( Física Méd - IF e FM )</option><option value="99">Instituto de Arquitetura e Urbanismo de São Carlos - ( IAU )</option><option value="14">Instituto de Astronomia, Geofísica e Ciências Atmosféricas - ( IAG )</option><option value="41">Instituto de Biociências - ( IB )</option><option value="42">Instituto de Ciências Biomédicas - ( ICB )</option><option value="55">Instituto de Ciências Matemáticas e de Computação - ( ICMC )</option><option value="43">Instituto de Física - ( IF )</option><option value="76">Instituto de Física de São Carlos - ( IFSC )</option><option value="44">Instituto de Geociências - ( IGc )</option><option value="45">Instituto de Matemática e Estatística - ( IME )</option><option value="47">Instituto de Psicologia - ( IP )</option><option value="46">Instituto de Química - ( IQ )</option><option value="75">Instituto de Química de São Carlos - ( IQSC )</option><option value="87">Instituto de Relações Internacionais - ( IRI )</option><option value="21">Instituto Oceanográfico - ( IO )</option><option value="90">Interunidades de Licenciatura IFSC/IQSC/ICMC - ( Inter IFSC/IQSC/ICMC )</option><option value="1">Pró-Reitoria de Graduação - ( Pró-G )</option></select>
+								<br>
+								<label><b>Curso:*</b></label>&nbsp;
+								<select id="comboCurso" style="margin-bottom: 15px;" class="validate[required]" data-gtm-form-interact-field-id="1">
+								<option value=""></option><option value="6023|3">Bacharelado em Saúde Pública - vespertino</option><option value="6012|2">Nutrição - matutino</option><option value="6012|4">Nutrição - noturno</option></select>
+								<br>
+                                </form>
+								<button id="enviar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Buscar</span></button>&nbsp;&nbsp;
+								<button id="limpar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Limpar</span></button>
+								<br>
+							</div>
+						</div>
+						<div id="step2" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Faculdade de Saúde Pública - ( FSP )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Nutrição - noturno</span></div>
+										<div style="margin-bottom: 5px;"><b>Duração:</b>&nbsp;<span class="duridlhab">10</span>&nbsp;semestres</div><br>
+										<b style="font-size: 12px;">Descrição de perfil de aluno</b><br>
+										<p style="text-align: justify;" class="descricaoPerfilAluno"><p>O/a nutricionista formado/a neste curso terá formação generalista e atuação humanista, crítica, reflexiva, inclusiva, política, empreendedora e ético-legal. Suas ações deverão se pautar na integralidade, universalidade e equidade do cuidado à saúde dos indivíduos e grupos, considerando as demandas e necessidades de saúde, alimentação e nutrição; as condições de vida e as questões fisiológicas, socioculturais, ambientais, econômicas, históricas e políticas. Esse/a profissional será capaz de planejar, praticar e avaliar ações, atividades e cuidados alimentares e nutricionais que envolvam seus principais objetos de trabalho: o alimento; a alimentação, a nutrição e o ser humano. Terá como fundamentos de sua práxis a segurança alimentar e nutricional, o desenvolvimento de sistemas alimentares saudáveis e sustentáveis, a garantia dos direitos humanos, inclusive à alimentação adequada, o processo saúde/doença/cuidado, a promoção, a manutenção e a recuperação da saúde e a complexidade de saberes inerente ao seu processo de trabalho em saúde e à gestão do cuidado em saúde. Finalmente, o/a nutricionista deverá trabalhar de forma articulada com outros/as profissionais e com a comunidade, de forma ampliada, compartilhada, interdisciplinar, responsável, ética, justa e socialmente referenciada.</p></p><br>
+										<b style="font-size: 12px;">Objetivos do curso</b><br>
+										<p style="text-align: justify;" class="objetivos"><p>1. Promover o estudo do fenômeno alimentar e nutricional de uma ponta a outra (e em suas sinuosidades, intersecções e relações), evitando visões fragmentadas e abordando: o que se produz, como se produz, como os alimentos são acessados, como se escolhe, quem cozinha, como cozinha, como se dá o descarte, o que se come, quanto se come, como se come, com quem se come, como se digere, absorve, metaboliza e excreta, quais são os efeitos dos nutrientes, alimentos, padrões e práticas alimentares na saúde, nas condições de vida, no meio ambiente e na sociedade e quais são os significados de tais práticas.</p>
+
+<p>2. Incentivar a reflexão, o senso crítico, a inclusão, a ética, o uso apropriado do conhecimento científico e a atuação ampliada, compartilhada e socialmente referenciada da/o nutricionista, em articulação com os Objetivos de Desenvolvimento Sustentável.</p>
+
+<p>3. Contribuir para um ambiente educacional que ofereça uma multiplicidade de abordagens, permeadas pela reflexão, e por conhecimentos inovadores, desafiadores e socialmente relevantes (ainda que parciais e localizáveis), que promovam diálogos significativos e transformadores.</p>
+
+<p>4. Incentivar a reflexão original sobre contextos particulares envolvendo os coletivos étnicos, raciais, de gênero e sexualidade, além da leitura crítica dos dados epidemiológicos, utilizando o conhecimento científico para revelar problemas e imaginar soluções que fujam às grandes linhas da análise populacional, valorizando a inovação do pensamento clínico a partir dos contextos socioculturais da Alimentação e Nutrição e seus desafios no tempo presente.</p>
+
+<p>5. Apresentar menor carga horária de disciplinas obrigatórias e maior flexibilidade, para que cada estudante possa traçar seu percurso de aprendizado e iniciar seu futuro processo de educação permanente.</p></p><br>
+										<b style="font-size: 12px;">Competências / Habilidades</b><br>
+										<p style="text-align: justify;" class="competencias"><p>A formação por competências é um elemento comum a vários PPPs de cursos de Nutrição. Segundo JUNQUEIRA e COTTA (2014, p. 1467), as competências “norteiam a seleção de conteúdos, sua apropriação, comunicação, produção ou reconstrução. Assim, uma competência possibilita a mobilização de conhecimentos e esquemas para o enfrentamento de situações diversas. Seria a capacidade de encontrar recursos e respostas criativas e eficazes para problemas inéditos que se apresentam”.<br>
+Segundo as atuais Diretrizes Curriculares Nacionais do Curso de Nutrição (DCN-Nut) (BRASIL 2001), os/as graduados/as em cursos de Bacharelado em Nutrição no Brasil devem estar capacitados para:</p>
+
+<p><br>
+I - estabelecer a assistência dietética, para a promoção e manutenção da saúde e para o desempenho esportivo e físico;<br>
+II - estabelecer a assistência nutricional e dietoterápica, contemplando o diagnóstico nutricional e a prescrição dietética, na prevenção e recuperação da saúde, e na redução de agravos;<br>
+III - avaliar os aspectos técnicos de alimentação e nutrição na produção, na industrialização e na comercialização de alimentos, bebidas e refeições e no desenvolvimento de novos produtos e serviços, para a promoção da saúde de indivíduos e coletividades;<br>
+IV - desenvolver a assistência dietética e a gestão em políticas, programas e serviços, no âmbito do SUS e de outros setores da Administração Pública, para a conformação de uma rede de cuidados integrada, resolutiva e humanizada, no campo da alimentação e nutrição;<br>
+V - aplicar os métodos de gestão em processos, projetos, serviços, pessoas, materiais, informações e recursos financeiros para tomada de decisões, no contexto da segurança alimentar e nutricional;<br>
+VI - desenvolver trabalho em equipe multiprofissional, valorizando a multidisciplinaridade e a interprofissionalidade visando o trabalho colaborativo e adiversidade de atores sociais, na perspectiva da alimentação como direito humano, com vistas à construção coletiva em ações promotoras de saúde;<br>
+VII - exercer a comunicação, a informação e a educação em saúde e em alimentação e nutrição, para a garantia do efetivo acesso a conhecimentos pautados em saberes populares e em evidências científicas;<br>
+VIII - estabelecer processos de educação alimentar e nutricional, no contexto da segurança alimentar e nutricional, para a promoção de práticas alimentares saudáveis autônomas e voluntárias;<br>
+IX - aplicar os princípios da bioética, ética e a metodologia científica em pesquisas, em estudos dietéticos e em trabalhos experimentais para embasar a atuação profissional crítica e reflexiva na área de alimentação e nutrição humanas;<br>
+X - valorizar a interface da ciência da Nutrição com as múltiplas dimensões da alimentação humana (biológicas, sociais, culturais, religiosas, históricas, políticas, econômicas e ambientais, entre outras), no contexto do direito humano à alimentação adequada, para uma abordagem profissional integral do sujeito, da sociedade e do sistema alimentar.<br>
+Neste PPP, construímos uma matriz de competências4 divididas em nove eixos temáticos, que são transversais à atuação do/a nutricionista e estão articulados com aquelas competências previstas nas DCN-Nut. Embora alguns nomes dos eixos (adaptados de RECINE e MORTOZA 2013 e GUIMARÃES et al. 2017) coincidam com alguns nomes de disciplinas do curso, os eixos não se circunscrevem a elas. Há de se fazer, contudo, duas ressalvas. Em primeiro lugar, o desenvolvimento de competências (e, no nosso caso, de extensas competências) não se dá apenas durante a formação no curso de graduação. Trata-se de um processo contínuo, ancorado não só na educação permanente, mas também na prática. Por outro lado, mesmo apresentando esta extensa matriz, entendemos que tal lista é inerentemente limitada frente ao dinamismo do campo profissional da Nutrição. Antevemos que o curso permita ao/à egresso/a a (re)construção do seu trabalho em saúde como ato vivo e criativo, sempre amparado no Código de Ética e Conduta do Nutricionista.</p>
+
+<p>4 Assim como RECINE e MORTOZA (2013, p. 6), usamos nesta matriz o termo “baseado em evidências”, entendendo que ele abrange tanto “o aspecto científico quanto, a depender da situação específica, o conhecimento gerado por práticas culturais, tradicionais e populares”.</p>
+
+<p><br>
+A. Competências do eixo Gestão da informação e do conhecimento</p>
+
+<p>A1 - Comunicar-se e escutar de forma adequada, eficaz, humanizada e profissional, praticando as habilidades interpessoais (incluindo as habilidades de resolução de problemas e conflitos, de motivação, de negociação e de trabalho em equipe) e utilizando tecnologias leves de cuidado para com indivíduos, famílias, grupos, comunidades, colegas e líderes.<br>
+A2 - Identificar, comparar e utilizar diferentes formas de registro, comunicação e divulgação de pesquisas, estudos e experiências práticas adequadas ao que deve ser divulgado e ao público destinado.<br>
+A3 - Utilizar ferramentas básicas para a gestão da informação e do conhecimento para o trabalho em rede.<br>
+A4 - Estabelecer redes de trabalho e compartilhamento de experiências.</p>
+
+<p>B. Competências do eixo Capacidade em instrumentos analíticos</p>
+
+<p>B1 - Compreender, descrever, aplicar e interpretar os indicadores de saúde, alimentação e nutrição da população.<br>
+B2 - Analisar criticamente as informações de bancos de dados que possam descrever a situação de saúde, alimentação e nutrição de populações e aplicar os resultados para identificar fatores de risco nutricional, determinantes e prioridades e para monitorar ações.<br>
+B3 - Utilizar estudos, pesquisas e sistemas de informações relacionados com o monitoramento da situação alimentar e nutricional, como por exemplo o Sistema de Vigilância Alimentar e Nutricional (SISVAN), no âmbito do SUS e em outros.<br>
+B4 - Identificar, comparar e utilizar métodos quantitativos e qualitativos para coleta e análise de dados, considerando suas potencialidades e limitações; e aplicar os resultados obtidos no planejamento e avaliação de programas e/ou ações de alimentação e nutrição.<br>
+B5 - Ter a capacidade analítica para utilização de métodos que permitam realizar o planejamento estratégico, o monitoramento e a avaliação de impacto de políticas, programas e ações no âmbito da alimentação e nutrição.<br>
+B6 - Compreender e diferenciar marcos teóricos relativos à compreensão do processo saúde-doença-cuidado, evidenciando nestes o papel e a abordagem dos componentes da alimentação e nutrição.</p>
+
+<p>C. Competências do eixo Nutrição humana e dietética</p>
+
+<p>C1 - Estimar a ingestão de alimentos e nutrientes para indivíduos e grupos, utilizando as tabelas de composição de alimentos, diversos bancos de dados e métodos, e comparar com valores de referência apropriados ou com as necessidades estimadas.<br>
+C2 - Obter, identificar, comparar, aplicar, interpretar e monitorar dados oriundos de anamnese, avaliação clínica, bioquímica, antropométrica, da composição corporal e do consumo alimentar para análise do estado nutricional de indivíduos e comunidades.<br>
+C3 - Identificar, comparar e utilizar métodos, adequados ao contexto do trabalho em saúde, para avaliação do crescimento e desenvolvimento, com o enfoque nos ciclos da vida, visando à redução de riscos acumuláveis e com ênfase em populações mais vulneráveis.<br>
+C4 - Identificar e interpretar fatores biológicos, históricos, econômicos, políticos, socioculturais e ambientais que influenciam a alimentação, o estado de saúde e nutricional de indivíduos e populações.<br>
+C5 - Analisar e interpretar a alimentação de indivíduos e comunidades, considerando suas práticas, representações, relações, contextos e inserções, bem como suas intersecções com dinâmicas históricas de poder, opressão e desigualdade.<br>
+C6 - Compreender, analisar e utilizar guias alimentares para promover práticas alimentares adequadas e saudáveis em indivíduos e populações.<br>
+C7 - Contextualizar e aplicar as recomendações alimentares e nutricionais segundo características biológicas, históricas, econômicas, políticas, socioculturais e ambientais de indivíduos e grupos populacionais específicos.<br>
+C8 - Compreender e utilizar o conhecimento sobre as necessidades alimentares e nutricionais nos diferentes ciclos de vida e grupos populacionais para o planejamento e gestão do cuidado individual e coletivo.</p>
+
+<p>D. Competências do eixo Alimentos</p>
+
+<p>D1 - Identificar o repertório de alimentos e ingredientes culinários disponíveis nas diversas regiões brasileiras para que os mesmos possam ser utilizados em ações de alimentação e nutrição.<br>
+D2 - Analisar os alimentos quanto às suas características sensoriais, químicas, nutricionais, bioativas, funcionais, econômicas, históricas, políticas e socioculturais.<br>
+D3 - Identificar, analisar, comparar e utilizar os conhecimentos sobre alimentos, procedimentos e técnicas culinárias para aplicá-los no cuidado alimentar e nutricional de indivíduos e grupos, assim como no estímulo à autonomia das pessoas, à diversidade cultural e ao desenvolvimento local de grupos e comunidades.<br>
+D4 - Utilizar os conhecimentos de higiene dos alimentos para ações de redução de riscos de doenças de origem alimentar.<br>
+D5 - Identificar e compreender a estrutura, os processos e as áreas de atuação do Sistema de Vigilância Sanitária de alimentos no Brasil, assim como o papel e suas prioridades na prática em nutrição em saúde coletiva.<br>
+D6 - Identificar, analisar e aplicar protocolos de vigilância sanitária de alimentos para prevenir, investigar, diagnosticar e controlar surtos de doenças de origem alimentar.<br>
+D7 - Identificar e analisar o campo, o papel e as ações de regulação de alimentos na promoção da alimentação adequada e saudável e prevenção de doenças.<br>
+D8 - Conhecer os princípios, os fundamentos e as finalidades da tecnologia de alimentos para compreender a extensa gama de métodos de processamento de alimentos.<br>
+D9 - Promover ações de redução de riscos de enfermidades relacionadas ao uso de diferentes tecnologias na produção e processamento de alimentos e por contaminação físico-química.<br>
+D10 - Analisar as implicações de diferentes possibilidades de tecnologia de alimentos nas práticas alimentares, no estado nutricional e nas condições de saúde de pessoas e populações, assim como no meio ambiente.<br>
+D11 - Identificar e comparar as principais estratégias de fortificação de alimentos e o papel destas em prevenir e controlar carências nutricionais em grupos e populações.</p>
+
+<p>E. Competências do eixo Sistemas alimentares</p>
+
+<p>E1 - Compreender as cadeias produtivas de alimentos e os ambientes alimentares, bem como identificar e analisar as correlações e os impactos gerados entre estes e a segurança alimentar e nutricional, a soberania alimentar e o direito humano à alimentação adequada.<br>
+E2 - Analisar como as instituições e relações globais (privadas) e multilaterais (entre governos) atuam nas regras e regulação dos sistemas alimentares e seu impacto nas condições de alimentação e nutrição de grupos, comunidades e populações.<br>
+E3 - Identificar e analisar diferentes modelos de produção e distribuição de alimentos e suas consequências na segurança alimentar e nutricional e nas condições de saúde de grupos, populações e comunidades, na sindemia global, bem como no meio ambiente e na saúde planetária.<br>
+E4 - Identificar e analisar os vários componentes, determinantes e dinâmicas do sistema alimentar e do ambiente alimentar no cenário nacional e global e relacionar estes aspectos com as questões de alimentação e nutrição em saúde coletiva.<br>
+E5 - Entender e atuar nos impactos e relações do sistema alimentar com aspectos socioeconômicos e culturais (gênero, culinária, raça, história, tradições, equidade, inovação, tecnologia, entre outros).<br>
+E6 - Identificar e contribuir para controlar os fatores que geram desperdícios ao longo do sistema alimentar local.<br>
+E7 - Identificar e contribuir para a qualificação da estrutura de destinação de resíduos de alimentos no domicílio, no território e nas unidades de alimentação coletiva.<br>
+E8- Selecionar práticas de gestão da alimentação coletiva com menor impacto no meio ambiente.<br>
+E9 - Trabalhar em conjunto com movimentos sociais e projetos comunitários como impulsionadores de sistemas alimentares mais justos, democráticos, saudáveis e sustentáveis.<br>
+E10 - Elaborar e avaliar dietas e cardápios sustentáveis.<br>
+E11 - Contribuir para a produção individual e coletiva de refeições sustentáveis.<br>
+E12 - Organizar processos sustentáveis de gestão da alimentação coletiva.</p>
+
+<p>F. Competências do eixo Sistemas de políticas públicas: saúde, educação e segurança alimentar e nutricional</p>
+
+<p>F1 - Compreender e analisar os princípios, a estrutura, a dinâmica, o financiamento e os processos do Sistema Único de Saúde (SUS).<br>
+F2 - Compreender e analisar a estrutura, a dinâmica, o financiamento e os processos da Política Nacional de Alimentação e Nutrição do Ministério da Saúde.<br>
+F3 - Identificar e analisar diferentes políticas públicas de alimentação e nutrição e outras políticas, nas diferentes áreas, que tenham impactos e/ou relações com a agenda de alimentação e nutrição em saúde coletiva.<br>
+F4 - Compreender e analisar a Política e o Plano Nacional de Segurança Alimentar e Nutricional (SAN) e identificar suas ramificações nos diferentes campos de alimentação e nutrição.<br>
+F5 - Identificar as estruturas e as dinâmicas dos sistemas públicos de saúde e da SAN na condução das ações públicas relacionadas à alimentação e nutrição.<br>
+F6 - Incorporar os princípios e fundamentos de SAN, soberania alimentar e direito humano à alimentação adequada (DHAA) na prática da nutrição em saúde coletiva, identificando e problematizando o papel do nutricionista neste campo.<br>
+F7 - Participar do planejamento e implementação de atividades intersetoriais para a promoção da SAN, da soberania alimentar e do DHAA.<br>
+F8 - Compreender e analisar a estrutura, a dinâmica, o financiamento e os processos do Programa Nacional de Alimentação Escolar (PNAE), do Programa de Alimentação do Trabalhador (PAT) e do Programa de Aquisição de Alimentos (PAA).<br>
+F9 - Compreender e analisar as etapas do ciclo de políticas públicas (identificação dos atores, formação de agenda política, formulação, implementação e avaliação).<br>
+F10 - Gerir, coordenar, monitorar e avaliar as atividades de programas públicos de alimentação e nutrição em nível local, municipal, estadual e federal.<br>
+F11 - Compreender, interpretar e desenvolver o planejamento estratégico de políticas, programas, projetos e ações em alimentação e nutrição.</p>
+
+<p>G. Competências do eixo Cuidado em saúde, alimentação e nutrição</p>
+
+<p>G1 - Reconhecer e aplicar o conceito de redes de atenção à saúde e outras formas de organização da atenção à saúde.<br>
+G2 - Reconhecer, desenvolver e implementar o papel das ações de alimentação e nutrição nos diferentes pontos das redes de atenção à saúde.<br>
+Participar da organização de processos de trabalho em saúde e cuidado alimentar e nutricional.<br>
+G3 - Desenvolver, elaborar, interpretar, utilizar e avaliar protocolos, baseados em evidências, para o cuidado alimentar e nutricional.<br>
+G4 - Compor projetos terapêuticos singulares bem como protocolos de terapia nutricional, atuando com equipes interprofissionais.<br>
+G5 - Saber ordenar o uso das tecnologias duras e leve-duras a partir das tecnologias leves (que advêm do encontro, da escuta qualificada e das relações humanizadas).<br>
+G6 - Entender o funcionamento fisiológico e patológico do organismo humano e suas interfaces com a nutrição.<br>
+G7 - Utilizar o raciocínio clínico ampliado e compartilhado para determinar a forma de cuidado alimentar e nutricional a ser praticado.<br>
+G8 - Elaborar planos de atenção nutricional considerando as condições de saúde, vida, alimentação e nutrição dos indivíduos, buscando, na prescrição e na orientação da dieta, a promoção da saúde, a prevenção de complicações e danos e a adesão ao projeto de vida e felicidade dos indivíduos.<br>
+G9 - Empregar raciocínio clínico e epidemiológico e utilizar critérios éticos e de factibilidade na formulação de dietas, cardápios, suplementos e fórmulas enterais.<br>
+G10 - Planejar, prescrever, analisar, supervisionar e avaliar dietas e suplementos dietéticos para indivíduos sadios e enfermos.<br>
+G11 - Contribuir para promover, manter e ou recuperar o estado nutricional de indivíduos e grupos populacionais.<br>
+G12 - Planejar, gerenciar e avaliar unidades de alimentação e nutrição, visando a manutenção e/ou melhoria das condições de saúde de coletividades sadias e enfermas.<br>
+G13 - Planejar, baseado em evidências, implementar e avaliar ações de promoção da saúde, da alimentação adequada e saudável e de educação alimentar e nutricional (EAN) para indivíduos, comunidades, espaços sociais e/ou organizações.<br>
+G14 - Interpretar, adequar e partilhar informações técnicas referentes à alimentação e nutrição, segundo o contexto sociocultural e econômicos de grupos e comunidades.<br>
+G15 - Identificar, comparar, desenvolver, utilizar e avaliar materiais informativos e educativos que apoiem as ações de EAN, contextualizados à realidade sociocultural e econômica, dos grupos/comunidades e populações.<br>
+G16 - Identificar, analisar e utilizar, aliado aos conhecimentos técnicos, os saberes populares em alimentos, alimentação e preparações nas estratégias e ações de promoção da saúde, da alimentação adequada e saudável e de EAN.<br>
+G17 - Identificar, comparar e utilizar os princípios das teorias de educação em saúde, adequadas à fase do curso da vida e à realidade dos sujeitos e populações para ações de EAN.<br>
+G18 - Identificar e fomentar oportunidades de ações intersetoriais e parcerias para o desenvolvimento de estratégias e ações de promoção da saúde, da alimentação adequada e saudável e de EAN.<br>
+G19 - Atuar de forma humanizada nos processos de trabalho e em todas as esferas que envolvem o cuidado.<br>
+G20 - Compreender e considerar a experiência subjetiva e as representações sociais das doenças ligadas à alimentação e nutrição como componentes da abordagem da atenção nutricional individual e coletiva.<br>
+G21 - Abordar os fenômenos alimentares e nutricionais em contextos particulares, marcados social e historicamente por singularidades que desafiam perspectivas universalistas ou totalizantes.</p>
+
+<p>H. Competências do eixo Ética e prática profissional</p>
+
+<p>H1 - Atuar segundo os princípios éticos da atividade profissional e da ação pública visando a saúde, a cidadania e a qualidade de vida dos sujeitos e comunidades.<br>
+H2 - Utilizar os princípios éticos para a tomada de decisão, na difusão, na utilização e na coleta de dados e ao gerar informações.<br>
+H3 - Priorizar a promoção da equidade em todas as ações de alimentação e nutrição.<br>
+H4- Demonstrar prática reflexiva e consistente na atuação profissional.<br>
+H5 - Comprometer-se com o processo de educação permanente.<br>
+H6 - Utilizar, na prática profissional, abordagens respeitosas e inclusivas a pessoas/grupos/comunidades de diferentes experiências culturais, socioeconômicas e educacionais, de todas as idades, gêneros, cores/raças, etnias, estado de saúde, habilidades e orientações sexuais.<br>
+H7 - Habilitar-se para o trabalho multi/interdisciplinar em equipe multi/interprofissional.<br>
+H8 - Atuar como defensor/a da saúde coletiva e ser um/a articulador/a em prol das necessidades dos grupos vulneráveis.<br>
+H9 - Identificar, analisar e dar visibilidade aos conflitos de interesses presentes na prática de alimentação e nutrição.<br>
+H10 - Identificar, analisar e avaliar potenciais conflitos de interesse ao estabelecer parcerias com diferentes setores.</p>
+
+<p>I. Competências do eixo Liderança e gestão de pessoas</p>
+
+<p>I1- Ouvir e respeitar os diferentes pontos de vista, estimulando manifestações, opiniões, conhecimentos e formas de fazer distintas.<br>
+12- Planejar, implementar e participar de atividades de formação e treinamento em alimentação e nutrição para diferentes profissionais.<br>
+13 - Facilitar e estimular o trabalho em equipe e atuar de forma eficaz, como integrante e parceiro/a do grupo.<br>
+14 - Treinar, desenvolver e motivar membros da equipe e avaliar os respectivos desempenhos.</p></p><br>
+										<b style="font-size: 12px;">Outras informações</b><br>
+										<p style="text-align: justify;" class="informacoes"><p>Além das atividades curriculares obrigatórias do curso, outras atividades podem ser consideradas, no âmbito da universidade ou fora dela, para complementar a formação do estudante, de modo a atingir o perfil profissiográfico desejado.</p>
+
+<p>A FSP e a USP reconhecem a participação estudantil em uma ampla gama de atividades, classificadas conforme Resolução CoG, CoCEx e CoPq 7788, de agosto de 2019: Atividades Acadêmicas Complementares de Graduação; AACG Atividades Acadêmicas Complementares de Pesquisa – AACPq; Atividades Acadêmicas Complementares de Cultura e Extensão Universitária ACCE, tendo aproveitamento curricular no limite de 60&nbsp;horas.</p></p><br>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div id="step3" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Faculdade de Saúde Pública - ( FSP )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Nutrição - noturno</span></div><br>
+										<iframe id="documento" name="documento" style="width: 700px; height: 650px;"></iframe>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div id="step4" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+							<table width="100%">
+								<tbody><tr>
+									<td>
+										<div style="margin-bottom: 5px;"><b>Unidade:</b>&nbsp;<span class="unidade">Faculdade de Saúde Pública - ( FSP )</span></div>
+										<div style="margin-bottom: 5px;"><b>Curso:</b>&nbsp;<span class="curso">Nutrição - noturno</span></div>
+										<div style="margin-bottom: 5px;"><b>Duração</b></div>
+										<div style="margin-bottom: 5px;"><b>Ideal:</b>&nbsp;<span class="duridlhab">10</span>&nbsp;semestres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Mínima:</b>&nbsp;<span class="durminhab">10</span>&nbsp;semestres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Máxima:</b>&nbsp;<span class="durmaxhab">15</span>&nbsp;semestres</div><br>
+										<b style="font-size: 12px;">Informações específicas</b><br>
+										<p style="text-align: justify;" class="informacoesEspecificas">1- Essa carga horária é composta por: 2.115 horas de disciplinas obrigatórias, 90 horas de disciplinas optativas livres, 75 horas nas disciplinas de Trabalho de Conclusão do Curso, 900 horas de estágios obrigatórios e 60 horas de atividades, totalizando 3.240 horas&nbsp;do Curso.<br><br>2- Sábados letivos das 8h às 13h.<br><br>3- Estágio diurno.</p><br>
+										<div style="padding-left: 3px;">
+										<b>Legenda</b>: CH = Carga horária Total; CE = Carga horária de Estágio; CP = Carga horária de Práticas como Componentes Curriculares; ATPA = Atividades Teórico-Práticas de Aprofundamento
+										</div>
+										<div id="gradeCurricular"><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Obrigatórias</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">1º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="0060013" class="disciplina">0060013</a></td><td>Nutrição e Alimentação como Campos Científicos e Profissionais</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="BMA0141" class="disciplina">BMA0141</a></td><td>Anatomia Humana</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="BMC0147" class="disciplina">BMC0147</a></td><td>Biologia Tecidual</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSO0138" class="disciplina">HSO0138</a></td><td>Alimentação e Contextos Socioculturais</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="QBQ0313" class="disciplina">QBQ0313</a></td><td>Bioquímica</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">2º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="0060036" class="disciplina">0060036</a></td><td>Sistemas e Ambientes Alimentares</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="FBA0604" class="disciplina">FBA0604</a></td><td>Composição de Alimentos</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSO0127" class="disciplina">HSO0127</a></td><td>Corpo, Indivíduo e Sociedade</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSO0139" class="disciplina">HSO0139</a></td><td>Introdução ao Pensamento Científico</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSP0301" class="disciplina">HSP0301</a></td><td>Fundamentos de Saúde Coletiva</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="QBQ0314" class="disciplina">QBQ0314</a></td><td>Bioquímica da Nutrição</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0313 - Bioquímica</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">3º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="BMB0255" class="disciplina">BMB0255</a></td><td>Fisiologia I</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="BMM0252" class="disciplina">BMM0252</a></td><td>Microbiologia de Alimentos</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0313 - Bioquímica</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="FBT0201" class="disciplina">FBT0201</a></td><td>Tecnologia de Alimentos</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0206" class="disciplina">HNT0206</a></td><td>Procedimentos e Técnicas Culinárias Aplicadas à Nutrição I</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSO0133" class="disciplina">HSO0133</a></td><td>Abordagem Qualitativa para Investigação em Alimentação e Nutrição</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSP0284" class="disciplina">HSP0284</a></td><td>Promoção da Saúde</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">4º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="BMB0256" class="disciplina">BMB0256</a></td><td>Fisiologia II</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0255 - Fisiologia I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HEP0175" class="disciplina">HEP0175</a></td><td>Bioestatística</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0207" class="disciplina">HNT0207</a></td><td>Procedimentos e Técnicas Culinárias Aplicados à Nutrição II</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0206 - Procedimentos e Técnicas Culinárias Aplicadas à Nutrição I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0208" class="disciplina">HNT0208</a></td><td>Nutrição Humana</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0209" class="disciplina">HNT0209</a></td><td>Dietética</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSO0129" class="disciplina">HSO0129</a></td><td>Ciclos de Vida I</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">5º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HEP0176" class="disciplina">HEP0176</a></td><td>Epidemiologia</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0210" class="disciplina">HNT0210</a></td><td>Avaliação do Estado Nutricional</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0211" class="disciplina">HNT0211</a></td><td>Inquéritos Alimentares</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0217" class="disciplina">HNT0217</a></td><td>Epidemiologia Nutricional</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSO0130" class="disciplina">HSO0130</a></td><td>Ciclos de Vida II</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0129 - Ciclos de Vida I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSP0302" class="disciplina">HSP0302</a></td><td>Políticas e Sistemas de Saúde</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">6º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="BMF0208" class="disciplina">BMF0208</a></td><td>Farmacologia</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="BMI0256" class="disciplina">BMI0256</a></td><td>Imunologia</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0212" class="disciplina">HNT0212</a></td><td>Planejamento Dietético</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0208 - Nutrição Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0209 - Dietética</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0230" class="disciplina">HNT0230</a></td><td>Gestão da Alimentação Coletiva</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSP0303" class="disciplina">HSP0303</a></td><td>Processos de Administração e de Gestão de Pessoas</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">7º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="FBA0522" class="disciplina">FBA0522</a></td><td>Ferramentas da qualidade para inocuidade dos alimentos</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0218" class="disciplina">HNT0218</a></td><td>Nutrição Clínica I</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0255 - Fisiologia I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0208 - Nutrição Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0256 - Fisiologia II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0209 - Dietética</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0313 - Bioquímica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0314 - Bioquímica da Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0212 - Planejamento Dietético</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0225" class="disciplina">HNT0225</a></td><td>Interpretação de Exames Laboratoriais para a Nutrição</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0255 - Fisiologia I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0208 - Nutrição Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0256 - Fisiologia II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0313 - Bioquímica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0314 - Bioquímica da Nutrição</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSA0125" class="disciplina">HSA0125</a></td><td>Ergonomia e Saúde do Trabalhador</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSA0126" class="disciplina">HSA0126</a></td><td>Ambiente e Sustentabilidade na Gestão da Alimentação Coletiva</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSA0137" class="disciplina">HSA0137</a></td><td>Ética Profissional</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">8º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0219" class="disciplina">HNT0219</a></td><td>Nutrição Clínica II</td><td style="width: 100px; text-align: right; padding-right: 5px;">6</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">90</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0255 - Fisiologia I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0208 - Nutrição Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0256 - Fisiologia II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0209 - Dietética</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0313 - Bioquímica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0314 - Bioquímica da Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0212 - Planejamento Dietético</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0218 - Nutrição Clínica I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0221" class="disciplina">HNT0221</a></td><td>Políticas Públicas de Alimentação e Nutrição</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0231" class="disciplina">HNT0231</a></td><td>Educação Alimentar e Nutricional</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0232" class="disciplina">HNT0232</a></td><td>Gestão do Cuidado Alimentar e Nutricional</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="PSA0185" class="disciplina">PSA0185</a></td><td>Psicologia, Nutrição e Alimentação</td><td style="width: 100px; text-align: right; padding-right: 5px;">3</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">9º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="0060028" class="disciplina">0060028</a></td><td>Trabalho de Conclusão de Curso I</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">0060036 - Sistemas e Ambientes Alimentares</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMI0256 - Imunologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBA0604 - Composição de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0230 - Gestão da Alimentação Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0231 - Educação Alimentar e Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0127 - Corpo, Indivíduo e Sociedade</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0129 - Ciclos de Vida I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0130 - Ciclos de Vida II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0133 - Abordagem Qualitativa para Investigação em Alimentação e Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0138 - Alimentação e Contextos Socioculturais</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0139 - Introdução ao Pensamento Científico</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0301 - Fundamentos de Saúde Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0302 - Políticas e Sistemas de Saúde</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0303 - Processos de Administração e de Gestão de Pessoas</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMA0141 - Anatomia Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0255 - Fisiologia I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMC0147 - Biologia Tecidual</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMF0208 - Farmacologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBA0522 - Ferramentas da qualidade para inocuidade dos alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HEP0175 - Bioestatística</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HEP0176 - Epidemiologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0208 - Nutrição Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0210 - Avaliação do Estado Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0211 - Inquéritos Alimentares</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0217 - Epidemiologia Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0232 - Gestão do Cuidado Alimentar e Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0137 - Ética Profissional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">0060013 - Nutrição e Alimentação como Campos Científicos e Profissionais</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0256 - Fisiologia II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMM0252 - Microbiologia de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0209 - Dietética</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0219 - Nutrição Clínica II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0221 - Políticas Públicas de Alimentação e Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0126 - Ambiente e Sustentabilidade na Gestão da Alimentação Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0313 - Bioquímica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0314 - Bioquímica da Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0207 - Procedimentos e Técnicas Culinárias Aplicados à Nutrição II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0212 - Planejamento Dietético</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0218 - Nutrição Clínica I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0225 - Interpretação de Exames Laboratoriais para a Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">PSA0185 - Psicologia, Nutrição e Alimentação</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0206 - Procedimentos e Técnicas Culinárias Aplicadas à Nutrição I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0284 - Promoção da Saúde</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0125 - Ergonomia e Saúde do Trabalhador</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBT0201 - Tecnologia de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0233" class="disciplina">HNT0233</a></td><td>Estágio de Prática Profissional em Nutrição Clínica</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">9</td><td style="width: 100px; text-align: right; padding-right: 5px;">300</td><td style="width: 100px; text-align: right; padding-right: 5px;">300</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">0060036 - Sistemas e Ambientes Alimentares</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMI0256 - Imunologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBA0604 - Composição de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0230 - Gestão da Alimentação Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0231 - Educação Alimentar e Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0127 - Corpo, Indivíduo e Sociedade</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0129 - Ciclos de Vida I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0130 - Ciclos de Vida II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0133 - Abordagem Qualitativa para Investigação em Alimentação e Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0138 - Alimentação e Contextos Socioculturais</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0139 - Introdução ao Pensamento Científico</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0301 - Fundamentos de Saúde Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0302 - Políticas e Sistemas de Saúde</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0303 - Processos de Administração e de Gestão de Pessoas</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMA0141 - Anatomia Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0255 - Fisiologia I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMC0147 - Biologia Tecidual</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMF0208 - Farmacologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBA0522 - Ferramentas da qualidade para inocuidade dos alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HEP0175 - Bioestatística</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HEP0176 - Epidemiologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0208 - Nutrição Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0210 - Avaliação do Estado Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0211 - Inquéritos Alimentares</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0217 - Epidemiologia Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0232 - Gestão do Cuidado Alimentar e Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0137 - Ética Profissional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">0060013 - Nutrição e Alimentação como Campos Científicos e Profissionais</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0256 - Fisiologia II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMM0252 - Microbiologia de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0209 - Dietética</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0219 - Nutrição Clínica II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0221 - Políticas Públicas de Alimentação e Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0126 - Ambiente e Sustentabilidade na Gestão da Alimentação Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0313 - Bioquímica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0314 - Bioquímica da Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0207 - Procedimentos e Técnicas Culinárias Aplicados à Nutrição II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0212 - Planejamento Dietético</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0218 - Nutrição Clínica I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0225 - Interpretação de Exames Laboratoriais para a Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">PSA0185 - Psicologia, Nutrição e Alimentação</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0206 - Procedimentos e Técnicas Culinárias Aplicadas à Nutrição I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0284 - Promoção da Saúde</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0125 - Ergonomia e Saúde do Trabalhador</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBT0201 - Tecnologia de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0234" class="disciplina">HNT0234</a></td><td>Estágio de Prática Profissional em Alimentação Coletiva</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">9</td><td style="width: 100px; text-align: right; padding-right: 5px;">300</td><td style="width: 100px; text-align: right; padding-right: 5px;">300</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">0060036 - Sistemas e Ambientes Alimentares</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMI0256 - Imunologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBA0604 - Composição de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0230 - Gestão da Alimentação Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0231 - Educação Alimentar e Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0127 - Corpo, Indivíduo e Sociedade</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0129 - Ciclos de Vida I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0130 - Ciclos de Vida II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0133 - Abordagem Qualitativa para Investigação em Alimentação e Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0138 - Alimentação e Contextos Socioculturais</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0139 - Introdução ao Pensamento Científico</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0301 - Fundamentos de Saúde Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0302 - Políticas e Sistemas de Saúde</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0303 - Processos de Administração e de Gestão de Pessoas</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMA0141 - Anatomia Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0255 - Fisiologia I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMC0147 - Biologia Tecidual</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMF0208 - Farmacologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBA0522 - Ferramentas da qualidade para inocuidade dos alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HEP0175 - Bioestatística</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HEP0176 - Epidemiologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0208 - Nutrição Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0210 - Avaliação do Estado Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0211 - Inquéritos Alimentares</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0217 - Epidemiologia Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0232 - Gestão do Cuidado Alimentar e Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0137 - Ética Profissional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">0060013 - Nutrição e Alimentação como Campos Científicos e Profissionais</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0256 - Fisiologia II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMM0252 - Microbiologia de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0209 - Dietética</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0219 - Nutrição Clínica II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0221 - Políticas Públicas de Alimentação e Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0126 - Ambiente e Sustentabilidade na Gestão da Alimentação Coletiva</td><td colspan="6">Requisito fraco</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0313 - Bioquímica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0314 - Bioquímica da Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0207 - Procedimentos e Técnicas Culinárias Aplicados à Nutrição II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0212 - Planejamento Dietético</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0218 - Nutrição Clínica I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0225 - Interpretação de Exames Laboratoriais para a Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">PSA0185 - Psicologia, Nutrição e Alimentação</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0206 - Procedimentos e Técnicas Culinárias Aplicadas à Nutrição I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0284 - Promoção da Saúde</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0125 - Ergonomia e Saúde do Trabalhador</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBT0201 - Tecnologia de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">10º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="0060029" class="disciplina">0060029</a></td><td>Trabalho de Conclusão de Curso II</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">45</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">0060028 - Trabalho de Conclusão de Curso I</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0235" class="disciplina">HNT0235</a></td><td>Estágio de Prática Profissional em Nutrição em Saúde Pública</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">9</td><td style="width: 100px; text-align: right; padding-right: 5px;">300</td><td style="width: 100px; text-align: right; padding-right: 5px;">300</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">0060036 - Sistemas e Ambientes Alimentares</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMI0256 - Imunologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBA0604 - Composição de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0230 - Gestão da Alimentação Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0231 - Educação Alimentar e Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0127 - Corpo, Indivíduo e Sociedade</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0129 - Ciclos de Vida I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0130 - Ciclos de Vida II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0133 - Abordagem Qualitativa para Investigação em Alimentação e Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0138 - Alimentação e Contextos Socioculturais</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSO0139 - Introdução ao Pensamento Científico</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0301 - Fundamentos de Saúde Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0302 - Políticas e Sistemas de Saúde</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0303 - Processos de Administração e de Gestão de Pessoas</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMA0141 - Anatomia Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0255 - Fisiologia I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMC0147 - Biologia Tecidual</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMF0208 - Farmacologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBA0522 - Ferramentas da qualidade para inocuidade dos alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HEP0175 - Bioestatística</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HEP0176 - Epidemiologia</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0208 - Nutrição Humana</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0210 - Avaliação do Estado Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0211 - Inquéritos Alimentares</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0217 - Epidemiologia Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0232 - Gestão do Cuidado Alimentar e Nutricional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0137 - Ética Profissional</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">0060013 - Nutrição e Alimentação como Campos Científicos e Profissionais</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMB0256 - Fisiologia II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">BMM0252 - Microbiologia de Alimentos</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0209 - Dietética</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0219 - Nutrição Clínica II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0221 - Políticas Públicas de Alimentação e Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0126 - Ambiente e Sustentabilidade na Gestão da Alimentação Coletiva</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0313 - Bioquímica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0314 - Bioquímica da Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0207 - Procedimentos e Técnicas Culinárias Aplicados à Nutrição II</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0212 - Planejamento Dietético</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0218 - Nutrição Clínica I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0225 - Interpretação de Exames Laboratoriais para a Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">PSA0185 - Psicologia, Nutrição e Alimentação</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0206 - Procedimentos e Técnicas Culinárias Aplicadas à Nutrição I</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSP0284 - Promoção da Saúde</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HSA0125 - Ergonomia e Saúde do Trabalhador</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">FBT0201 - Tecnologia de Alimentos</td><td colspan="6">Requisito</td></tr></tbody></table><br><table style="width: 100%;"><tbody><tr style="background-color: rgb(16, 148, 171); color: white;"><td colspan="8" style="padding: 5px; font-weight: bold;">Disciplinas Optativas Livres</td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">3º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0228" class="disciplina">HNT0228</a></td><td>Alimentos Funcionais e Substâncias Bioativas</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0236" class="disciplina">HNT0236</a></td><td>Ativismo, Participação e Justiça Social no Contexto da Alimentação e Nutrição</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="PSA3315" class="disciplina">PSA3315</a></td><td>Imigração, identidades culturais e alimentação</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">1</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">4º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HEP0172" class="disciplina">HEP0172</a></td><td>Introdução à Demografia</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0224" class="disciplina">HNT0224</a></td><td>Obtenção, Gestão e Utilização de Dados de Composição Nutricional de Alimentos</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0226" class="disciplina">HNT0226</a></td><td>Relações entre Dieta e Saúde</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0238" class="disciplina">HNT0238</a></td><td>Agroecologia e Alimentação Sustentável nos Ambientes Urbanos</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0239" class="disciplina">HNT0239</a></td><td>Recursos Alimentares para Populações</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSO0123" class="disciplina">HSO0123</a></td><td>Sofrimento Social e Saúde Mental Coletiva</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">5º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HEP0181" class="disciplina">HEP0181</a></td><td>Método Epidemiológico Aplicado ao Estudo das Doenças Infecciosas</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSP0291" class="disciplina">HSP0291</a></td><td>Educação Permanente em Saúde e Outros Dispositivos para Produção do Cuidado</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">6º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HEP0165" class="disciplina">HEP0165</a></td><td>Stata</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HEP0179" class="disciplina">HEP0179</a></td><td>Análise Espacial em Epidemiologia</td><td style="width: 100px; text-align: right; padding-right: 5px;">4</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">60</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">7º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HEP0162" class="disciplina">HEP0162</a></td><td>Epidemiologia e Serviços de Saúde</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0229" class="disciplina">HNT0229</a></td><td>Narrativas de Peso: O Estigma Relacionado ao Peso Corporal e o Cuidado em Saúde</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HSP0170" class="disciplina">HSP0170</a></td><td>Gestão do Cuidado Gerontológico na Saúde Pública</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="background-color: rgb(204, 204, 204);"><td colspan="2" style="padding: 5px; font-weight: bold;">8º Semestre Ideal</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Aula</td><td style="padding: 5px; font-weight: bold; text-align: center;">Créd. Trab.</td><td style="padding: 5px; font-weight: bold; text-align: center;">CH</td><td style="padding: 5px; font-weight: bold; text-align: center;">CE</td><td style="padding: 5px; font-weight: bold; text-align: center;">CP</td><td style="padding: 5px; font-weight: bold; text-align: center;">ATPA</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0223" class="disciplina">HNT0223</a></td><td>Nutrição Aplicada à Atividade Física</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0313 - Bioquímica</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">QBQ0314 - Bioquímica da Nutrição</td><td colspan="6">Requisito</td></tr><tr style="color: rgb(235, 143, 0);"><td colspan="2" style="padding-left: 25px;">HNT0212 - Planejamento Dietético</td><td colspan="6">Requisito</td></tr><tr style="height: 20px;"><td style="width: 100px;"><a href="#" data-coddis="HNT0237" class="disciplina">HNT0237</a></td><td>Oficinas Culinárias Aplicadas à Nutrição Clínica</td><td style="width: 100px; text-align: right; padding-right: 5px;">2</td><td style="width: 100px; text-align: right; padding-right: 5px;">0</td><td style="width: 100px; text-align: right; padding-right: 5px;">30</td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td><td style="width: 100px; text-align: right; padding-right: 5px;"></td></tr></tbody></table></div>
+									</td>
+								</tr>
+							</tbody></table>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</tbody></table>
+	</div>
+
+	
+
+	
+
+
+
+
+
+	
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/home.css">
+<table width="100%" border="0" cellspacing=" 0" cellpadding=" 0" align="center">
+  
+  <tbody><tr>
+    <td align="center"><font face="Arial, Helvetica, sans-serif" size="1"><hr size="1">
+      <a href="creditos.jsp" class="link_olive" target="_self">Créditos</a>
+      | <a href="jupColegiadoEmailLista" class="link_olive">Fale conosco</a><br>
+      © 1999 - 2025 - Superintendência de Tecnologia da Informação/USP</font>
+    </td>
+  </tr>
+</tbody></table>
+
+
+
+
+			
+
+			
+		</div>
+	</div>
+
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-disciplinaDialog" style="display: none; z-index: 1000; outline: 0px; position: absolute;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-disciplinaDialog">&nbsp;</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="disciplinaDialog" class="ui-dialog-content ui-widget-content">
+		<table class="normal">
+			<tbody><tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px; width: 200px;"><b>Créditos aula:</b></td>
+				<td class="creditosAula"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Créditos trabalho:</b></td>
+				<td class="creditosTrabalho"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Carga horária total:</b></td>
+				<td class="cargaHorariaTotal"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Tipo:</b></td>
+				<td class="tipo"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td style="text-align: right; padding-right: 5px;"><b>Ativação:</b></td>
+				<td class="ativacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Objetivos:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="objetivos"><p>1. Promover o estudo do fenômeno alimentar e nutricional de uma ponta a outra (e em suas sinuosidades, intersecções e relações), evitando visões fragmentadas e abordando: o que se produz, como se produz, como os alimentos são acessados, como se escolhe, quem cozinha, como cozinha, como se dá o descarte, o que se come, quanto se come, como se come, com quem se come, como se digere, absorve, metaboliza e excreta, quais são os efeitos dos nutrientes, alimentos, padrões e práticas alimentares na saúde, nas condições de vida, no meio ambiente e na sociedade e quais são os significados de tais práticas.</p>
+
+<p>2. Incentivar a reflexão, o senso crítico, a inclusão, a ética, o uso apropriado do conhecimento científico e a atuação ampliada, compartilhada e socialmente referenciada da/o nutricionista, em articulação com os Objetivos de Desenvolvimento Sustentável.</p>
+
+<p>3. Contribuir para um ambiente educacional que ofereça uma multiplicidade de abordagens, permeadas pela reflexão, e por conhecimentos inovadores, desafiadores e socialmente relevantes (ainda que parciais e localizáveis), que promovam diálogos significativos e transformadores.</p>
+
+<p>4. Incentivar a reflexão original sobre contextos particulares envolvendo os coletivos étnicos, raciais, de gênero e sexualidade, além da leitura crítica dos dados epidemiológicos, utilizando o conhecimento científico para revelar problemas e imaginar soluções que fujam às grandes linhas da análise populacional, valorizando a inovação do pensamento clínico a partir dos contextos socioculturais da Alimentação e Nutrição e seus desafios no tempo presente.</p>
+
+<p>5. Apresentar menor carga horária de disciplinas obrigatórias e maior flexibilidade, para que cada estudante possa traçar seu percurso de aprendizado e iniciar seu futuro processo de educação permanente.</p></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Docente(s) Responsável(eis):</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2">
+					<ul class="docentesResponsaveis" style="margin-top: 0; margin-bottom: 0;"></ul>
+				</td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Programa Resumido:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="programaResumido"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="text-align: justify;"><b>Programa:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="programa"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Avaliação:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Método:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="metodoAvaliacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Critério:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="criterioAvaliacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px;"><b>Norma de Recuperação:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" style="padding-left: 25px; text-align: justify;" class="normaRecuperacao"></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2"><b>Bibliografia:</b></td>
+			</tr>
+			<tr style="height: 20px;">
+				<td colspan="2" class="bibliografia" style="text-align: justify;"></td>
+			</tr>
+		</tbody></table>
+	</div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1000;"></div></div></body></html>
