@@ -40,7 +40,7 @@ class ScraperUSP:
             
             try:
                 # Seleciona a unidade
-                Select(self.driver.find_element(By.ID, "comboUnidade")).select_by_value(unit_value)
+                select_unit.select_by_value(unit_value)
                 time.sleep(1)  # Pequena espera para atualização
                 
                 # Obtém cursos da unidade
@@ -70,7 +70,7 @@ class ScraperUSP:
                 course_name = course_option.text
                 
                 # Processa o curso individualmente
-                self.process_course(course_name, course_value)
+                self.process_course(select_course, course_name, course_value)
                 
                 # Volta para a aba de busca
                 self.driver.find_element(By.ID, "step1-tab").click()
@@ -79,16 +79,18 @@ class ScraperUSP:
         except Exception as e:
             print(f"Erro ao buscar cursos: {str(e)}")
 
-    def process_course(self, course_name, course_value):
+    def process_course(self, select_course, course_name, course_value):
         """Processa um curso específico para obter grade curricular"""
         print(f"  Processando curso: {course_name}")
         
         try:
             # Seleciona o curso
-            Select(self.driver.find_element(By.ID, "comboCurso")).select_by_value(course_value)
+            select_course.select_by_value(course_value)
+            time.sleep(1)
             
             # Clica em buscar
             self.driver.find_element(By.ID, "enviar").click()
+            time.sleep(1)
             
             # Processa grade curricular
             self.process_curriculum(course_name)
@@ -127,6 +129,7 @@ class ScraperUSP:
             close_btn = self.wait.until(
                 EC.element_to_be_clickable((By.XPATH, "/html/body/div[7]/div[3]/div/button")))
             close_btn.click()
+            time.sleep(1)
         except:
             pass
 
