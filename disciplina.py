@@ -1,5 +1,3 @@
-from webdriver_busca import disciplinas
-
 class Disciplina:
     def __init__(self, code, name, class_credits, work_credits, ch, ce, cp, atpa):
         self.code = code
@@ -10,6 +8,7 @@ class Disciplina:
         self.ce = ce
         self.cp = cp
         self.atpa = atpa
+        self.inCourse = [] # lista vazia, a mesma vai sendo preenchida com o processamento do programa
 
     # ----------------- Getters ----------------- #
 
@@ -65,7 +64,12 @@ class Disciplina:
 
     # ----------------- Funcs ----------------- #
 
-    def __str__(self):
+    
+    def __str__(self): # definição do str para posterior uso do print
+        cursos_formatados = "Nenhum curso associado."
+        if self.inCourse: # conversão da lista de cursos onde pertence para uma string formatada
+            cursos_formatados = "\n".join([f"    - {nome_curso}" for nome_curso in self.inCourse])
+        
         return (
             f"Código: {self.code}\n"
             f"Nome: {self.name}\n"
@@ -75,17 +79,18 @@ class Disciplina:
             f"Carga teórica (CE): {self.ce}\n"
             f"Carga prática (CP): {self.cp}\n"
             f"ATPA: {self.atpa}\n"
+            f"Pertencente aos cursos:\n{cursos_formatados}" # Usa a string formatada
         )
-    
-def belongs_to_dict(cod_disciplina):
+
+# função que verifica se uma disciplina esta presente no dicionario de disciplinas
+def belongs_to_dict(cod_disciplina, disciplinas): 
     for chave, disciplina_obj in disciplinas.items():
         if disciplina_obj.code == cod_disciplina:
             return chave
     
     return None 
 
-def add_subject_dict(code, name, class_credits, work_credits, ch, ce, cp, atpa):
+# função que adiciona disciplina no dicionario de disciplinas
+def add_subject_dict(code, name, class_credits, work_credits, ch, ce, cp, atpa, disciplinas):
     newdisci =  Disciplina(code, name, class_credits, work_credits, ch, ce, cp, atpa)
     disciplinas[code] = newdisci
-    
-

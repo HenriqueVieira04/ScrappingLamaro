@@ -12,7 +12,7 @@ class Unidade:
     
     def format_college_course(self):
         strg = "Cursos do/a " + self.name + ":\n"
-        for course in self.course:
+        for course in self.courses:
             strg = strg + course.name + "\n"
 
         return strg
@@ -36,4 +36,6 @@ class Unidade:
     def qtdCourses(self):
         return len(self.courses)
 
-
+    def addCourseList(self, listCourses):
+        if listCourses != None:
+            self.courses = listCourses

@@ -1,7 +1,5 @@
-from webdriver_busca import disciplinas
-
 class Curso:
-    def __init__(self, name, unit, ideal_duration, min_duration, max_duration, mandatory_subjects, free_elective_subjects, elective_optional_subjects):
+    def __init__(self, name, unit, ideal_duration, min_duration, max_duration, mandatory_subjects, free_elective_subjects, elective_optional_subjects, dictionary):
         self.name = name
         self.unit = unit
         self.ideal_duration = ideal_duration
@@ -10,6 +8,7 @@ class Curso:
         self.mandatory_subjects = mandatory_subjects
         self.free_elective_subjects = free_elective_subjects
         self.elective_optional_subjects = elective_optional_subjects
+        self.dict_reference = dictionary
 
 
     # ----------------- Getters ----------------- #
@@ -75,15 +74,15 @@ class Curso:
     def format_subject_list(self, title, subject_codes_list):
 
         if not subject_codes_list:
-            return f"{title}\n  Nenhuma\n"
+            return f"{title}\n  Nenhuma\n\n"
 
         subject_names = []
-        for code in subject_codes_list:
-            disciplina_obj = disciplinas.get(code)
+        for disci in subject_codes_list:
+            disciplina_obj = self.dict_reference.get(disci.code)
             if disciplina_obj:
-                subject_names.append(f"  {disciplina_obj.name} ({code})")
+                subject_names.append(f"  {disciplina_obj.name} ({disciplina_obj.code})\n")
             else:
-                subject_names.append(f"  Código não encontrado: {code}")
+                subject_names.append(f"  Código não encontrado: {disci.code}\n")
 
         return f"{title}\n" + "\n".join(subject_names) + "\n"
 
@@ -97,7 +96,7 @@ class Curso:
             f"Unidade: {self.unit}\n"
             f"Duração ideal: {self.ideal_duration}\n"
             f"Duração mínima: {self.min_duration}\n"
-            f"Duração máxima: {self.max_duration}\n"
+            f"Duração máxima: {self.max_duration}\n\n"
             + obrigatorias_str
             + eletivas_livres_str
             + optativas_eletivas_str
