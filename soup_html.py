@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from disciplina import Disciplina
+from disciplina import Disciplina, belongs_to_dict
 from curso import Curso
 
 def get_disciplinas_e_curso(path, disciplinas):
@@ -54,8 +54,10 @@ def get_disciplinas_e_curso(path, disciplinas):
 
         # Adiciona as disciplinas no dicionário
         for disciplina in lista_disciplinas:
-            if disciplina.code not in disciplinas:
+            if (not belongs_to_dict(disciplina.code, disciplinas)):
                 disciplinas[disciplina.code] = disciplina
+            else:
+                disciplinas[disciplina.code].inCourse.append(nome_curso) 
 
         # Compara o tipo de disciplina e atualiza o array correspondente
         if nome_tipo == "Disciplinas Obrigatórias":
@@ -67,7 +69,7 @@ def get_disciplinas_e_curso(path, disciplinas):
 
     # Cria um objeto do tipo curso com os dados buscados
     curso = Curso(nome_curso, unidade, ideal_dur, min_dur, max_dur,
-                  disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas)
+                  disciplinas_obrigatorias, disciplinas_livres, disciplinas_eletivas, disciplinas)
 
     # Retorno do objeto Curso
     return curso

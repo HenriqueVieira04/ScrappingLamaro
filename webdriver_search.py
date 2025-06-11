@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from soup_html import get_disciplinas_e_curso
 import time
-from Unidade import Unidade
+from unidade import Unidade
 
 class ScraperUSP:
     def __init__(self):
@@ -62,7 +62,8 @@ class ScraperUSP:
                 return
 
             # Salva um vetor de cursos dada sua unidade
-            self.units[unit_name].courses = course_options            
+            listCourses = []
+            self.units[unit_name].addCourseList(listCourses)           
             
             # Itera sobre os cursos
             for course_option in course_options:
@@ -70,8 +71,9 @@ class ScraperUSP:
                 course_name = course_option.text
                 
                 # Processa o curso individualmente
-                self.process_course(course_name, course_value)
-                
+                curso_add = self.process_course(course_name, course_value) #agora retorna o objeto do curso
+                self.units[unit_name].addCurso(curso_add)
+
                 # Volta para a aba de busca
                 self.driver.find_element(By.ID, "step1-tab").click()
                 time.sleep(1)
@@ -91,7 +93,7 @@ class ScraperUSP:
             self.driver.find_element(By.ID, "enviar").click()
             
             # Processa grade curricular
-            self.process_curriculum(course_name)
+            return self.process_curriculum(course_name)
             
         except Exception as e:
             print(f"Erro ao processar curso {course_name}: {str(e)}")
@@ -116,6 +118,7 @@ class ScraperUSP:
             course = get_disciplinas_e_curso("html/course.html", self.disciplinas)
             self.courses[course_name] = course
             print(course)
+            return course
 
         except Exception as e:
             print(f"Erro ao obter grade curricular: {str(e)}")
