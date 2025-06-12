@@ -62,7 +62,7 @@ class ScraperUSP:
                 return
 
             # Salva um vetor de cursos dada sua unidade
-            self.units[unit_name].courses = course_options            
+            self.units[unit_name].courses = [op.text for op in course_options]     
             
             # Itera sobre os cursos
             for course_option in course_options:
