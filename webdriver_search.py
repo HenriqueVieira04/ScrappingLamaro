@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from soup_html import get_disciplinas_e_curso
 import time
-from Unidade import Unidade
+from unidade import Unidade
 
 class ScraperUSP:
     def __init__(self):
