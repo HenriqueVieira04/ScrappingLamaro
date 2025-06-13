@@ -7,7 +7,7 @@ import time
 from unidade import Unidade
 
 class ScraperUSP:
-    def __init__(self):
+    def __init__(self, value):
         self.driver = webdriver.Chrome()
         self.wait = WebDriverWait(self.driver, 20)
         self.URL_INICIAL = "https://uspdigital.usp.br/jupiterweb/jupCarreira.jsp?codmnu=8275"
@@ -16,6 +16,7 @@ class ScraperUSP:
         self.units = {} # Dado o nome da unidade -> guarda um objeto Unidade
         self.courses = {} # Dado o nome de um curso -> retorna um objeto Curso
         self.disciplinas = {} # Dado código da disciplinas -> retorna objeto Disciplina
+        self.limit_units = int(value)
 
     def initialize(self):
         """Inicializa o navegador e carrega a página inicial"""
@@ -29,7 +30,7 @@ class ScraperUSP:
         unit_options = select_unit.options[1:]  # Remove a primeira opção vazia
         
         # Itera pelas opções(unidades)
-        for unit_option in unit_options:
+        for unit_option in unit_options[:self.limit_units]:
             unit_name = unit_option.text
             unit_value = unit_option.get_attribute('value')
             self.units[unit_name] = Unidade(unit_name)
@@ -40,7 +41,7 @@ class ScraperUSP:
             
             try:
                 # Seleciona a unidade
-                Select(self.driver.find_element(By.ID, "comboUnidade")).select_by_value(unit_value)
+                select_unit.select_by_value(unit_value)
                 time.sleep(1)  # Pequena espera para atualização
                 
                 # Obtém cursos da unidade
@@ -62,8 +63,7 @@ class ScraperUSP:
                 return
 
             # Salva um vetor de cursos dada sua unidade
-            listCourses = []
-            self.units[unit_name].addCourseList(listCourses)           
+            self.units[unit_name].courses = [op.text for op in course_options]     
             
             # Itera sobre os cursos
             for course_option in course_options:
@@ -71,9 +71,8 @@ class ScraperUSP:
                 course_name = course_option.text
                 
                 # Processa o curso individualmente
-                curso_add = self.process_course(course_name, course_value) #agora retorna o objeto do curso
-                self.units[unit_name].addCurso(curso_add)
-
+                self.process_course(select_course, course_name, course_value)
+                
                 # Volta para a aba de busca
                 self.driver.find_element(By.ID, "step1-tab").click()
                 time.sleep(1)
@@ -81,19 +80,21 @@ class ScraperUSP:
         except Exception as e:
             print(f"Erro ao buscar cursos: {str(e)}")
 
-    def process_course(self, course_name, course_value):
+    def process_course(self, select_course, course_name, course_value):
         """Processa um curso específico para obter grade curricular"""
         print(f"  Processando curso: {course_name}")
         
         try:
             # Seleciona o curso
-            Select(self.driver.find_element(By.ID, "comboCurso")).select_by_value(course_value)
+            select_course.select_by_value(course_value)
+            time.sleep(1)
             
             # Clica em buscar
             self.driver.find_element(By.ID, "enviar").click()
+            time.sleep(1)
             
             # Processa grade curricular
-            return self.process_curriculum(course_name)
+            self.process_curriculum(course_name)
             
         except Exception as e:
             print(f"Erro ao processar curso {course_name}: {str(e)}")
@@ -118,7 +119,6 @@ class ScraperUSP:
             course = get_disciplinas_e_curso("html/course.html", self.disciplinas)
             self.courses[course_name] = course
             print(course)
-            return course
 
         except Exception as e:
             print(f"Erro ao obter grade curricular: {str(e)}")
@@ -130,6 +130,7 @@ class ScraperUSP:
             close_btn = self.wait.until(
                 EC.element_to_be_clickable((By.XPATH, "/html/body/div[7]/div[3]/div/button")))
             close_btn.click()
+            time.sleep(1)
         except:
             pass
 
@@ -145,6 +146,3 @@ class ScraperUSP:
             print("\nDados coletados:")
             print(f"Unidades: {len(self.units)}")
             print(f"Cursos: {len(self.courses)}")
-            # Exemplo de como acessar os dados:
-            # print(self.units['unit_code']['name'])  # Nome de uma unidade
-            # print(self.courses['course_code']['curriculum'])  # Currículo de um curso

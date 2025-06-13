@@ -8,7 +8,7 @@ class Disciplina:
         self.ce = ce
         self.cp = cp
         self.atpa = atpa
-        self.inCourse = [] # lista vazia, a mesma vai sendo preenchida com o processamento do programa
+        self.inCourse = []
 
     # ----------------- Getters ----------------- #
 

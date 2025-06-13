@@ -1,4 +1,6 @@
 class Curso:
+    # ----------------- Construtor ----------------- #
+
     def __init__(self, name, unit, ideal_duration, min_duration, max_duration, mandatory_subjects, free_elective_subjects, elective_optional_subjects, dictionary):
         self.name = name
         self.unit = unit
@@ -70,7 +72,8 @@ class Curso:
         self.elective_optional_subjects = value
 
     # ----------------- Funcs ----------------- #
-
+    
+    # metodo auxiliar ao __str__
     def format_subject_list(self, title, subject_codes_list):
 
         if not subject_codes_list:
@@ -86,6 +89,7 @@ class Curso:
 
         return f"{title}\n" + "\n".join(subject_names) + "\n"
 
+    # __str__ para print
     def __str__(self):
         obrigatorias_str = self.format_subject_list("Disciplinas obrigatórias:", self.mandatory_subjects)
         eletivas_livres_str = self.format_subject_list("Disciplinas eletivas livres:", self.free_elective_subjects)

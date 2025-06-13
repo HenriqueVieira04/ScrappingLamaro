@@ -1,4 +1,5 @@
 from webdriver_search import ScraperUSP
+import sys
 
 def menu():
     # Impressão do menu
@@ -14,8 +15,16 @@ def menu():
     )
 
 if __name__ == "__main__":
-    scraper = ScraperUSP()
+
+    unidades_a_processar = sys.argv[1]
+    if unidades_a_processar < 0:
+        unidades_a_processar = 1 # numero minimo de unidades a se processar
+    elif unidades_a_processar > 47:
+        unidades_a_processar = 47 # numero maximo de unidades contidads no selector
+
+    scraper = ScraperUSP(unidades_a_processar)
     scraper.run()
+    
 
     # Inicialização dos dicinários
     unidades = scraper.units
@@ -33,8 +42,12 @@ if __name__ == "__main__":
         match option:
             # Lista de Cursos por Unidade
             case "0":
-                unidade = input("Digite uma unidade: ")
-                print("\n")
+                print("Lista de unidades: ")
+                for unidade in unidades:
+                    print(unidade)
+                print("----------------------------------------------------\n")
+                unidade = input("Digite o nome de uma unidade: \n")
+                print("----------------------------------------------------\n")
                 if unidade in unidades:
                     print(unidades[unidade])
                     print("\n")
@@ -56,16 +69,22 @@ if __name__ == "__main__":
             # Dados de todos os cursos
             case "2":
                 if len(cursos) != 0:
+                    print("Lista de cursos detalhada: ")
                     for curso in cursos:
-                        print(curso)
+                        print(cursos[curso])
+                        print("-----------------------------\n")
                 else:
                     print("Nenhum curso encontrado.\n")
-                print("----------------------------------------------------\n")
+                print()
                 
             # Dados de uma disciplina
             case "3":
+                print("Lista dos códigos das disciplinas coletadas: ")
+                for disciplina in disciplinas:
+                    f"{disciplina.name} - {disciplina}"
+                print("----------------------------------------------------\n")
                 disciplina = input("Digite o código de uma disciplina: ")
-                print("\n")
+                print("----------------------------------------------------\n")
                 if disciplina in disciplinas:
                     print(disciplinas[disciplina])
                     print("----------------------------------------------------\n")
